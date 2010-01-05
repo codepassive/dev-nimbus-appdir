@@ -1,0 +1,815 @@
+[December 19, 2009 13:46:02 pm] Undefined variable: file on F:\Thesis\Dev\nimbus\sys\shell\common.php:51 <strong>[8]</strong>
+[December 19, 2009 13:58:26 pm] Undefined property: Token::$db on F:\Thesis\Dev\nimbus\sys\token.php:92 <strong>[8]</strong>
+[December 19, 2009 14:03:23 pm] Undefined property: API::$db on F:\Thesis\Dev\nimbus\sys\shell\view\index.html:17 <strong>[8]</strong>
+[December 19, 2009 14:09:03 pm] include(F:\Thesis\Dev\public\resources\skins\common\templates\progressbars.html): failed to open stream: No such file or directory on F:\Thesis\Dev\nimbus\sys\kernel\api\elements\progressbar.php:30 <strong>[2]</strong>
+[December 19, 2009 14:09:03 pm] include(): Failed opening 'F:\Thesis\Dev\public\resources\skins\common\templates\progressbars.html' for inclusion (include_path='.;C:\php5\pear') on F:\Thesis\Dev\nimbus\sys\kernel\api\elements\progressbar.php:30 <strong>[2]</strong>
+[December 19, 2009 14:14:32 pm] Use of undefined constant KERNEL_DIR - assumed 'KERNEL_DIR' on F:\Thesis\Dev\nimbus\sys\kernel\api.php:61 <strong>[8]</strong>
+[December 19, 2009 14:14:32 pm] include(KERNEL_DIRapi\elements\progressbar.php): failed to open stream: No such file or directory on F:\Thesis\Dev\nimbus\sys\kernel\api.php:64 <strong>[2]</strong>
+[December 19, 2009 14:14:32 pm] include(): Failed opening 'KERNEL_DIRapi\elements\progressbar.php' for inclusion (include_path='.;C:\php5\pear') on F:\Thesis\Dev\nimbus\sys\kernel\api.php:64 <strong>[2]</strong>
+[December 19, 2009 14:50:11 pm] implode(): Invalid arguments passed on F:\Thesis\Dev\public\resources\skins\common\templates\progressbar.html:1 <strong>[2]</strong>
+[December 19, 2009 14:50:14 pm] implode(): Invalid arguments passed on F:\Thesis\Dev\public\resources\skins\common\templates\progressbar.html:1 <strong>[2]</strong>
+[December 19, 2009 20:04:15 pm] Undefined property: progressbar::$ID on F:\Thesis\Dev\nimbus\sys\kernel\api\elements\progressbar.php:53 <strong>[8]</strong>
+[December 19, 2009 20:04:15 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:04:22 pm] Undefined property: progressbar::$ID on F:\Thesis\Dev\nimbus\sys\kernel\api\elements\progressbar.php:51 <strong>[8]</strong>
+[December 19, 2009 20:04:22 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:05:56 pm] include(F:\Thesis\Dev\nimbus\sys\kernel\api\elements.php): failed to open stream: No such file or directory on F:\Thesis\Dev\nimbus\sys\kernel\api.php:63 <strong>[2]</strong>
+[December 19, 2009 20:05:56 pm] include(): Failed opening 'F:\Thesis\Dev\nimbus\sys\kernel\api\elements.php' for inclusion (include_path='.;C:\php5\pear') on F:\Thesis\Dev\nimbus\sys\kernel\api.php:63 <strong>[2]</strong>
+[December 19, 2009 20:06:45 pm] Undefined property: progressbar::$ID on F:\Thesis\Dev\nimbus\sys\kernel\api\elements\progressbar.php:51 <strong>[8]</strong>
+[December 19, 2009 20:06:45 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:08:58 pm] include(F:\Thesis\Dev\nimbus\sys\kernel\api\elements.php): failed to open stream: No such file or directory on F:\Thesis\Dev\nimbus\sys\kernel\api.php:63 <strong>[2]</strong>
+[December 19, 2009 20:08:58 pm] include(): Failed opening 'F:\Thesis\Dev\nimbus\sys\kernel\api\elements.php' for inclusion (include_path='.;C:\php5\pear') on F:\Thesis\Dev\nimbus\sys\kernel\api.php:63 <strong>[2]</strong>
+[December 19, 2009 20:08:58 pm] Undefined property: progressbar::$ID on F:\Thesis\Dev\nimbus\sys\kernel\api\elements\progressbar.php:51 <strong>[8]</strong>
+[December 19, 2009 20:08:58 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:09:16 pm] Undefined property: progressbar::$ID on F:\Thesis\Dev\nimbus\sys\kernel\api\elements\progressbar.php:51 <strong>[8]</strong>
+[December 19, 2009 20:09:16 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:09:21 pm] Undefined property: progressbar::$ID on F:\Thesis\Dev\nimbus\sys\kernel\api\elements\progressbar.php:51 <strong>[8]</strong>
+[December 19, 2009 20:09:21 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:09:21 pm] Undefined property: progressbar::$ID on F:\Thesis\Dev\nimbus\sys\kernel\api\elements\progressbar.php:51 <strong>[8]</strong>
+[December 19, 2009 20:09:21 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:12:02 pm] Undefined index: id on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:59 <strong>[8]</strong>
+[December 19, 2009 20:12:02 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:12:18 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:12:34 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:12:35 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:12:41 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:12:51 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:13:04 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:13:19 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:13:33 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:13:34 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:14:18 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:15:19 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:15:19 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:15:45 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:15:45 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:16:08 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:16:08 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:16:58 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:16:58 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:17:02 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:17:02 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:17:12 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:17:12 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:17:18 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:17:18 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:17:23 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:17:23 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:17:28 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:17:28 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:17:42 pm] preg_match(): No ending delimiter '^' found on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[2]</strong>
+[December 19, 2009 20:17:42 pm] preg_match(): No ending delimiter '^' found on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[2]</strong>
+[December 19, 2009 20:18:56 pm] preg_match(): No ending delimiter '^' found on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[2]</strong>
+[December 19, 2009 20:18:56 pm] preg_match(): No ending delimiter '^' found on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[2]</strong>
+[December 19, 2009 20:19:03 pm] preg_match(): No ending delimiter '^' found on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[2]</strong>
+[December 19, 2009 20:19:03 pm] preg_match(): No ending delimiter '^' found on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[2]</strong>
+[December 19, 2009 20:19:26 pm] preg_match(): No ending delimiter '^' found on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[2]</strong>
+[December 19, 2009 20:19:26 pm] preg_match(): No ending delimiter '^' found on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[2]</strong>
+[December 19, 2009 20:19:46 pm] preg_match(): No ending delimiter '^' found on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[2]</strong>
+[December 19, 2009 20:19:46 pm] preg_match(): No ending delimiter '^' found on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[2]</strong>
+[December 19, 2009 20:20:03 pm] preg_match(): No ending delimiter '^' found on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[2]</strong>
+[December 19, 2009 20:20:03 pm] preg_match(): No ending delimiter '^' found on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[2]</strong>
+[December 19, 2009 20:41:26 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:41:26 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:41:28 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:41:28 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:41:29 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:41:29 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:42:07 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:42:07 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:42:11 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:42:11 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:42:43 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:43:01 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:45:44 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:45:53 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:46:43 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:55:30 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:55:31 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:55:32 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:55:38 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:56:05 pm] preg_match(): Unknown modifier '&' on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[2]</strong>
+[December 19, 2009 20:56:24 pm] preg_match(): No ending delimiter '^' found on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[2]</strong>
+[December 19, 2009 20:56:30 pm] preg_match(): Unknown modifier '&' on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[2]</strong>
+[December 19, 2009 20:56:47 pm] preg_match(): Unknown modifier '&' on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[2]</strong>
+[December 19, 2009 20:57:15 pm] preg_match(): Unknown modifier '\' on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[2]</strong>
+[December 19, 2009 20:57:26 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:58:10 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:58:10 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:58:56 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:59:03 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:59:07 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:59:20 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:59:24 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:59:30 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:59:34 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:59:38 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 20:59:41 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 21:02:16 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 21:02:21 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 21:02:26 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 21:02:34 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 21:02:43 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 21:02:56 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 21:03:02 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 21:03:07 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 21:03:10 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 21:03:28 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 21:03:34 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 21:03:38 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 21:03:43 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 21:03:48 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 21:03:50 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 21:03:51 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 21:03:52 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 21:03:56 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 21:03:57 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 19, 2009 21:07:04 pm] Function eregi() is deprecated on F:\Thesis\Dev\nimbus\sys\common.php:119 <strong>[8192]</strong>
+[December 26, 2009 14:28:47 pm] Undefined property: stdClass::$item on F:\Thesis\Dev\index.php:71 <strong>[8]</strong>
+[December 26, 2009 20:16:55 pm] Undefined property: Login::$user on F:\Thesis\Dev\nimbus\sys\application.php:72 <strong>[8]</strong>
+[December 26, 2009 20:17:08 pm] Undefined property: Login::$user on F:\Thesis\Dev\nimbus\sys\application.php:72 <strong>[8]</strong>
+[December 26, 2009 20:18:06 pm] Undefined property: Login::$user on F:\Thesis\Dev\nimbus\sys\application.php:72 <strong>[8]</strong>
+[December 26, 2009 20:18:33 pm] Undefined property: Login::$user on F:\Thesis\Dev\nimbus\sys\application.php:72 <strong>[8]</strong>
+[December 26, 2009 20:19:26 pm] Undefined property: Login::$user on F:\Thesis\Dev\nimbus\sys\application.php:72 <strong>[8]</strong>
+[December 26, 2009 20:20:53 pm] Undefined property: Login::$user on F:\Thesis\Dev\nimbus\sys\application.php:72 <strong>[8]</strong>
+[December 26, 2009 20:20:58 pm] Undefined property: Login::$user on F:\Thesis\Dev\nimbus\sys\application.php:72 <strong>[8]</strong>
+[December 26, 2009 20:42:46 pm] Undefined property: Login::$html on F:\.nimbus\app\login\login.php:89 <strong>[8]</strong>
+[December 26, 2009 20:43:03 pm] Undefined property: Login::$html on F:\.nimbus\app\login\login.php:89 <strong>[8]</strong>
+[December 26, 2009 20:44:34 pm] Undefined property: Login::$html on F:\.nimbus\app\login\login.php:89 <strong>[8]</strong>
+[December 26, 2009 20:45:26 pm] Undefined property: Login::$html on F:\.nimbus\app\login\login.php:89 <strong>[8]</strong>
+[December 26, 2009 20:45:34 pm] Undefined property: Login::$html on F:\.nimbus\app\login\login.php:89 <strong>[8]</strong>
+[December 27, 2009 21:26:23 pm] Undefined property: Login::$api on F:\Thesis\Dev\nimbus\sys\application.php:78 <strong>[8]</strong>
+[December 27, 2009 21:26:50 pm] Undefined property: Login::$api on F:\Thesis\Dev\nimbus\sys\application.php:78 <strong>[8]</strong>
+[December 27, 2009 21:27:48 pm] Undefined index: icon on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:71 <strong>[8]</strong>
+[December 27, 2009 21:27:48 pm] Undefined index: title on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:71 <strong>[8]</strong>
+[December 27, 2009 21:27:48 pm] Undefined index: title on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:71 <strong>[8]</strong>
+[December 27, 2009 21:27:48 pm] Undefined index: pinnable on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:71 <strong>[8]</strong>
+[December 27, 2009 21:27:48 pm] Undefined index: minimizable on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:71 <strong>[8]</strong>
+[December 27, 2009 21:27:48 pm] Undefined index: toggable on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:71 <strong>[8]</strong>
+[December 27, 2009 21:27:48 pm] Undefined index: closable on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:71 <strong>[8]</strong>
+[December 27, 2009 21:31:04 pm] Undefined index: icon on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:71 <strong>[8]</strong>
+[December 27, 2009 21:31:04 pm] Undefined index: closable on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:71 <strong>[8]</strong>
+[December 27, 2009 21:33:10 pm] Undefined index: icon on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:71 <strong>[8]</strong>
+[December 27, 2009 21:33:10 pm] Undefined index: closable on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:71 <strong>[8]</strong>
+[December 27, 2009 21:34:02 pm] Undefined index: icon on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:71 <strong>[8]</strong>
+[December 27, 2009 21:34:14 pm] Undefined index: icon on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:71 <strong>[8]</strong>
+[December 27, 2009 21:34:14 pm] Undefined index: buttons on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:71 <strong>[8]</strong>
+[December 27, 2009 21:34:14 pm] Undefined index: icon on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:71 <strong>[8]</strong>
+[December 27, 2009 21:34:14 pm] Undefined index: buttons on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:71 <strong>[8]</strong>
+[December 27, 2009 21:34:27 pm] Undefined index: icon on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:71 <strong>[8]</strong>
+[December 27, 2009 21:34:27 pm] Undefined index: icon on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:71 <strong>[8]</strong>
+[December 27, 2009 22:07:39 pm] Undefined index: modal on F:\Thesis\Dev\nimbus\sys\kernel\api.php:133 <strong>[8]</strong>
+[December 27, 2009 22:07:45 pm] Undefined index: modal on F:\Thesis\Dev\nimbus\sys\kernel\api.php:133 <strong>[8]</strong>
+[December 27, 2009 22:31:05 pm] Undefined index: noChoice on F:\Thesis\Dev\nimbus\sys\kernel\api.php:114 <strong>[8]</strong>
+[December 27, 2009 22:31:56 pm] Undefined index: noChoice on F:\Thesis\Dev\nimbus\sys\kernel\api.php:114 <strong>[8]</strong>
+[December 27, 2009 22:49:29 pm] Undefined variable: posFix on F:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:84 <strong>[8]</strong>
+[December 27, 2009 23:07:57 pm] Undefined index: warning on F:\Thesis\Dev\nimbus\sys\kernel\api.php:114 <strong>[8]</strong>
+[December 28, 2009 08:30:25 am] Undefined property: Login::$html on F:\.nimbus\app\login\login.php:89 <strong>[8]</strong>
+[December 28, 2009 09:00:07 am] Undefined property: Login::$html on F:\.nimbus\app\login\login.php:89 <strong>[8]</strong>
+[December 30, 2009 14:48:17 pm] Object of class window could not be converted to string on F:\Thesis\Dev\nimbus\sys\application.php:153 <strong>[4096]</strong>
+[December 30, 2009 14:48:17 pm] View \..\.nimbus\app\Login\.php could not be loaded from its directory. It might not exist or it cannot be read.
+[December 30, 2009 14:55:25 pm] function_exists() expects parameter 1 to be string, array given on F:\Thesis\Dev\nimbus\sys\application.php:152 <strong>[2]</strong>
+[December 30, 2009 14:55:35 pm] method_exists() expects exactly 2 parameters, 1 given on F:\Thesis\Dev\nimbus\sys\application.php:152 <strong>[2]</strong>
+[December 30, 2009 14:55:45 pm] method_exists() expects exactly 2 parameters, 1 given on F:\Thesis\Dev\nimbus\sys\application.php:152 <strong>[2]</strong>
+[December 30, 2009 15:16:11 pm] Undefined index: bottom on F:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[8]</strong>
+[December 30, 2009 15:16:11 pm] Undefined index: bottom on F:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[8]</strong>
+[December 30, 2009 18:09:08 pm] Missing argument 3 for Elements::bindEvent(), called in F:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php on line 133 and defined on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:149 <strong>[2]</strong>
+[December 30, 2009 18:09:08 pm] Undefined variable: function on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:150 <strong>[8]</strong>
+[December 30, 2009 18:09:08 pm] Missing argument 3 for Elements::bindEvent(), called in F:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php on line 133 and defined on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:149 <strong>[2]</strong>
+[December 30, 2009 18:09:08 pm] Undefined variable: function on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:150 <strong>[8]</strong>
+[December 30, 2009 18:14:55 pm] Non-static method Application::event() should not be called statically, assuming $this from incompatible context on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:150 <strong>[2048]</strong>
+[December 30, 2009 18:14:55 pm] Undefined property: window::$events on F:\Thesis\Dev\nimbus\sys\application.php:237 <strong>[8]</strong>
+[December 30, 2009 18:14:55 pm] Non-static method Application::event() should not be called statically, assuming $this from incompatible context on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:150 <strong>[2048]</strong>
+[December 30, 2009 18:14:55 pm] Undefined property: window::$events on F:\Thesis\Dev\nimbus\sys\application.php:237 <strong>[8]</strong>
+[December 30, 2009 18:15:18 pm] Non-static method Application::event() should not be called statically, assuming $this from incompatible context on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:150 <strong>[2048]</strong>
+[December 30, 2009 18:15:18 pm] Undefined property: window::$events on F:\Thesis\Dev\nimbus\sys\application.php:238 <strong>[8]</strong>
+[December 30, 2009 18:15:18 pm] Non-static method Application::event() should not be called statically, assuming $this from incompatible context on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:150 <strong>[2048]</strong>
+[December 30, 2009 18:15:18 pm] Undefined property: window::$events on F:\Thesis\Dev\nimbus\sys\application.php:238 <strong>[8]</strong>
+[December 30, 2009 18:21:06 pm] Missing argument 1 for Application::event(), called in F:\Thesis\Dev\nimbus\sys\application.php on line 227 and defined on F:\Thesis\Dev\nimbus\sys\application.php:230 <strong>[2]</strong>
+[December 30, 2009 18:21:06 pm] Missing argument 2 for Application::event(), called in F:\Thesis\Dev\nimbus\sys\application.php on line 227 and defined on F:\Thesis\Dev\nimbus\sys\application.php:230 <strong>[2]</strong>
+[December 30, 2009 18:21:06 pm] Undefined variable: event on F:\Thesis\Dev\nimbus\sys\application.php:231 <strong>[8]</strong>
+[December 30, 2009 18:21:06 pm] Undefined variable: handle on F:\Thesis\Dev\nimbus\sys\application.php:237 <strong>[8]</strong>
+[December 30, 2009 18:21:06 pm] implode(): Invalid arguments passed on F:\Thesis\Dev\nimbus\sys\application.php:238 <strong>[2]</strong>
+[December 30, 2009 18:22:29 pm] Missing argument 1 for Application::event(), called in F:\Thesis\Dev\nimbus\sys\application.php on line 227 and defined on F:\Thesis\Dev\nimbus\sys\application.php:230 <strong>[2]</strong>
+[December 30, 2009 18:22:29 pm] Missing argument 2 for Application::event(), called in F:\Thesis\Dev\nimbus\sys\application.php on line 227 and defined on F:\Thesis\Dev\nimbus\sys\application.php:230 <strong>[2]</strong>
+[December 30, 2009 18:24:15 pm] Undefined variable: handle on F:\Thesis\Dev\nimbus\sys\application.php:232 <strong>[8]</strong>
+[December 30, 2009 18:24:15 pm] implode(): Invalid arguments passed on F:\Thesis\Dev\nimbus\sys\application.php:233 <strong>[2]</strong>
+[December 30, 2009 18:28:25 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:241 <strong>[2]</strong>
+[December 30, 2009 18:28:35 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:242 <strong>[2]</strong>
+[December 30, 2009 18:28:36 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:242 <strong>[2]</strong>
+[December 30, 2009 18:28:37 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:242 <strong>[2]</strong>
+[December 30, 2009 18:28:38 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:242 <strong>[2]</strong>
+[December 30, 2009 18:29:12 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:241 <strong>[2]</strong>
+[December 30, 2009 18:29:41 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:241 <strong>[2]</strong>
+[December 30, 2009 18:29:49 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:241 <strong>[2]</strong>
+[December 30, 2009 18:29:49 pm] Undefined variable: events on F:\Thesis\Dev\nimbus\sys\application.php:235 <strong>[8]</strong>
+[December 30, 2009 18:30:33 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:244 <strong>[2]</strong>
+[December 30, 2009 18:30:33 pm] Undefined variable: events on F:\Thesis\Dev\nimbus\sys\application.php:238 <strong>[8]</strong>
+[December 30, 2009 18:30:47 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:244 <strong>[2]</strong>
+[December 30, 2009 18:30:47 pm] Undefined variable: events on F:\Thesis\Dev\nimbus\sys\application.php:238 <strong>[8]</strong>
+[December 30, 2009 18:32:26 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:244 <strong>[2]</strong>
+[December 30, 2009 18:32:26 pm] Undefined variable: events on F:\Thesis\Dev\nimbus\sys\application.php:238 <strong>[8]</strong>
+[December 30, 2009 18:32:27 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:244 <strong>[2]</strong>
+[December 30, 2009 18:32:27 pm] Undefined variable: events on F:\Thesis\Dev\nimbus\sys\application.php:238 <strong>[8]</strong>
+[December 30, 2009 18:33:11 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:244 <strong>[2]</strong>
+[December 30, 2009 18:33:11 pm] Undefined variable: events on F:\Thesis\Dev\nimbus\sys\application.php:238 <strong>[8]</strong>
+[December 30, 2009 18:33:24 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:244 <strong>[2]</strong>
+[December 30, 2009 18:33:24 pm] Undefined variable: events on F:\Thesis\Dev\nimbus\sys\application.php:238 <strong>[8]</strong>
+[December 30, 2009 18:33:35 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:244 <strong>[2]</strong>
+[December 30, 2009 18:33:35 pm] Undefined variable: events on F:\Thesis\Dev\nimbus\sys\application.php:238 <strong>[8]</strong>
+[December 30, 2009 18:34:05 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:244 <strong>[2]</strong>
+[December 30, 2009 18:34:05 pm] Undefined variable: events on F:\Thesis\Dev\nimbus\sys\application.php:238 <strong>[8]</strong>
+[December 30, 2009 18:35:00 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:244 <strong>[2]</strong>
+[December 30, 2009 18:35:00 pm] Undefined variable: events on F:\Thesis\Dev\nimbus\sys\application.php:238 <strong>[8]</strong>
+[December 30, 2009 18:39:41 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:243 <strong>[2]</strong>
+[December 30, 2009 18:39:41 pm] Undefined variable: output on F:\Thesis\Dev\nimbus\sys\application.php:235 <strong>[8]</strong>
+[December 30, 2009 18:39:57 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:243 <strong>[2]</strong>
+[December 30, 2009 18:40:05 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:243 <strong>[2]</strong>
+[December 30, 2009 18:40:11 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:243 <strong>[2]</strong>
+[December 30, 2009 18:40:18 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:243 <strong>[2]</strong>
+[December 30, 2009 18:40:25 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:243 <strong>[2]</strong>
+[December 30, 2009 18:40:32 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:243 <strong>[2]</strong>
+[December 30, 2009 18:41:26 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:242 <strong>[2]</strong>
+[December 30, 2009 18:41:49 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:242 <strong>[2]</strong>
+[December 30, 2009 18:41:51 pm] Undefined index: handle on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:75 <strong>[8]</strong>
+[December 30, 2009 18:41:53 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:242 <strong>[2]</strong>
+[December 30, 2009 18:42:10 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:242 <strong>[2]</strong>
+[December 30, 2009 18:42:17 pm] Undefined index: handle on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:75 <strong>[8]</strong>
+[December 30, 2009 18:42:19 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:242 <strong>[2]</strong>
+[December 30, 2009 18:42:20 pm] Undefined index: handle on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:75 <strong>[8]</strong>
+[December 30, 2009 18:42:21 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:242 <strong>[2]</strong>
+[December 30, 2009 18:42:39 pm] Undefined index: handle on F:\Thesis\Dev\nimbus\sys\kernel\elements.php:75 <strong>[8]</strong>
+[December 30, 2009 18:42:40 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:242 <strong>[2]</strong>
+[December 30, 2009 18:42:49 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:242 <strong>[2]</strong>
+[December 30, 2009 18:44:43 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:242 <strong>[2]</strong>
+[December 30, 2009 18:45:04 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:242 <strong>[2]</strong>
+[December 30, 2009 18:45:22 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:242 <strong>[2]</strong>
+[December 30, 2009 18:45:29 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:242 <strong>[2]</strong>
+[December 30, 2009 18:45:43 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:242 <strong>[2]</strong>
+[December 30, 2009 18:45:54 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:242 <strong>[2]</strong>
+[December 30, 2009 18:46:00 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:242 <strong>[2]</strong>
+[December 30, 2009 18:46:27 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:242 <strong>[2]</strong>
+[December 30, 2009 18:46:57 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:242 <strong>[2]</strong>
+[December 30, 2009 18:47:17 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:242 <strong>[2]</strong>
+[December 30, 2009 18:47:25 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:242 <strong>[2]</strong>
+[December 30, 2009 18:47:27 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:242 <strong>[2]</strong>
+[December 30, 2009 18:47:37 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:242 <strong>[2]</strong>
+[December 30, 2009 18:48:22 pm] implode(): Invalid arguments passed on F:\Thesis\Dev\nimbus\sys\application.php:235 <strong>[2]</strong>
+[December 30, 2009 18:50:10 pm] Use of undefined constant zx - assumed 'zx' on F:\Thesis\Dev\nimbus\sys\application.php:244 <strong>[8]</strong>
+[December 30, 2009 18:50:10 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:246 <strong>[2]</strong>
+[December 30, 2009 18:50:10 pm] Use of undefined constant zx - assumed 'zx' on F:\Thesis\Dev\nimbus\sys\application.php:244 <strong>[8]</strong>
+[December 30, 2009 18:50:18 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:246 <strong>[2]</strong>
+[December 30, 2009 18:50:45 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:245 <strong>[2]</strong>
+[December 30, 2009 18:51:32 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:245 <strong>[2]</strong>
+[December 30, 2009 18:52:41 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:246 <strong>[2]</strong>
+[December 30, 2009 18:52:53 pm] in_array() expects parameter 2 to be array, boolean given on F:\Thesis\Dev\nimbus\sys\application.php:246 <strong>[2]</strong>
+[January 1, 2010 17:54:23 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:250 <strong>[2]</strong>
+[January 1, 2010 17:54:34 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:250 <strong>[2]</strong>
+[January 1, 2010 17:55:29 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:250 <strong>[2]</strong>
+[January 1, 2010 17:55:53 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:251 <strong>[2]</strong>
+[January 1, 2010 17:56:09 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:258 <strong>[2]</strong>
+[January 1, 2010 17:57:01 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:258 <strong>[2]</strong>
+[January 1, 2010 17:58:34 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:257 <strong>[2]</strong>
+[January 1, 2010 17:58:34 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:257 <strong>[2]</strong>
+[January 1, 2010 17:58:47 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:257 <strong>[2]</strong>
+[January 1, 2010 17:58:53 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:257 <strong>[2]</strong>
+[January 1, 2010 18:00:05 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:257 <strong>[2]</strong>
+[January 1, 2010 18:00:13 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:257 <strong>[2]</strong>
+[January 2, 2010 07:29:13 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:257 <strong>[2]</strong>
+[January 2, 2010 07:32:57 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:257 <strong>[2]</strong>
+[January 2, 2010 08:25:37 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:257 <strong>[2]</strong>
+[January 2, 2010 08:29:02 am] Object of class Login could not be converted to string on E:\Thesis\Dev\nimbus\sys\application.php:143 <strong>[4096]</strong>
+[January 2, 2010 08:29:21 am] Object of class Login could not be converted to string on E:\Thesis\Dev\nimbus\sys\application.php:143 <strong>[4096]</strong>
+[January 2, 2010 08:29:21 am] Missing argument 1 for User::login(), called in E:\.nimbus\app\login\login.php on line 140 and defined on E:\Thesis\Dev\nimbus\sys\user.php:95 <strong>[2]</strong>
+[January 2, 2010 08:29:21 am] Missing argument 2 for User::login(), called in E:\.nimbus\app\login\login.php on line 140 and defined on E:\Thesis\Dev\nimbus\sys\user.php:95 <strong>[2]</strong>
+[January 2, 2010 08:29:22 am] Undefined variable: username on E:\Thesis\Dev\nimbus\sys\user.php:97 <strong>[8]</strong>
+[January 2, 2010 08:29:22 am] Undefined variable: password on E:\Thesis\Dev\nimbus\sys\user.php:97 <strong>[8]</strong>
+[January 2, 2010 08:29:22 am] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 08:29:22 am] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\user.php:206 <strong>[2]</strong>
+[January 2, 2010 08:29:22 am] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 08:29:22 am] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 08:29:31 am] Missing argument 1 for User::login(), called in E:\.nimbus\app\login\login.php on line 140 and defined on E:\Thesis\Dev\nimbus\sys\user.php:95 <strong>[2]</strong>
+[January 2, 2010 08:29:31 am] Missing argument 2 for User::login(), called in E:\.nimbus\app\login\login.php on line 140 and defined on E:\Thesis\Dev\nimbus\sys\user.php:95 <strong>[2]</strong>
+[January 2, 2010 08:29:31 am] Undefined variable: username on E:\Thesis\Dev\nimbus\sys\user.php:97 <strong>[8]</strong>
+[January 2, 2010 08:29:31 am] Undefined variable: password on E:\Thesis\Dev\nimbus\sys\user.php:97 <strong>[8]</strong>
+[January 2, 2010 08:29:31 am] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 08:29:31 am] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\user.php:206 <strong>[2]</strong>
+[January 2, 2010 08:29:31 am] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 08:29:31 am] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 08:29:38 am] Missing argument 1 for User::login(), called in E:\.nimbus\app\login\login.php on line 140 and defined on E:\Thesis\Dev\nimbus\sys\user.php:95 <strong>[2]</strong>
+[January 2, 2010 08:29:38 am] Missing argument 2 for User::login(), called in E:\.nimbus\app\login\login.php on line 140 and defined on E:\Thesis\Dev\nimbus\sys\user.php:95 <strong>[2]</strong>
+[January 2, 2010 08:29:38 am] Undefined variable: username on E:\Thesis\Dev\nimbus\sys\user.php:97 <strong>[8]</strong>
+[January 2, 2010 08:29:38 am] Undefined variable: password on E:\Thesis\Dev\nimbus\sys\user.php:97 <strong>[8]</strong>
+[January 2, 2010 08:29:38 am] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 08:29:38 am] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\user.php:206 <strong>[2]</strong>
+[January 2, 2010 08:29:38 am] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 08:29:38 am] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 08:29:49 am] Missing argument 1 for User::login(), called in E:\.nimbus\app\login\login.php on line 140 and defined on E:\Thesis\Dev\nimbus\sys\user.php:95 <strong>[2]</strong>
+[January 2, 2010 08:29:49 am] Missing argument 2 for User::login(), called in E:\.nimbus\app\login\login.php on line 140 and defined on E:\Thesis\Dev\nimbus\sys\user.php:95 <strong>[2]</strong>
+[January 2, 2010 08:29:49 am] Undefined variable: username on E:\Thesis\Dev\nimbus\sys\user.php:97 <strong>[8]</strong>
+[January 2, 2010 08:29:49 am] Undefined variable: password on E:\Thesis\Dev\nimbus\sys\user.php:97 <strong>[8]</strong>
+[January 2, 2010 08:29:49 am] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 08:29:49 am] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\user.php:206 <strong>[2]</strong>
+[January 2, 2010 08:29:49 am] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 08:29:49 am] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 08:34:16 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 08:34:47 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 08:34:58 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 08:35:22 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 08:36:03 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 08:36:17 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 08:36:52 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 08:37:23 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 08:38:51 am] Undefined property: Login::$requests on E:\.nimbus\app\login\login.php:140 <strong>[8]</strong>
+[January 2, 2010 08:38:51 am] Trying to get property of non-object on E:\.nimbus\app\login\login.php:140 <strong>[8]</strong>
+[January 2, 2010 08:38:51 am] Undefined property: Login::$requests on E:\.nimbus\app\login\login.php:140 <strong>[8]</strong>
+[January 2, 2010 08:38:51 am] Trying to get property of non-object on E:\.nimbus\app\login\login.php:140 <strong>[8]</strong>
+[January 2, 2010 08:38:57 am] Undefined index: username on E:\.nimbus\app\login\login.php:140 <strong>[8]</strong>
+[January 2, 2010 08:38:57 am] Undefined property: Login::$requests on E:\.nimbus\app\login\login.php:140 <strong>[8]</strong>
+[January 2, 2010 08:38:57 am] Trying to get property of non-object on E:\.nimbus\app\login\login.php:140 <strong>[8]</strong>
+[January 2, 2010 08:39:03 am] Undefined index: username on E:\.nimbus\app\login\login.php:140 <strong>[8]</strong>
+[January 2, 2010 08:39:03 am] Undefined property: Login::$requests on E:\.nimbus\app\login\login.php:140 <strong>[8]</strong>
+[January 2, 2010 08:39:03 am] Trying to get property of non-object on E:\.nimbus\app\login\login.php:140 <strong>[8]</strong>
+[January 2, 2010 08:39:14 am] Undefined index: username on E:\.nimbus\app\login\login.php:140 <strong>[8]</strong>
+[January 2, 2010 08:39:14 am] Undefined index: password on E:\.nimbus\app\login\login.php:140 <strong>[8]</strong>
+[January 2, 2010 08:39:40 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 08:39:41 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 08:39:41 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:19:57 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:20:17 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:20:35 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:21:13 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:26:16 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:26:31 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:26:44 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:26:57 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:27:18 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:27:40 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:27:57 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:28:09 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:28:10 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:28:21 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:28:42 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:28:59 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:29:12 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:29:22 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:30:13 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:30:22 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:30:43 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:30:55 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:31:09 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:31:37 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:32:31 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:33:41 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:36:43 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:38:53 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:39:05 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:39:18 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:40:19 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:40:34 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:43:19 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:43:51 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:44:39 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:44:52 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:45:14 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:46:27 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:46:46 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:47:06 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:51:22 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:51:38 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:51:53 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:52:08 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:52:17 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:52:48 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:52:58 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:53:06 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:53:25 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:53:42 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 09:53:47 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 11:26:23 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 11:26:25 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:05:16 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:05:40 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:23:00 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:26:56 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:27:37 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:27:50 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:28:53 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:29:13 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:30:21 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:30:46 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:31:11 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:32:34 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:32:48 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:33:02 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:33:12 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:33:46 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:33:59 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:34:06 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:34:18 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:34:30 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:34:47 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:34:59 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:35:29 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:36:26 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:36:46 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:37:14 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:37:16 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:37:33 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:37:56 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:38:08 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:38:57 pm] Undefined index: nimbus-ui on E:\Thesis\Dev\nimbus\sys\shell\shell.php:97 <strong>[8]</strong>
+[January 2, 2010 12:38:57 pm] Undefined index: nimbus-ui on E:\Thesis\Dev\nimbus\sys\shell\shell.php:97 <strong>[8]</strong>
+[January 2, 2010 12:38:58 pm] Undefined index: nimbus-ui on E:\Thesis\Dev\nimbus\sys\shell\shell.php:97 <strong>[8]</strong>
+[January 2, 2010 12:38:58 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:39:17 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:40:00 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:40:12 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:40:19 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:40:36 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:41:23 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:41:50 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:42:15 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:42:58 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:43:13 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:43:27 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:43:41 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:43:59 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:44:11 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:44:35 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:44:56 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:45:03 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:45:31 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:46:03 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:47:53 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:48:03 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:49:23 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:49:39 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:49:59 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:50:04 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:50:09 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:50:31 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:52:31 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:54:53 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:55:13 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:55:18 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:55:29 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:55:35 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:55:48 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:55:54 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:56:00 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:56:14 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:56:20 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:56:22 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:56:24 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:56:27 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:56:37 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:58:01 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:58:04 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:58:06 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:58:12 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:58:14 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:58:17 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:58:46 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:58:48 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:58:50 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:58:53 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:58:56 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:58:58 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:59:00 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 12:59:39 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 13:04:22 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 13:05:26 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 13:06:05 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 13:06:14 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 13:06:19 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 13:06:27 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 13:06:37 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 13:06:55 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 13:07:08 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 13:07:25 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 13:08:50 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 13:09:06 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 13:09:27 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 13:09:48 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 13:10:16 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 13:10:18 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 13:10:45 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 13:11:04 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 13:11:15 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 13:11:34 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 13:11:43 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 13:11:56 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 13:12:15 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 13:12:53 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 13:16:05 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 13:16:07 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 13:16:26 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 13:16:26 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\user.php:206 <strong>[2]</strong>
+[January 2, 2010 13:16:26 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 13:16:26 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 13:16:34 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 13:16:59 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 16:54:09 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:32:44 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:43:27 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:45:52 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:46:03 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:46:17 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:46:18 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:46:19 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:46:29 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:46:32 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:46:34 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:46:37 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:46:48 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:46:53 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:47:01 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:47:06 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:47:09 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:50:25 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:50:29 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:50:29 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\user.php:206 <strong>[2]</strong>
+[January 2, 2010 17:50:29 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:50:29 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:50:45 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:51:06 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:51:08 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:51:08 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\user.php:206 <strong>[2]</strong>
+[January 2, 2010 17:51:08 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:51:08 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:51:11 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:51:20 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:53:35 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:53:37 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:53:37 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\user.php:206 <strong>[2]</strong>
+[January 2, 2010 17:53:37 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:53:37 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:54:03 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:54:05 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:54:05 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\user.php:206 <strong>[2]</strong>
+[January 2, 2010 17:54:05 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:54:05 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:54:28 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:54:30 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:54:30 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\user.php:206 <strong>[2]</strong>
+[January 2, 2010 17:54:30 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:54:30 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:54:56 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:55:11 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:55:14 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:55:14 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\user.php:206 <strong>[2]</strong>
+[January 2, 2010 17:55:14 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:55:14 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:56:09 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:56:12 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:56:12 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\user.php:206 <strong>[2]</strong>
+[January 2, 2010 17:56:12 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:56:12 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:56:31 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:56:33 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:56:33 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\user.php:206 <strong>[2]</strong>
+[January 2, 2010 17:56:33 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:56:33 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:56:40 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:56:43 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:56:43 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\user.php:206 <strong>[2]</strong>
+[January 2, 2010 17:56:43 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:56:43 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:56:46 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:56:48 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:56:48 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\user.php:206 <strong>[2]</strong>
+[January 2, 2010 17:56:48 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:56:48 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:57:24 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:57:27 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:57:27 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\user.php:206 <strong>[2]</strong>
+[January 2, 2010 17:57:27 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:57:27 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:57:31 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:58:01 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 17:58:03 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:58:03 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\user.php:206 <strong>[2]</strong>
+[January 2, 2010 17:58:03 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 17:58:03 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 18:12:23 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 18:12:25 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 18:12:25 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\user.php:206 <strong>[2]</strong>
+[January 2, 2010 18:12:25 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 18:12:25 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 18:17:07 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 18:17:10 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 18:17:10 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\user.php:206 <strong>[2]</strong>
+[January 2, 2010 18:17:10 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 18:17:10 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 18:57:22 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 18:57:24 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 18:57:24 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\user.php:206 <strong>[2]</strong>
+[January 2, 2010 18:57:24 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 18:57:24 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 18:57:44 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 18:57:46 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 18:57:46 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\user.php:206 <strong>[2]</strong>
+[January 2, 2010 18:57:46 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 18:57:46 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 18:58:10 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 18:58:25 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 18:58:28 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 18:58:28 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\user.php:206 <strong>[2]</strong>
+[January 2, 2010 18:58:28 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 18:58:28 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 18:58:40 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 18:58:42 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 18:58:42 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\user.php:206 <strong>[2]</strong>
+[January 2, 2010 18:58:42 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 18:58:42 pm] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 2, 2010 19:00:55 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:02:58 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:03:15 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:04:20 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:06:31 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:07:15 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:07:30 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:07:42 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:07:58 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:08:34 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:09:47 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:10:41 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:11:34 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:11:51 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:12:00 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:12:22 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:12:36 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:13:06 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:13:19 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:13:27 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:13:38 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:14:27 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:14:56 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:15:10 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:15:24 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:15:58 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:16:09 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:16:18 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:16:25 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:16:32 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:16:40 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:16:47 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:17:05 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:17:12 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:17:14 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:17:26 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:17:35 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:17:59 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:18:53 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:19:55 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:20:55 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:22:01 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:34:17 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:34:21 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 19:34:49 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 20:24:37 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 20:25:40 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 20:28:47 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 20:28:50 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 20:29:41 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 20:29:42 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 20:29:43 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 20:29:43 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 20:30:08 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 20:30:33 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 20:30:51 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 20:30:52 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 20:30:55 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 20:30:56 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 20:30:59 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 21:01:19 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 21:02:09 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:261 <strong>[2]</strong>
+[January 2, 2010 21:04:26 pm] Non-static method API::msgbox() should not be called statically on E:\Thesis\Dev\nimbus\sys\application.php:155 <strong>[2048]</strong>
+[January 2, 2010 21:04:26 pm] Undefined index: noChoice on E:\Thesis\Dev\nimbus\sys\kernel\api.php:141 <strong>[8]</strong>
+[January 2, 2010 21:06:10 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 21:09:01 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:263 <strong>[2]</strong>
+[January 2, 2010 21:09:28 pm] Undefined index: token on E:\Thesis\Dev\nimbus\sys\application.php:154 <strong>[8]</strong>
+[January 2, 2010 21:09:40 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:263 <strong>[2]</strong>
+[January 2, 2010 21:10:14 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:263 <strong>[2]</strong>
+[January 2, 2010 21:10:32 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:263 <strong>[2]</strong>
+[January 2, 2010 21:10:34 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:263 <strong>[2]</strong>
+[January 2, 2010 21:10:59 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:263 <strong>[2]</strong>
+[January 2, 2010 21:11:01 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:263 <strong>[2]</strong>
+[January 2, 2010 21:11:47 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 21:12:07 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 21:12:19 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 21:12:56 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 21:13:13 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 21:13:29 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 21:13:43 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 21:14:23 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 21:14:31 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 21:14:45 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 21:15:01 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 21:17:47 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 21:19:05 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:262 <strong>[2]</strong>
+[January 2, 2010 21:22:46 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:271 <strong>[2]</strong>
+[January 2, 2010 21:22:57 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:271 <strong>[2]</strong>
+[January 2, 2010 21:23:34 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:271 <strong>[2]</strong>
+[January 2, 2010 21:23:36 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:271 <strong>[2]</strong>
+[January 2, 2010 21:23:47 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:271 <strong>[2]</strong>
+[January 2, 2010 21:24:27 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:271 <strong>[2]</strong>
+[January 2, 2010 21:24:31 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:271 <strong>[2]</strong>
+[January 3, 2010 11:08:27 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:271 <strong>[2]</strong>
+[January 3, 2010 11:08:31 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:271 <strong>[2]</strong>
+[January 3, 2010 11:08:34 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:271 <strong>[2]</strong>
+[January 3, 2010 12:00:39 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:271 <strong>[2]</strong>
+[January 3, 2010 12:07:43 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:271 <strong>[2]</strong>
+[January 3, 2010 17:50:03 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:271 <strong>[2]</strong>
+[January 3, 2010 18:58:38 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:271 <strong>[2]</strong>
+[January 3, 2010 18:59:20 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:271 <strong>[2]</strong>
+[January 3, 2010 18:59:41 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:271 <strong>[2]</strong>
+[January 3, 2010 18:59:57 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:271 <strong>[2]</strong>
+[January 3, 2010 19:07:07 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 19:07:07 pm] Object of class window could not be converted to string on E:\Thesis\Dev\nimbus\sys\application.php:185 <strong>[4096]</strong>
+[January 3, 2010 19:07:07 pm] View \..\.nimbus\app\login\.php could not be loaded from its directory. It might not exist or it cannot be read.
+[January 3, 2010 19:07:07 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 19:07:07 pm] Object of class window could not be converted to string on E:\Thesis\Dev\nimbus\sys\application.php:185 <strong>[4096]</strong>
+[January 3, 2010 19:07:07 pm] View \..\.nimbus\app\login\.php could not be loaded from its directory. It might not exist or it cannot be read.
+[January 3, 2010 19:07:23 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 19:09:35 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 19:09:35 pm] Object of class window could not be converted to string on E:\Thesis\Dev\nimbus\sys\application.php:184 <strong>[4096]</strong>
+[January 3, 2010 19:10:44 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:275 <strong>[2]</strong>
+[January 3, 2010 19:10:44 pm] Object of class window could not be converted to string on E:\Thesis\Dev\nimbus\sys\application.php:184 <strong>[4096]</strong>
+[January 3, 2010 19:11:17 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:275 <strong>[2]</strong>
+[January 3, 2010 19:12:53 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:275 <strong>[2]</strong>
+[January 3, 2010 19:12:53 pm] Object of class window could not be converted to string on E:\Thesis\Dev\nimbus\sys\application.php:184 <strong>[4096]</strong>
+[January 3, 2010 19:12:53 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:275 <strong>[2]</strong>
+[January 3, 2010 19:12:53 pm] Object of class window could not be converted to string on E:\Thesis\Dev\nimbus\sys\application.php:184 <strong>[4096]</strong>
+[January 3, 2010 19:13:15 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 19:13:15 pm] Object of class window could not be converted to string on E:\Thesis\Dev\nimbus\sys\application.php:184 <strong>[4096]</strong>
+[January 3, 2010 19:13:15 pm] Object of class window could not be converted to string on E:\Thesis\Dev\nimbus\sys\application.php:185 <strong>[4096]</strong>
+[January 3, 2010 19:13:15 pm] View \..\.nimbus\app\login\.php could not be loaded from its directory. It might not exist or it cannot be read.
+[January 3, 2010 19:13:24 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 19:13:25 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 19:14:56 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 19:14:57 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 19:16:22 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 19:16:34 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:285 <strong>[2]</strong>
+[January 3, 2010 19:16:34 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:285 <strong>[2]</strong>
+[January 3, 2010 19:16:43 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:285 <strong>[2]</strong>
+[January 3, 2010 19:16:43 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:285 <strong>[2]</strong>
+[January 3, 2010 19:17:47 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 19:17:48 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 19:17:53 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 19:20:37 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 19:21:45 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 19:23:07 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 19:23:34 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 19:25:37 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 19:26:24 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 19:26:43 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 19:28:35 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 19:28:45 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 19:28:52 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 19:29:01 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 19:43:03 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 19:44:38 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 19:45:52 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 19:50:20 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 19:51:34 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 19:52:20 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 22:57:55 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 23:00:26 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 3, 2010 23:01:34 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 4, 2010 08:18:51 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 4, 2010 09:46:48 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 4, 2010 09:56:57 am] Object of class User could not be converted to string on E:\.nimbus\app\desktop\desktop.php:93 <strong>[4096]</strong>
+[January 4, 2010 10:00:04 am] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 4, 2010 10:02:42 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 4, 2010 10:04:16 am] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 4, 2010 10:04:35 am] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 4, 2010 10:04:45 am] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 4, 2010 10:04:45 am] Cannot modify header information - headers already sent by (output started at E:\.nimbus\app\desktop\desktop.php:96) on E:\Thesis\Dev\nimbus\sys\application.php:254 <strong>[2]</strong>
+[January 4, 2010 10:04:56 am] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 4, 2010 10:05:45 am] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 4, 2010 10:06:03 am] Trying to get property of non-object on E:\Thesis\Dev\nimbus\sys\user.php:69 <strong>[8]</strong>
+[January 4, 2010 10:06:03 am] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 4, 2010 10:06:03 am] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 4, 2010 10:06:03 am] Trying to get property of non-object on E:\Thesis\Dev\nimbus\sys\user.php:69 <strong>[8]</strong>
+[January 4, 2010 10:06:03 am] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 4, 2010 10:06:03 am] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 4, 2010 10:06:03 am] Trying to get property of non-object on E:\Thesis\Dev\nimbus\sys\user.php:69 <strong>[8]</strong>
+[January 4, 2010 10:06:03 am] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 4, 2010 10:06:03 am] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 4, 2010 10:06:03 am] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 4, 2010 10:06:43 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 4, 2010 10:12:30 am] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 4, 2010 10:13:23 am] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 4, 2010 10:13:33 am] DBO Class: You have a malformed query, DBO::query() cannot continue. This is the error: near "=": syntax error
+[January 4, 2010 10:16:59 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 4, 2010 10:24:56 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 4, 2010 12:21:11 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 4, 2010 12:22:13 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 4, 2010 12:22:26 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 4, 2010 12:22:57 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 4, 2010 12:30:49 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 4, 2010 12:40:22 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
+[January 4, 2010 13:18:59 pm] Undefined variable: personal on E:\.nimbus\app\desktop\desktop.php:93 <strong>[8]</strong>
+[January 4, 2010 13:18:59 pm] array_merge(): Argument #1 is not an array on E:\.nimbus\app\desktop\desktop.php:93 <strong>[2]</strong>
+[January 5, 2010 07:48:39 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:273 <strong>[2]</strong>
