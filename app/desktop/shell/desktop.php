@@ -1,4 +1,9 @@
 <div id="desktop-container">
+	<div id="icon-screen">
+		<div class="desktop-icons">
+			<!--div class="item"><div class="icon-inner"><a href="javascript:;" title="Application"><img src="http://thesis/public/resources/images/icons/Tango/32/apps/help-browser.png" border="0" alt="" /></a><a href="javascript:;" title="Application">User Documentation</a></div></div-->
+		</div>
+	</div>
 	<div id="nimbusbar">
 		<div class="inner">
 			<div id="nimbusbar-user"><a href="javascript:;" title="<?php __('nimbusbar_usermenu'); ?>"><?php __('username'); ?></a></div>
@@ -10,19 +15,28 @@
 							<div class="item menu-search">
 								<h1><?php __('search'); ?></h1>
 								<input type="text" value="<?php __('search_more'); ?>" id="quicksearch_from_menu" onfocus="if(this.value == '<?php __('search_more'); ?>'){this.value='';}" onblur="if(this.value==''){this.value='<?php __('search_more'); ?>';}"/>
-								<p><a href="javascript:;" id="">Advanced Search</a></p>
+								<p><a href="javascript:;" id=""><?php __('advanced_search'); ?></a></p>
 								<div class="clear"></div>
 							</div>
 							<div class="item columns">
 								<div class="menus">
-									<h1>Quick Apps</h1>
-									<div class="collection">
-										<div class="item">
-											<div class="icon-inner"><a href="javascript:;" title="Application"><img src="http://thesis/public/resources/images/icons/Tango/32/apps/help-browser.png" border="0" alt="" /></a><a href="javascript:;" title="Application">User Documentation</a></div>
+									<div class="menu" id="menu-quickapps">
+										<h1><?php __('quick_apps'); ?></h1>
+										<div class="collection">
+											<!--div class="item"><div class="icon-inner"><a href="javascript:;" title="Application"><img src="http://thesis/public/resources/images/icons/Tango/32/apps/help-browser.png" border="0" alt="" /></a><a href="javascript:;" title="Application">User Documentation</a></div></div-->
 										</div>
-										<div class="item">
-											<div class="icon-inner"><a href="javascript:;" title="Application"><img src="http://thesis/public/resources/images/icons/Tango/32/apps/help-browser.png" border="0" alt="" /></a><a href="javascript:;" title="Application">User Documentation</a></div>
-										</div>
+									</div>
+									<div class="menu" id="menu-applications">
+										<h1><?php __('applications'); ?></h1>
+										<div class="collection"></div>
+									</div>
+									<div class="menu" id="menu-system">
+										<h1><?php __('system'); ?></h1>
+										<div class="collection"></div>
+									</div>
+									<div class="menu" id="menu-places">
+										<h1><?php __('places'); ?></h1>
+										<div class="collection"></div>
 									</div>
 									<div class="clear"></div>
 								</div>
@@ -37,10 +51,7 @@
 				<div id="nimbusbar-taskbar-controllall"><a href="javascript:;" title="<?php __('run_applications'); ?>"></a></div>
 				<div id="nimbusbar-taskbar-noinstances"><?php __('run_applications'); ?></div>
 				<div class="items">
-					<!--div class="item focused active"><a href="javascript:;"><span class="instance-name">Application</span></a></div>
-					<div class="item"><a href="javascript:;"><span class="instance-name">Application</span></a></div>
-					<div class="item"><a href="javascript:;"><span class="instance-name">Application</span></a></div>
-					<div class="item"><a href="javascript:;"><span class="instance-name">Application</span></a></div-->
+					<!--div class="item focused active"><a href="javascript:;"><span class="instance-name">Application</span></a></div-->
 				</div>
 				<div class="clear"></div>
 			</div>

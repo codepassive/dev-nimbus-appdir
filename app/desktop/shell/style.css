@@ -8,6 +8,58 @@
     -moz-user-select: -moz-none;
 	-webkit-user-select: none;
 }
+#icon-screen {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+	.desktop-icons .item {
+		position: absolute;
+		float: left;
+		padding: 0 !important;
+		margin-right: 8px;
+		text-align: center;
+		border: 1px solid transparent;
+		text-align: center;
+		word-wrap: break-word;
+		-moz-border-radius: 6px;
+		-webkit-border-radius: 6px;
+		-khtml-border-radius: 6px;
+	}
+	.desktop-icons .item .icon-inner { 
+		border: 1px solid transparent;
+		padding: 4px;
+		width: 64px;
+	}
+		.desktop-icons  .item:hover .icon-inner, .desktop-icons  .item:active .icon-inner { 
+			border: 1px solid rgba(255, 255, 255, 0.3);
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			-khtml-border-radius: 5px;
+		}
+		.desktop-icons  .item:hover, .desktop-icons  .item.selected {
+			border: 1px solid rgba(0, 0, 0, 0.4);
+			background: url('?res=app://desktop/shell/images/icon-hover.png') repeat-x bottom left scroll;
+			-moz-box-shadow: 0 0 5px #c0c0c0;
+			-webkit-box-shadow: 0 0 5px #c0c0c0;
+		}
+		.desktop-icons  .item.selected:hover, .desktop-icons  .item:active {
+			border: 1px solid rgba(0, 0, 0, 0.7);
+		}
+		.desktop-icons  .item:active {
+			background: url('?res=app://desktop/shell/images/icon-click.png') repeat-x top left scroll;
+		}
+		.desktop-icons  a{
+			text-shadow: 0 0 2px #000000;
+			color: #ffffff;
+		}
+		.desktop-icons  a img{
+			display: block;
+			margin: 0 AUTO;
+			width: 32px;
+		}
 #nimbusbar {
 	position: absolute;
 	top: 0;
@@ -50,9 +102,11 @@
 			background-color: rgba(0, 0, 0, 0.3);
 		}
 		#nimbusbar-menu a#thebutton:hover {
-			background-color: rgba(0, 0, 0, 0.7);
+			background-color: rgba(0, 0, 0, 0.5);
 			border-left: 1px solid rgba(0, 0, 0, 0.4);
 			border-right: 1px solid rgba(0, 0, 0, 0.4);
+			-moz-box-shadow: 0 0 24px #000000;
+			-webkit-box-shadow: 0 0 24px #000000;
 		}
 	#nimbusbar-taskbar-div {
 		height: 32px;
@@ -176,6 +230,7 @@
 		background: transparent url('?res=img://icons/Silk/application.png') no-repeat 6px 6px scroll;
 	}
 #nimbusbar-menu-container {
+	display: none;
 	position: absolute;
 	top: 32px;
 	margin-left: -1px;
@@ -231,6 +286,9 @@
 						.menus .collection {
 							padding: 12px 0;
 						}
+						.menus .menu {
+							clear: both;
+						}
 						.menus .collection .item { /*Same effect as in the desktop*/
 							float: left;
 							padding: 0 !important;
@@ -254,9 +312,14 @@
 								-webkit-border-radius: 5px;
 								-khtml-border-radius: 5px;
 							}
-							.menus .collection .item:hover {
-								border: 1px solid rgba(0, 0, 0, 0.2);
+							.menus .collection .item:hover, .menus .collection .item.selected {
+								border: 1px solid rgba(0, 0, 0, 0.3);
 								background: #ffffff url('?res=app://desktop/shell/images/icon-hover.png') repeat-x bottom left scroll;
+								-moz-box-shadow: 0 0 5px #c0c0c0;
+								-webkit-box-shadow: 0 0 5px #c0c0c0;
+							}
+							.menus .collection .item.selected:hover {
+								border: 1px solid rgba(0, 0, 0, 0.6);
 							}
 							.menus .collection .item:active {
 								border: 1px solid rgba(0, 0, 0, 0.7);
@@ -310,3 +373,6 @@
 								-webkit-box-shadow: 0 0 12px #0066cc;
 								border: 1px solid #67b0f8;
 							}
+				.ui-draggable-dragging {
+					z-index: 600;
+				}
