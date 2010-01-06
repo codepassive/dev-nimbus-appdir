@@ -92,10 +92,17 @@ class desktop extends Application implements ApplicationInterface {
 	public function init(){
 		$personal = array();
 		if ($this->user->isLoggedIn()) {
-			$personal = $this->user->personal();
+			$personal = $this->session->get('user-information');
+			//Do some system changes according to the user's configuration
+			
+			//Append some important desktop information
+			global $language;
+			$personal->title = sprintf($language['titlebar_inside'], $personal->username, config('appname'));
+			
+			//Send out the output
+			$this->json($personal, 'data');
+			$this->view('shell/desktop');
 		}
-		$this->json(array_merge($personal, array('username' => 'jmrocela')), 'data');
-		$this->view('shell/desktop');
 	}
 	
 }

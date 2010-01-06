@@ -123,7 +123,9 @@ class Login extends Application implements ApplicationInterface {
 				'resizable' => false,
 				'draggable' => false,
 			));
-
+		//Add an event to the textboxes
+		$script = "var button = $('#login-container .buttons .proceed').get(0);var code = (e.keyCode ? e.keyCode : e.which);if(code == 13) {{$this->api_handle}.submit(button);}";
+		Application::bindEvent('keypress', array('login-text1', 'login-password1'), 'Login', $script, true);
 		//Return the Window? - Think of a better way for this
 		return $window;
 	}
