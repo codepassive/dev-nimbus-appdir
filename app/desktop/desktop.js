@@ -7,6 +7,11 @@ var Desktop = {
 		document.title = Desktop_data.title;
 		$('#nimbusbar-user a').html(Desktop_data.username);
 
+		$.each(Desktop_data.desktop_icons, function(i, e){
+			Nimbus.Desktop.addIcon(e);
+			Nimbus.Desktop.fixIcons();
+		});
+		
 		//Bind the events
 		Desktop.events();
 	},
@@ -16,7 +21,7 @@ var Desktop = {
 		//Instances
 		$('#nimbusbar-taskbar-controllall').click(function(){/*launch the nimbusbar user shortmenu*/Nimbus.Application.load('instancemanager', function(){Instance.controllAll();})});
 		//Icons
-		$('.desktop-icons .item').draggable().click(function(){
+		$('.desktop-icons .item').draggable({delay:200}).click(function(){
 			$('.desktop-icons .item').removeClass('active');
 			$(this).addClass('selected');
 		});

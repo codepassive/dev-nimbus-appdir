@@ -1,8 +1,6 @@
 <div id="desktop-container">
 	<div id="icon-screen">
-		<div class="desktop-icons">
-			<!--div class="item"><div class="icon-inner"><a href="javascript:;" title="Application"><img src="http://thesis/public/resources/images/icons/Tango/32/apps/help-browser.png" border="0" alt="" /></a><a href="javascript:;" title="Application">User Documentation</a></div></div-->
-		</div>
+		<div class="desktop-icons"></div>
 	</div>
 	<div id="nimbusbar">
 		<div class="inner">
@@ -50,9 +48,7 @@
 			<div id="nimbusbar-taskbar">
 				<div id="nimbusbar-taskbar-controllall"><a href="javascript:;" title="<?php __('run_applications'); ?>"></a></div>
 				<div id="nimbusbar-taskbar-noinstances"><?php __('run_applications'); ?></div>
-				<div class="items">
-					<!--div class="item focused active"><a href="javascript:;"><span class="instance-name">Application</span></a></div-->
-				</div>
+				<div class="items"></div>
 				<div class="clear"></div>
 			</div>
 			<div class="clear"></div>

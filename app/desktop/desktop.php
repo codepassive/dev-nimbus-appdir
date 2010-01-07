@@ -94,6 +94,7 @@ class desktop extends Application implements ApplicationInterface {
 		if ($this->user->isLoggedIn()) {
 			$personal = $this->session->get('user-information');
 			//Do some system changes according to the user's configuration
+			$personal->desktop_icons = unserialize($personal->desktop_icons);
 			
 			//Append some important desktop information
 			global $language;
