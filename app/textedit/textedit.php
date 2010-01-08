@@ -85,6 +85,13 @@ class Textedit extends Application implements ApplicationInterface {
 	public $styles = array('app://textedit/shell/style.css');
 
 	/**
+	 * Determine whether an Application uses multiple instances
+	 *
+	 * @access	Public
+	 */
+	public $multiple = true;
+
+	/**
 	 * The initial method that instantiates the application
 	 *
 	 * @access	Public
@@ -104,7 +111,7 @@ class Textedit extends Application implements ApplicationInterface {
 		$textedit->handle = 'Textedit';
 		$textedit->path = config('appurl') . 'public/resources/images/icons/Tango/32/apps/accessories-text-editor.png';
 		echo serialize(array(
-				$textedit
+				$textedit,
 			));*/
 		//Create a Window
 		$window = $this->window(array(

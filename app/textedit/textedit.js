@@ -1,8 +1,8 @@
-var Textedit = {
+Textedit[Textedit_instance] = {
 	init: function(){
-		Nimbus.Desktop.load(Textedit_view, "textedit-container", Textedit_window);
-		
-		Textedit.redraw();
+		//Increment the Instance
+		Nimbus.Desktop.load(Textedit_view, 'view_' + Textedit_window.id, Textedit_window);
+		Textedit[Textedit_instance].redraw();
 	},
 	redraw: function(){
 		//Fix the textarea height

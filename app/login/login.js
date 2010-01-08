@@ -14,7 +14,7 @@ var Login = {
 			Nimbus.Connect.post(SERVER_URL + '?app=login&action=submit', {username:username, password:password, language:language}, function(result){
 				if (result.response == true) {
 					$(button).val('Logging you in...');
-					Nimbus.Application.load('Desktop', function(){
+					Nimbus.Application.load('desktop', function(){
 						Nimbus.Desktop.unload("login-container");
 					});
 				} else {

@@ -4,21 +4,23 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	z-index: 500;
     -moz-user-select: -moz-none;
 	-webkit-user-select: none;
 	overflow: hidden;
 }
 #icon-screen {
 	position: absolute;
-	top: 0;
-	left: 0;
+	top: 64px;
+	left: 24px;
 	bottom: 0;
 	right: 0;
-	overflow: hidden;
 }
+	.desktop-icons .icon {
+		height: 80px;
+		clear: both;
+	}
 	.desktop-icons .item {
-		position: absolute;
+		/*position: absolute;*/
 		float: left;
 		padding: 0 !important;
 		margin-right: 8px;
@@ -26,9 +28,9 @@
 		border: 1px solid transparent;
 		text-align: center;
 		word-wrap: break-word;
-		-moz-border-radius: 6px;
-		-webkit-border-radius: 6px;
-		-khtml-border-radius: 6px;
+		-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;
+		-khtml-border-radius: 8px;
 	}
 	.desktop-icons .item .icon-inner { 
 		border: 1px solid transparent;
@@ -36,10 +38,11 @@
 		width: 64px;
 	}
 		.desktop-icons  .item:hover .icon-inner, .desktop-icons  .item:active .icon-inner { 
-			border: 1px solid rgba(255, 255, 255, 0.3);
-			-moz-border-radius: 5px;
-			-webkit-border-radius: 5px;
-			-khtml-border-radius: 5px;
+			border: 1px solid rgba(255, 255, 255, 0.4);
+			border-top: 1px solid rgba(255, 255, 255, 0.7);
+			-moz-border-radius: 7px;
+			-webkit-border-radius: 7px;
+			-khtml-border-radius: 7px;
 		}
 		.desktop-icons  .item:hover, .desktop-icons  .item.selected {
 			border: 1px solid rgba(0, 0, 0, 0.4);
@@ -53,7 +56,7 @@
 		.desktop-icons  .item:active {
 			background: url('?res=app://desktop/shell/images/icon-click.png') repeat-x top left scroll;
 		}
-		.desktop-icons  a{
+		.desktop-icons  a {
 			text-shadow: 0 0 2px #000000;
 			color: #ffffff;
 		}
@@ -71,6 +74,7 @@
 	border-bottom: 1px solid #000000;
 	border-top: 1px solid #4c4c4c;
 	color: #fff;
+	z-index: 700;
 	-moz-box-shadow: 0 0 24px #000000;
 	-webkit-box-shadow: 0 0 24px #000000;
 }
@@ -238,6 +242,7 @@
 	margin-left: -1px;
 	background: rgba(0, 0, 0, 0.7);
 	border: 1px solid #000000;
+	z-index: 700;
 	border-top: 0;
 	-moz-border-radius-bottomleft: 3px;
 	-moz-border-radius-bottomright: 3px;

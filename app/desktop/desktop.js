@@ -9,7 +9,6 @@ var Desktop = {
 
 		$.each(Desktop_data.desktop_icons, function(i, e){
 			Nimbus.Desktop.addIcon(e);
-			Nimbus.Desktop.fixIcons();
 		});
 		
 		//Bind the events
@@ -20,11 +19,6 @@ var Desktop = {
 		$('#nimbusbar-menu a#thebutton').click(function(){Desktop.nimbusmenu();});		
 		//Instances
 		$('#nimbusbar-taskbar-controllall').click(function(){/*launch the nimbusbar user shortmenu*/Nimbus.Application.load('instancemanager', function(){Instance.controllAll();})});
-		//Icons
-		$('.desktop-icons .item').draggable({delay:200}).click(function(){
-			$('.desktop-icons .item').removeClass('active');
-			$(this).addClass('selected');
-		});
 	},
 	nimbusmenu: function(){
 		$('#nimbusbar-menu-container').toggle(0);
