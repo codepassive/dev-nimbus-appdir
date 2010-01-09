@@ -628,3 +628,342 @@
 [January 9, 2010 02:15:15 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:327 <strong>[2]</strong>
 [January 9, 2010 02:15:47 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:327 <strong>[2]</strong>
 [January 9, 2010 02:18:04 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:327 <strong>[2]</strong>
+[January 9, 2010 19:25:16 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:327 <strong>[2]</strong>
+[January 9, 2010 19:29:24 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:327 <strong>[2]</strong>
+[January 9, 2010 19:33:45 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:327 <strong>[2]</strong>
+[January 9, 2010 20:40:58 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:327 <strong>[2]</strong>
+[January 9, 2010 20:48:49 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:327 <strong>[2]</strong>
+[January 9, 2010 21:27:28 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:327 <strong>[2]</strong>
+[January 9, 2010 22:45:03 pm] Undefined property: Textedit::$window on E:\.nimbus\app\textedit\textedit.php:131 <strong>[8]</strong>
+[January 9, 2010 22:45:21 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:327 <strong>[2]</strong>
+[January 9, 2010 22:45:28 pm] Undefined variable: window on E:\.nimbus\app\textedit\textedit.php:131 <strong>[8]</strong>
+[January 9, 2010 22:54:29 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:327 <strong>[2]</strong>
+[January 9, 2010 22:54:43 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:327 <strong>[2]</strong>
+[January 9, 2010 22:54:49 pm] Undefined index: id on E:\Thesis\Dev\nimbus\sys\kernel\elements.php:80 <strong>[8]</strong>
+[January 9, 2010 22:57:23 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:327 <strong>[2]</strong>
+[January 9, 2010 22:57:56 pm] Undefined variable: as on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:1 <strong>[8]</strong>
+[January 9, 2010 22:57:56 pm] Undefined variable: items on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[8]</strong>
+[January 9, 2010 22:57:56 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[2]</strong>
+[January 9, 2010 22:57:56 pm] Undefined variable: as on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:1 <strong>[8]</strong>
+[January 9, 2010 22:57:56 pm] Undefined variable: items on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[8]</strong>
+[January 9, 2010 22:57:56 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[2]</strong>
+[January 9, 2010 22:57:56 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 22:57:56 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 22:58:44 pm] Undefined variable: as on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:1 <strong>[8]</strong>
+[January 9, 2010 22:58:44 pm] Undefined variable: items on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[8]</strong>
+[January 9, 2010 22:58:44 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[2]</strong>
+[January 9, 2010 22:58:44 pm] Undefined variable: as on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:1 <strong>[8]</strong>
+[January 9, 2010 22:58:44 pm] Undefined variable: items on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[8]</strong>
+[January 9, 2010 22:58:44 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[2]</strong>
+[January 9, 2010 22:58:44 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 22:58:44 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 22:58:58 pm] Undefined variable: as on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:1 <strong>[8]</strong>
+[January 9, 2010 22:58:58 pm] Undefined variable: items on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[8]</strong>
+[January 9, 2010 22:58:58 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[2]</strong>
+[January 9, 2010 22:58:58 pm] Undefined variable: as on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:1 <strong>[8]</strong>
+[January 9, 2010 22:58:58 pm] Undefined variable: items on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[8]</strong>
+[January 9, 2010 22:58:58 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[2]</strong>
+[January 9, 2010 22:58:58 pm] Undefined variable: as on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:1 <strong>[8]</strong>
+[January 9, 2010 22:58:58 pm] Undefined variable: items on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[8]</strong>
+[January 9, 2010 22:58:58 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[2]</strong>
+[January 9, 2010 22:58:58 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 22:58:58 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 22:59:16 pm] Undefined variable: as on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:1 <strong>[8]</strong>
+[January 9, 2010 22:59:16 pm] Undefined variable: items on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[8]</strong>
+[January 9, 2010 22:59:16 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[2]</strong>
+[January 9, 2010 22:59:43 pm] Undefined variable: as on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:1 <strong>[8]</strong>
+[January 9, 2010 22:59:43 pm] Undefined variable: items on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[8]</strong>
+[January 9, 2010 22:59:43 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[2]</strong>
+[January 9, 2010 22:59:56 pm] Undefined variable: as on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:1 <strong>[8]</strong>
+[January 9, 2010 22:59:56 pm] Undefined variable: items on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[8]</strong>
+[January 9, 2010 22:59:56 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[2]</strong>
+[January 9, 2010 22:59:56 pm] Undefined variable: as on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:1 <strong>[8]</strong>
+[January 9, 2010 22:59:56 pm] Undefined variable: items on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[8]</strong>
+[January 9, 2010 22:59:56 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[2]</strong>
+[January 9, 2010 22:59:56 pm] Undefined variable: as on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:1 <strong>[8]</strong>
+[January 9, 2010 22:59:56 pm] Undefined variable: items on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[8]</strong>
+[January 9, 2010 22:59:56 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[2]</strong>
+[January 9, 2010 22:59:56 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 22:59:56 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:00:53 pm] Undefined variable: items on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[8]</strong>
+[January 9, 2010 23:00:53 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[2]</strong>
+[January 9, 2010 23:00:53 pm] Undefined variable: items on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[8]</strong>
+[January 9, 2010 23:00:53 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[2]</strong>
+[January 9, 2010 23:00:53 pm] Undefined variable: items on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[8]</strong>
+[January 9, 2010 23:00:53 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[2]</strong>
+[January 9, 2010 23:00:53 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:00:53 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:01:09 pm] Undefined variable: items on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[8]</strong>
+[January 9, 2010 23:01:09 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[2]</strong>
+[January 9, 2010 23:01:09 pm] Undefined variable: items on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[8]</strong>
+[January 9, 2010 23:01:09 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[2]</strong>
+[January 9, 2010 23:01:09 pm] Undefined variable: items on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[8]</strong>
+[January 9, 2010 23:01:09 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:4 <strong>[2]</strong>
+[January 9, 2010 23:01:09 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:01:09 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:01:43 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:01:43 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:03:21 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:03:21 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:03:21 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:03:21 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:03:21 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:03:21 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:03:21 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:03:21 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:03:21 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:03:21 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:03:21 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:05:06 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:06 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:06 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:06 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:06 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:06 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:06 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:06 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:06 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:06 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:05:06 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:05:14 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:13 <strong>[8]</strong>
+[January 9, 2010 23:05:14 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:13 <strong>[8]</strong>
+[January 9, 2010 23:05:14 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:13 <strong>[8]</strong>
+[January 9, 2010 23:05:14 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:13 <strong>[8]</strong>
+[January 9, 2010 23:05:14 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:13 <strong>[8]</strong>
+[January 9, 2010 23:05:14 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:13 <strong>[8]</strong>
+[January 9, 2010 23:05:14 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:13 <strong>[8]</strong>
+[January 9, 2010 23:05:14 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:13 <strong>[8]</strong>
+[January 9, 2010 23:05:14 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:13 <strong>[8]</strong>
+[January 9, 2010 23:05:14 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:05:14 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:05:17 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:17 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:17 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:17 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:17 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:17 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:18 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:18 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:18 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:18 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:05:18 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:05:19 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:19 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:19 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:19 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:19 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:19 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:19 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:19 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:19 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:19 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:05:19 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:05:24 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:24 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:24 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:24 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:24 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:24 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:24 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:24 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:24 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:24 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:05:24 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:05:26 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:26 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:26 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:26 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:26 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:26 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:26 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:26 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:26 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:26 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:05:26 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:05:27 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:27 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:27 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:27 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:27 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:27 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:27 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:27 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:27 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:27 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:05:27 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:05:47 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:47 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:47 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:47 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:47 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:47 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:47 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:47 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:47 pm] Undefined offset: 2 on E:\Thesis\Dev\public\resources\skins\common\templates\toolbar.html:14 <strong>[8]</strong>
+[January 9, 2010 23:05:47 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:05:47 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:11:32 pm] Undefined offset: 2 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:11:32 pm] Undefined offset: 2 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:11:32 pm] Undefined offset: 2 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:11:32 pm] Undefined offset: 2 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:11:32 pm] Undefined offset: 2 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:11:32 pm] Undefined offset: 2 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:11:32 pm] Undefined offset: 2 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:11:32 pm] Undefined offset: 2 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:11:32 pm] Undefined offset: 2 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:11:32 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:11:32 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:11:33 pm] Undefined offset: 2 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:11:33 pm] Undefined offset: 2 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:11:33 pm] Undefined offset: 2 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:11:33 pm] Undefined offset: 2 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:11:33 pm] Undefined offset: 2 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:11:33 pm] Undefined offset: 2 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:11:33 pm] Undefined offset: 2 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:11:33 pm] Undefined offset: 2 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:11:33 pm] Undefined offset: 2 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:11:33 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:11:33 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:11:35 pm] Undefined offset: 2 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:11:35 pm] Undefined offset: 2 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:11:35 pm] Undefined offset: 2 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:11:35 pm] Undefined offset: 2 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:11:35 pm] Undefined offset: 2 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:11:35 pm] Undefined offset: 2 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:11:35 pm] Undefined offset: 2 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:11:35 pm] Undefined offset: 2 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:11:35 pm] Undefined offset: 2 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:11:35 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:11:35 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:11:53 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:11:53 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:12:38 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:327 <strong>[2]</strong>
+[January 9, 2010 23:12:45 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:12:45 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:17:33 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:17:33 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:28:55 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:327 <strong>[2]</strong>
+[January 9, 2010 23:29:07 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:29:07 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:30:27 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:30:27 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:30:54 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:30:54 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:32:14 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:32:14 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:32:23 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:32:23 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:32:41 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:32:41 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:32:53 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:32:53 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:33:06 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:33:06 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:33:16 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:33:16 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:33:24 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:33:24 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:33:51 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:33:51 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:34:09 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:34:09 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:34:20 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:34:20 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:34:29 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:34:29 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:34:36 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:34:36 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:34:42 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:34:42 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:35:07 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:35:07 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:35:07 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:35:07 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:35:07 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:35:07 pm] Cannot modify header information - headers already sent by (output started at E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:43) on E:\Thesis\Dev\nimbus\sys\application.php:284 <strong>[2]</strong>
+[January 9, 2010 23:35:25 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:35:25 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:35:42 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:35:42 pm] Undefined offset: 1 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:52 <strong>[8]</strong>
+[January 9, 2010 23:35:42 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:35:42 pm] Undefined offset: 1 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:52 <strong>[8]</strong>
+[January 9, 2010 23:35:42 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:35:42 pm] Undefined offset: 1 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:52 <strong>[8]</strong>
+[January 9, 2010 23:35:42 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:35:42 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:35:56 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:35:56 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:35:56 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:35:56 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:35:56 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:35:56 pm] Cannot modify header information - headers already sent by (output started at E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:43) on E:\Thesis\Dev\nimbus\sys\application.php:284 <strong>[2]</strong>
+[January 9, 2010 23:37:43 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:37:43 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:37:43 pm] Cannot modify header information - headers already sent by (output started at E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:43) on E:\Thesis\Dev\nimbus\sys\application.php:284 <strong>[2]</strong>
+[January 9, 2010 23:37:55 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:37:55 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:37:55 pm] Cannot modify header information - headers already sent by (output started at E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:43) on E:\Thesis\Dev\nimbus\sys\application.php:284 <strong>[2]</strong>
+[January 9, 2010 23:38:16 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:38:16 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:38:30 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:38:30 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:38:37 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:38:37 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:38:37 pm] Cannot modify header information - headers already sent by (output started at E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:43) on E:\Thesis\Dev\nimbus\sys\application.php:284 <strong>[2]</strong>
+[January 9, 2010 23:38:59 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:38:59 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:38:59 pm] Cannot modify header information - headers already sent by (output started at E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:43) on E:\Thesis\Dev\nimbus\sys\application.php:284 <strong>[2]</strong>
+[January 9, 2010 23:39:17 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:52 <strong>[8]</strong>
+[January 9, 2010 23:39:17 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:52 <strong>[8]</strong>
+[January 9, 2010 23:39:17 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:52 <strong>[8]</strong>
+[January 9, 2010 23:39:17 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:39:17 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:39:17 pm] Cannot modify header information - headers already sent by (output started at E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:43) on E:\Thesis\Dev\nimbus\sys\application.php:284 <strong>[2]</strong>
+[January 9, 2010 23:39:26 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:52 <strong>[8]</strong>
+[January 9, 2010 23:39:26 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:52 <strong>[8]</strong>
+[January 9, 2010 23:39:26 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:52 <strong>[8]</strong>
+[January 9, 2010 23:39:26 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:39:26 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:39:26 pm] Cannot modify header information - headers already sent by (output started at E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:43) on E:\Thesis\Dev\nimbus\sys\application.php:284 <strong>[2]</strong>
+[January 9, 2010 23:39:41 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:52 <strong>[8]</strong>
+[January 9, 2010 23:39:41 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:52 <strong>[8]</strong>
+[January 9, 2010 23:39:41 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:52 <strong>[8]</strong>
+[January 9, 2010 23:39:41 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:39:41 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:39:41 pm] Cannot modify header information - headers already sent by (output started at E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:43) on E:\Thesis\Dev\nimbus\sys\application.php:284 <strong>[2]</strong>
+[January 9, 2010 23:39:56 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:39:56 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:39:56 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:39:56 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:39:56 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:39:56 pm] Cannot modify header information - headers already sent by (output started at E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:43) on E:\Thesis\Dev\nimbus\sys\application.php:284 <strong>[2]</strong>
+[January 9, 2010 23:40:11 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:40:11 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:40:11 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:40:11 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:40:11 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:40:11 pm] Cannot modify header information - headers already sent by (output started at E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:43) on E:\Thesis\Dev\nimbus\sys\application.php:284 <strong>[2]</strong>
+[January 9, 2010 23:40:12 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:40:12 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:40:12 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:40:12 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:40:12 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:40:12 pm] Cannot modify header information - headers already sent by (output started at E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:43) on E:\Thesis\Dev\nimbus\sys\application.php:284 <strong>[2]</strong>
+[January 9, 2010 23:40:13 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:40:13 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:40:13 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:51 <strong>[8]</strong>
+[January 9, 2010 23:40:13 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:40:13 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:40:13 pm] Cannot modify header information - headers already sent by (output started at E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:43) on E:\Thesis\Dev\nimbus\sys\application.php:284 <strong>[2]</strong>
+[January 9, 2010 23:40:32 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:52 <strong>[8]</strong>
+[January 9, 2010 23:41:53 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:52 <strong>[8]</strong>
+[January 9, 2010 23:42:32 pm] Undefined offset: 0 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:52 <strong>[8]</strong>
+[January 9, 2010 23:42:32 pm] Undefined offset: 1 on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:57 <strong>[8]</strong>
+[January 9, 2010 23:44:45 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:327 <strong>[2]</strong>
+[January 9, 2010 23:48:23 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:48:23 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:48:28 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:48:28 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:49:02 pm] Object of class toolbar could not be converted to string on E:\.nimbus\app\textedit\textedit.php:127 <strong>[4096]</strong>
+[January 9, 2010 23:49:02 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>
+[January 9, 2010 23:49:02 pm] Object of class toolbar could not be converted to string on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\window.php:113 <strong>[4096]</strong>

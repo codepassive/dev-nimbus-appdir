@@ -126,7 +126,20 @@ class Textedit extends Application implements ApplicationInterface {
 				'icon' => config('appurl') . 'public/resources/images/icons/Tango/16/apps/accessories-text-editor.png',
 				'height' => '300px',
 				'toolbars' => array(
-								'top' => array()
+								'top' => array(
+									//Text, JS Function, Shortcut, PHP Function
+									$this->toolbar(array(
+										'standard', 
+										'File' => array(array('New', 'New', 'Ctrl+N'), array('Save', 'Save', 'Ctrl+S', 'Save'), array('Save as', 'Save as', 'Ctrl+Alt+S', 'SaveAs'), null, array('Close', 'Close', 'Alt+F4', 'Close')),
+										'Edit' => array(array('Undo', 'Undo', 'Ctrl+Z'), null, array('Cut:disable', 'Cut', 'Ctrl+X'), array('Copy:disable', 'Copy', 'Ctrl+C'), array('Paste:disable', 'Paste', 'Ctrl+V'), null, array('Select All:disable', 'SelectAll', 'Ctrl+A'), array('Time/Date', 'Time', 'F5')),
+										'View' => array(array('Word Wrap', 'WordWrap'), array('Font...', 'Font')),
+										'Help' => array(array('About Textedit&#0153;', 
+												array(
+													'View' => array(array('Word Wrap', 'WordWrap'), array('Font...', 'Font'))
+												)
+											))
+									))
+								)
 							),
 				'content' => array(
 								$this->useTemplate('shell/textedit')
