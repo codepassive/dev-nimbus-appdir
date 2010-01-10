@@ -104,15 +104,6 @@ class Textedit extends Application implements ApplicationInterface {
 	 * @access	Public
 	 */
 	public function main(){
-		/*$textedit = new stdClass();
-		$textedit->id = generateHash(microtime());
-		$textedit->name = 'Textedit';
-		$textedit->title = 'Textedit - Nimbus Text Editor';
-		$textedit->handle = 'Textedit';
-		$textedit->path = config('appurl') . 'public/resources/images/icons/Tango/32/apps/accessories-text-editor.png';
-		echo serialize(array(
-				$textedit,
-			));*/
 		//Create a Window
 		$window = $this->window(array(
 				'handle' => $this->api_handle,
@@ -123,21 +114,18 @@ class Textedit extends Application implements ApplicationInterface {
 				'x' => 'center',
 				'y' => 'center',
 				'width' => '400px',
+				'height' => '200px',
 				'icon' => config('appurl') . 'public/resources/images/icons/Tango/16/apps/accessories-text-editor.png',
 				'height' => '300px',
 				'toolbars' => array(
 								'top' => array(
 									//Text, JS Function, Shortcut, PHP Function
 									$this->toolbar(array(
+										'handle' => $this->api_handle,
 										'standard', 
-										'File' => array(array('New', 'New', 'Ctrl+N'), array('Save', 'Save', 'Ctrl+S', 'Save'), array('Save as', 'Save as', 'Ctrl+Alt+S', 'SaveAs'), null, array('Close', 'Close', 'Alt+F4', 'Close')),
-										'Edit' => array(array('Undo', 'Undo', 'Ctrl+Z'), null, array('Cut:disable', 'Cut', 'Ctrl+X'), array('Copy:disable', 'Copy', 'Ctrl+C'), array('Paste:disable', 'Paste', 'Ctrl+V'), null, array('Select All:disable', 'SelectAll', 'Ctrl+A'), array('Time/Date', 'Time', 'F5')),
-										'View' => array(array('Word Wrap', 'WordWrap'), array('Font...', 'Font')),
-										'Help' => array(array('About Textedit&#0153;', 
-												array(
-													'View' => array(array('Word Wrap', 'WordWrap'), array('Font...', 'Font'))
-												)
-											))
+										'File' => array(array('New', 'New', 'Ctrl+N'), array('Save', 'Save', 'Ctrl+S', 'Save'), null, array('Close', 'Close', 'Alt+F4', 'Close')),
+										'Edit' => array(array('Time/Date', 'Time', 'F5')),
+										'Help' => array(array('About Textedit&#0153;', 'About'))
 									))
 								)
 							),
@@ -155,6 +143,18 @@ class Textedit extends Application implements ApplicationInterface {
 		$this->json($window->flag(), 'window');
 		//Return the Window? - Think of a better way for this
 		return $window;
+	}
+
+	public function save(){
+		$content = $this->request->post['content'];
+		$filename = $this->request->post['filename'];
+		$path = $this->request->post['path'];
+		$result = false;
+		if ($file = new File(DATA_DIR . 'usr' . DS . $this->user->username . DS . $path . DS . $filename, true)) {
+			$result = true;
+			$file->write($content);
+		}
+		$this->json(array($result));
 	}
 
 }

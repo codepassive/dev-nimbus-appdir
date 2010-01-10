@@ -38,6 +38,9 @@
 #login-submit1-div {
 	padding: 0 6px;
 }
+.login .toolbars-top {
+	border: 0;
+}
 #login-logo {
 	background: #8dcefd url('?res=app://login/shell/images/login-logo.png') no-repeat right scroll;
 	height: 40px;

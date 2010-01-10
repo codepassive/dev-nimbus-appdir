@@ -3,7 +3,8 @@ var Login = {
 		//Add the Login Container
 		Nimbus.Desktop.load(Login_view, "login-container");
 		//Add some effects that changes the background of the desktop every 30 seconds
-		Nimbus.Desktop.background([SERVER_URL + "public/resources/images/wallpapers/aurora1.jpg", SERVER_URL + "public/resources/images/wallpapers/aurora2.jpg", SERVER_URL + "public/resources/images/wallpapers/aurora3.jpg"], 30);
+		//Nimbus.Desktop.background([SERVER_URL + "public/resources/images/wallpapers/aurora1.jpg", SERVER_URL + "public/resources/images/wallpapers/aurora2.jpg", SERVER_URL + "public/resources/images/wallpapers/aurora3.jpg"], 30);
+		Nimbus.Desktop.background([SERVER_URL + "public/resources/images/wallpapers/aurora3.jpg"], 30);
 	},
 	submit: function(button){
 		var username = $('#login-text1').val();
@@ -20,8 +21,10 @@ var Login = {
 				} else {
 					$(button).removeAttr('disabled').val('Proceed');
 					$("#login-notice").remove();
-					$("#login-text1").after('<p id="login-notice">' + Nimbus.language.login_incorrect + '</p>');
-					$('#login-text1, #login-password1').keypress(function(){$("#login-notice").fadeOut(500);setTimeout("$('#login-notice').remove();",500);});
+					$('#login-container').animate({ marginLeft: -120 }, 75).animate({ marginLeft: -100 }, 75).animate({ marginLeft: -120 }, 75).animate({ marginLeft: -100 }, 75).animate({ marginLeft: -120 }, 150).animate({ marginLeft: -100 }, 150).animate({ marginLeft: -110 }, 200, function(){
+						$("#login-text1").after('<p id="login-notice">' + Nimbus.language.login_incorrect + '</p>');
+						$('#login-text1, #login-password1').keypress(function(){$("#login-notice").fadeOut(500);setTimeout("$('#login-notice').remove();",500);});
+					});
 				}
 			}, "json")
 		} else {
