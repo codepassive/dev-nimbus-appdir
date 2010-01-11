@@ -117,7 +117,6 @@ class Terminal extends Application implements ApplicationInterface {
 				'x' => 'center',
 				'y' => 'center',
 				'width' => '600px',
-				'height' => '300px',
 				'icon' => config('appurl') . 'public/resources/images/icons/Tango/16/apps/utilities-terminal.png',
 				'height' => '300px',
 				'toolbars' => array(),
