@@ -1,4 +1,27 @@
-.textedit textarea {
-	border: 0;
-	width: 100%;
+.calculator-inner {
+	padding: 8px;
+}
+.calculator-inner .buttoncollection {
+	margin-bottom: 4px;
+}
+.calculator-inner .button {
+	width: 42px;
+	height: 42px;
+	margin: 4px;
+}
+.calculator-inner .display {
+	background: url('?res=app://calculator/shell/images/displaybg.png') repeat-x top left scroll;
+	width: 212px;
+	height: 42px;
+	font-size: 40px;
+	margin-bottom: 4px;
+	padding: 4px;
+	border: 1px solid #8e9cad;
+	text-align: right;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-khtml-border-radius: 2px;
+}
+.calculator-inner .display:focus {
+	border: 1px solid #8e9cad;
 }

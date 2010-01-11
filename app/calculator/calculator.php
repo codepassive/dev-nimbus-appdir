@@ -104,7 +104,33 @@ class Calculator extends Application implements ApplicationInterface {
 	 * @access	Public
 	 */
 	public function main(){
-	
+		$this->id ='calculator-container-' . generateHash();
+		//Create a Window
+		$window = $this->window(array(
+				'handle' => $this->api_handle,
+				'id' => $this->id,
+				'type' => 0,
+				'classes' => array('calculator'),
+				'title' => 'Nimbus Calculator',
+				'x' => 'center',
+				'y' => 'center',
+				'width' => '240px',
+				'icon' => config('appurl') . 'public/resources/images/icons/Tango/16/apps/accessories-calculator.png',
+				'toolbars' => array(),
+				'content' => array(
+								$this->useTemplate('shell/calculator')
+							),
+				'hasIcon' => true,
+				'minimizable' => true,
+				'closable' => true,
+				'toggable' => false,
+				'resizable' => false,
+				'draggable' => true,
+			));
+		//Return the window flags
+		$this->json($window->flag(), 'window');
+		//Return the Window? - Think of a better way for this
+		return $window;
 	}
 
 }
