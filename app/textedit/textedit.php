@@ -19,7 +19,7 @@
  *
  * @category:   		Applications
  */
-class Textedit extends Application implements ApplicationInterface {
+class textedit extends Application implements ApplicationInterface {
 
 	/**
 	 * The public name of the application

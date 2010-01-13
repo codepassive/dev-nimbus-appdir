@@ -15,32 +15,32 @@
  */
 
 /**
- * The Native Texteditor for Nimbus
+ * The Config view for the application
  *
  * @category:   		Applications
  */
-class Terminal extends Application implements ApplicationInterface {
+class config extends Application implements ApplicationInterface {
 
 	/**
 	 * The public name of the application
 	 *
 	 * @access	Public
 	 */
-	public $name = 'terminal';
+	public $name = 'config';
 
 	/**
 	 * The public description of the application
 	 *
 	 * @access	Public
 	 */
-	public $description = 'The native Terminal for nimbus.';
+	public $description = 'The Configuration Panel for Nimbus';
 
 	/**
 	 * The public url of the application where more information
 	 *
 	 * @access	Public
 	 */
-	public $app_url = 'http://apps.nimbusdesktop.com/terminal/';
+	public $app_url = 'http://apps.nimbusdesktop.com/config/';
 
 	/**
 	 * The author of the application
@@ -61,7 +61,7 @@ class Terminal extends Application implements ApplicationInterface {
 	 *
 	 * @access	Public
 	 */
-	public $update_url = 'http://synapse.nimbusdesktop.org/latest/terminal/';
+	public $update_url = 'http://synapse.nimbusdesktop.org/latest/config/';
 
 	/**
 	 * The version of the application
@@ -75,21 +75,14 @@ class Terminal extends Application implements ApplicationInterface {
 	 *
 	 * @access	Public
 	 */
-	public $api_handle = 'Terminal';
+	public $api_handle = 'Config';
 
 	/**
 	 * Styles used by the application
 	 *
 	 * @access	Public
 	 */
-	public $styles = array('app://terminal/shell/style.css');
-
-	/**
-	 * Determine whether an Application uses multiple instances
-	 *
-	 * @access	Public
-	 */
-	public $multiple = true;
+	public $styles = array('app://config/shell/style.css');
 
 	/**
 	 * The initial method that instantiates the application
@@ -104,34 +97,34 @@ class Terminal extends Application implements ApplicationInterface {
 		}
 		include $language;
 	}
-
-	/**
-	 * The method that contains the main interface for the application
-	 *
-	 * @access	Public
-	 */
+	
 	public function main(){
 		//Create a Window
 		$window = $this->window(array(
 				'handle' => $this->api_handle,
-				'id' => 'terminal-container-' . generateHash(microtime()),
+				'id' => 'config-container-' . generateHash(microtime()),
 				'type' => 0,
-				'classes' => array('terminal'),
-				'title' => 'Nimbus Terminal',
+				'classes' => array('config'),
+				'title' => 'Nimbus Configuration Dashboard',
 				'x' => 'center',
 				'y' => 'center',
-				'width' => '600px',
-				'icon' => config('appurl') . 'public/resources/images/icons/Tango/16/apps/utilities-terminal.png',
-				'height' => '300px',
+				'width' => '500px',
+				'icon' => config('appurl') . 'public/resources/images/icons/Tango/16/categories/applications-system.png',
 				'toolbars' => array(),
 				'content' => array(
-								$this->useTemplate('shell/terminal')
+								$this->useTemplate('shell/config')
+							),
+				'buttons' => array(
+								array('Reset to Default', 'default'),
+								array('Apply', 'apply'),
+								array('Cancel', 'cancel'),
+								array('OK', 'submit')
 							),
 				'hasIcon' => true,
 				'minimizable' => true,
 				'closable' => true,
 				'toggable' => false,
-				'resizable' => false,
+				'resizable' => true,
 				'draggable' => true,
 			));
 		//Return the window flags
@@ -140,20 +133,5 @@ class Terminal extends Application implements ApplicationInterface {
 		return $window;
 	}
 	
-	public function submit(){
-		//Include the functions available for the terminal
-		include 'functions.php';
-		//Do the execution
-		$command = explode(" ", $this->request->post['command']);
-		$func = $command[0];
-		unset($command[0]);
-		$result = false;
-		if (function_exists($func)) {
-			$result = call_user_func_array($func, $command);
-		}
-		$this->json($result);
-	}
-
 }
-
 ?>

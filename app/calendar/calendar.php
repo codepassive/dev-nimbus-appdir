@@ -111,22 +111,20 @@ class Calendar extends Application implements ApplicationInterface {
 				'id' => $this->id,
 				'type' => 0,
 				'classes' => array('calendar'),
-				'title' => 'Nimbus Embedded Calendar',
-				'x' => 'center',
-				'y' => 'center',
-				'width' => '640px',
-				'height' => '528px',
+				'title' => '',
+				'width' => '370px',
 				'icon' => config('appurl') . 'public/resources/images/icons/Tango/16/apps/office-calendar.png',
 				'toolbars' => array(),
 				'content' => array(
 								$this->useTemplate('shell/calendar')
 							),
-				'hasIcon' => true,
-				'minimizable' => true,
-				'closable' => true,
-				'toggable' => true,
-				'resizable' => true,
-				'draggable' => true,
+				'hasIcon' => false,
+				'showInTaskbar' => false,
+				'minimizable' => false,
+				'closable' => false,
+				'toggable' => false,
+				'resizable' => false,
+				'draggable' => false,
 			));
 		//Return the window flags
 		$this->json($window->flag(), 'window');

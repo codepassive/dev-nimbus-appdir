@@ -1,0 +1,30 @@
+#config-container {
+	width: 100%;
+}
+.tab-content {
+	width: 100%;
+}
+	.tab-content .frame {
+		margin: 4px;
+		padding: 4px;
+		padding-right: 0;
+		height: 386px;
+		border: 1px solid #b6bccc;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		-khtml-border-radius: 3px;
+		overflow: auto;
+	}
+#config-container table tr td {
+	padding: 4px 8px;
+}
+#config-container .helptext {
+	padding: 8px;
+	color: #9c9c9c;
+	margin-top: 12px;
+	font-style: italic;
+}
+#regional img {
+	margin: 8px 16px;
+	border: 1px solid #b6bccc;
+}

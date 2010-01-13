@@ -3,8 +3,7 @@ var Login = {
 		//Add the Login Container
 		Nimbus.Desktop.load(Login_view, "login-container");
 		//Add some effects that changes the background of the desktop every 30 seconds
-		//Nimbus.Desktop.background([SERVER_URL + "public/resources/images/wallpapers/aurora1.jpg", SERVER_URL + "public/resources/images/wallpapers/aurora2.jpg", SERVER_URL + "public/resources/images/wallpapers/aurora3.jpg"], 30);
-		Nimbus.Desktop.background([SERVER_URL + "public/resources/images/wallpapers/aurora3.jpg"], 30);
+		Nimbus.Desktop.background([SERVER_URL + "public/resources/images/wallpapers/aurora1.jpg", SERVER_URL + "public/resources/images/wallpapers/aurora2.jpg", SERVER_URL + "public/resources/images/wallpapers/aurora3.jpg"], 30);
 	},
 	submit: function(button){
 		var username = $('#login-text1').val();

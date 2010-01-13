@@ -87,7 +87,7 @@
 	#nimbusbar-user {
 		background: transparent url('?res=img://icons/Silk/bullet_arrow_down.png') no-repeat 95% center scroll;
 	}
-		#nimbusbar-user a {
+		#nimbusbar-user a.userbutton {
 			display: block;
 			padding: 7px 24px 7px 32px;
 			font-size: 12px;
@@ -96,6 +96,85 @@
 			background: transparent url('?res=app://desktop/shell/images/not-social.png') no-repeat 12px 8px scroll;
 			border-right: 1px solid rgba(255, 255, 255, 0.2);
 		}
+		#nimbusbar-user-container {
+			position: absolute;
+			display: none;
+			z-index: 680;
+		}
+			#nimbusbar-user-container ul {
+				border: 1px solid #000000;
+				border-left: 0;
+				/*-moz-box-shadow: 0 0 24px #000000;
+				-webkit-box-shadow: 0 0 24px #000000;*/
+			}
+			#nimbusbar-user-container li {
+				padding: 1px;
+				background: rgba(255, 255, 255, 0.9);
+			}
+			#nimbusbar-user-container li.separator span {
+				display: block;
+				background: transparent url('?res=app://desktop/shell/images/usermenudivider.png') repeat-x top left scroll;
+				height: 2px;
+				border: 0;
+				margin-left: 32px;
+				margin-right: 2px;
+			}
+				#nimbusbar-user-container li a {
+					display: block;
+					margin: 1px;
+					border: 1px solid transparent;
+					color: #000000;
+					text-shadow: 0 1px 0 #ffffff;
+				}
+				#nimbusbar-user-container li a span {
+					display: block;
+					padding: 2px 16px 2px 32px;
+					border: 1px solid transparent;
+				}
+				#nimbusbar-user-container li a:hover {
+					background-color: rgba(255, 255, 255, 0.3);
+					border: 1px solid rgba(0, 102, 204, 0.4);
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					-khtml-border-radius: 3px;
+				}
+				#nimbusbar-user-container li a:hover span {
+					border: 1px solid rgba(255, 255, 255, 0.5);
+					border-bottom: 1px solid transparent;
+					-moz-border-radius: 2px;
+					-webkit-border-radius: 2px;
+					-khtml-border-radius: 2px;
+				}
+				#usermenusetstatus {
+					background: transparent url('?res=app://desktop/shell/images/not-social.png') no-repeat 4px 4px scroll;
+				}
+				#usermenulockscreen {
+					background: transparent url('?res=img://icons/Tango/16/actions/media-playback-pause.png') no-repeat 4px 4px scroll;
+				}
+				#usermenulogoff {
+					background: transparent url('?res=img://icons/Tango/16/actions/system-shutdown.png') no-repeat 4px 4px scroll;
+				}
+				#usermenupersonalize {
+					background: transparent url('?res=img://icons/Tango/16/apps/preferences-desktop-wallpaper.png') no-repeat 4px 4px scroll;
+				}
+				#usermenupersonal {
+					background: transparent url('?res=img://icons/Tango/16/actions/contact-new.png') no-repeat 4px 4px scroll;
+				}
+				#usermenuconfiguserpermissions {
+					background: transparent url('?res=img://icons/Tango/16/apps/system-users.png') no-repeat 4px 4px scroll;
+				}
+				#usermenuattachexternal {
+					background: transparent url('?res=img://icons/Tango/16/status/mail-attachment.png') no-repeat 4px 4px scroll;
+				}
+				#usermenulogintomessenger {
+					background: transparent url('?res=img://icons/Tango/16/apps/internet-group-chat.png') no-repeat 4px 4px scroll;
+				}
+				#usermenucheckmail {
+					background: transparent url('?res=img://icons/Tango/16/apps/internet-mail.png') no-repeat 4px 4px scroll;
+				}
+				#usermenulivenews {
+					background: transparent url('?res=img://icons/Tango/16/apps/internet-news-reader.png') no-repeat 4px 4px scroll;
+				}
 	#nimbusbar-menu a#thebutton {
 		display: block;
 		height: 32px;
@@ -104,7 +183,7 @@
 		border-left: 1px solid rgba(0, 0, 0, 0.2);
 		border-right: 1px solid rgba(0, 0, 0, 0.2);
 	}
-		#nimbusbar-user a:hover {
+		#nimbusbar-user a:hover, #nimbusbar-user a.active {
 			background-color: rgba(0, 0, 0, 0.3);
 		}
 		#nimbusbar-menu a#thebutton:hover {

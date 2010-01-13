@@ -4,42 +4,37 @@
 	</div>
 	<div id="nimbusbar">
 		<div class="inner">
-			<div id="nimbusbar-user"><a href="javascript:;" title="<?php __('nimbusbar_usermenu'); ?>"><?php __('username'); ?></a></div>
-			<div id="nimbusbar-menu">
-				<a href="javascript:;" title="<?php __('nimbusbar_thebutton'); ?>" id="thebutton"></a>
-				<div id="nimbusbar-menu-container">
+			<div id="nimbusbar-user">
+				<a href="javascript:;" title="<?php __('nimbusbar_usermenu'); ?>" class="userbutton"><?php __('username'); ?></a>
+				<div id="nimbusbar-user-container" class="menu-container">
 					<div class="inner">
 						<div class="items">
-							<div class="item menu-search">
-								<h1><?php __('search'); ?></h1>
-								<input type="text" value="<?php __('search_more'); ?>" id="quicksearch_from_menu" onfocus="if(this.value == '<?php __('search_more'); ?>'){this.value='';}" onblur="if(this.value==''){this.value='<?php __('search_more'); ?>';}"/>
-								<p><a href="javascript:;" id=""><?php __('advanced_search'); ?></a></p>
-								<div class="clear"></div>
-							</div>
-							<div class="item columns">
-								<div class="menus">
-									<div class="menu" id="menu-quickapps">
-										<h1><?php __('quick_apps'); ?></h1>
-										<div class="collection">
-											<!--div class="item"><div class="icon-inner"><a href="javascript:;" title="Application"><img src="http://thesis/public/resources/images/icons/Tango/32/apps/help-browser.png" border="0" alt="" /></a><a href="javascript:;" title="Application">User Documentation</a></div></div-->
-										</div>
-									</div>
-									<div class="menu" id="menu-applications">
-										<h1><?php __('applications'); ?></h1>
-										<div class="collection"></div>
-									</div>
-									<div class="menu" id="menu-system">
-										<h1><?php __('system'); ?></h1>
-										<div class="collection"></div>
-									</div>
-									<div class="menu" id="menu-places">
-										<h1><?php __('places'); ?></h1>
-										<div class="collection"></div>
-									</div>
-									<div class="clear"></div>
-								</div>
-								<div class="searchresults"></div>
-							</div>
+							<ul>
+								<li class="item"><a href="javascript:;" id="usermenusetstatus"><span><?php __('usermenu/setstatus'); ?></a><span></li>
+								<li class="separator"><span></span></li>
+								<li class="item"><a href="javascript:;" id="usermenulockscreen"><span><?php __('usermenu/lockscreen'); ?></a><span></li>
+								<li class="item"><a href="javascript:;" id="usermenulogoff"><span><?php __('usermenu/logoff'); ?></a><span></li>
+								<li class="separator"><span></span></li>
+								<li class="item"><a href="javascript:;" id="usermenupersonalize"><span><?php __('usermenu/personalize'); ?></a><span></li>
+								<li class="item"><a href="javascript:;" id="usermenupersonal"><span><?php __('usermenu/personal'); ?></a><span></li>
+								<li class="item"><a href="javascript:;" id="usermenuconfiguserpermissions"><span><?php __('usermenu/configuserpermissions'); ?></a><span></li>
+								<li class="item"><a href="javascript:;" id="usermenuattachexternal"><span><?php __('usermenu/attachexternal'); ?></a><span></li>
+								<li class="separator"><span></span></li>
+								<li class="item"><a href="javascript:;" id="usermenulogintomessenger"><span><?php __('usermenu/logintomessenger'); ?></a><span></li>
+								<li class="item"><a href="javascript:;" id="usermenucheckmail"><span><?php __('usermenu/checkmail'); ?></a><span></li>
+								<li class="item"><a href="javascript:;" id="usermenulivenews"><span><?php __('usermenu/livenews'); ?></a><span></li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div id="nimbusbar-menu">
+				<a href="javascript:;" title="<?php __('nimbusbar_thebutton'); ?>" id="thebutton"></a>
+				<div id="nimbusbar-menu-container" class="menu-container">
+					<div class="inner">
+						<div class="items">
+							
 						</div>
 					</div>
 				</div>
