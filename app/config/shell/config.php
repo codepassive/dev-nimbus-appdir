@@ -12,12 +12,22 @@ $timezones = array('Africa/Abidjan','Africa/Accra','Africa/Addis_Ababa','Africa/
 		</div>
 		<div class="tab-content focus" id="personalize">
 			<div class="frame">
+				<p class="helptexttop"><?php __('config/personalize_top'); ?></p>
 				<table cellspacing="0" cellpadding="0" border="0">
 					<tr>
 						<td valign="top"><?php __('config/activetheme'); ?></td>
 						<td>
-							<select>
-								<option value="default"><?php __('default'); ?>/<?php __('systempreferences'); ?></a>
+							<select class="personalize_fields" name="theme">
+								<?php
+									$themes = unserialize(config('themes'));
+									foreach ($themes as $theme) {
+										$selected = '';
+										if (personal('theme') == $theme) {
+											$selected = ' selected="selected"';
+										}
+										echo '<option value="' . $theme . '"' . $selected . '>' . $theme . '</a>';
+									}
+								?>
 							</select>
 							<div class="themescreensots">
 								<a href="javascript:;"><img src="http://dump.iamjamoy.com/workingcopy.PNG" width="200" alt="" /></a>
@@ -31,11 +41,17 @@ $timezones = array('Africa/Abidjan','Africa/Accra','Africa/Addis_Ababa','Africa/
 					<tr>
 						<td><?php __('config/fontsize'); ?></td>
 						<td>
-							<select>
-								<option value="90">90%</option>
-								<option value="100" selected="selected">100%</option>
-								<option value="125">125%</option>
-								<option value="150">150%</option>
+							<select class="personalize_fields" name="font_size">
+								<?php
+									$fontsizes = array(90, 100, 125, 150);
+									foreach ($fontsizes as $fontsize) {
+										$selected = '';
+										if (personal('font_size') == $fontsize) {
+											$selected = ' selected="selected"';
+										}
+										echo '<option value="' . $fontsize . '%"' . $selected . '>' . $fontsize . '%</a>';
+									}
+								?>
 								<option>Custom</option>
 							</select>
 						</td>
@@ -43,19 +59,19 @@ $timezones = array('Africa/Abidjan','Africa/Accra','Africa/Addis_Ababa','Africa/
 					<tr>
 						<td><?php __('config/refreshrate'); ?></td>
 						<td>
-							<input type="text" class="text number" value="5" />
+							<input type="text" class="text number personalize_fields" name="refresh_rate" value="5" style="width:40px;" />
 						</td>
 					</tr>
 					<tr>
 						<td><?php __('config/enableshortcut'); ?></td>
 						<td>
-							<input type="checkbox" class="checkbox" value="1" checked="checked"/>
+							<input type="checkbox" class="checkbox personalize_fields" name="shortcuts" value="1"<?php echo (personal('shortcuts')) ? ' checked="checked"': ''; ?>/>
 						</td>
 					</tr>
 					<tr>
 						<td><?php __('config/developer'); ?></td>
 						<td>
-							<input type="checkbox" class="checkbox" value="1" checked="checked"/>
+							<input type="checkbox" class="checkbox personalize_fields" name="developer" value="1"<?php echo (personal('developer')) ? ' checked="checked"': ''; ?>/>
 						</td>
 					</tr>
 				</table>
@@ -64,25 +80,34 @@ $timezones = array('Africa/Abidjan','Africa/Accra','Africa/Addis_Ababa','Africa/
 		</div>		
 		<div class="tab-content" id="regional">
 			<div class="frame">
+				<p class="helptexttop"><?php __('config/regional_top'); ?></p>
 				<img src="<?php echo config('appurl'); ?>?res=app://config/shell/images/timezone.png" title="" border="0" alt="" />
 				<table cellspacing="0" cellpadding="0" border="0">
 					<tr>
 						<td><?php __('timezone'); ?></td>
 						<td>
-							<select>
+							<select style="width:200px;" class="regional_fields" name="timezone">
 								<?php
 									foreach ($timezones as $timezone) {
-										echo '<option value="' . $timezone . '">' . $timezone . '</option>';
+										$selected = '';
+										if (personal('timezone') == strtolower($timezone)) {
+											$selected = ' selected="selected"';
+										}
+										echo '<option value="' . $timezone . '"' . $selected . '>' . $timezone . '</option>';
 									}
 								?>
 							</select>
 						</td>
 						<td><?php __('language'); ?></td>
 						<td>
-							<select>
+							<select class="regional_fields" name="language">
 								<?php
 									foreach ($languages as $language => $name) {
-										echo '<option value="' . $language . '">' . $name . '</option>';
+										$selected = '';
+										if (personal('language') == $language) {
+											$selected = ' selected="selected"';
+										}
+										echo '<option value="' . $language . '"' . $selected . '>' . $name . '</option>';
 									}
 								?>
 							</select>
@@ -90,36 +115,49 @@ $timezones = array('Africa/Abidjan','Africa/Accra','Africa/Addis_Ababa','Africa/
 					</tr>
 					<tr>
 						<td><?php __('time'); ?></td>
-						<td>
-							<input type="text" class="text number"/>
-							<input type="text" class="text number"/>
-							<select>
-								<option value="am">AM</option>
-								<option value="pm">PM</option>
+						<td colspan="3">
+							<input type="text" class="text number regional_fields" name="time_hour_now" value="<?php echo date('h'); ?>" style="width:24px;"/>
+							<input type="text" class="text number regional_fields" name="time_minute_now" value="<?php echo date('i'); ?>" style="width:24px;"/>
+							<select class="regional_fields" name="time_field_now">
+								<option value="am"<?php echo (date('a') == 'am') ? ' selected="selected"': ''; ?>>AM</option>
+								<option value="pm"<?php echo (date('a') == 'pm') ? ' selected="selected"': ''; ?>>PM</option>
 							</select>
 						</td>
+					</tr>
+					<tr>
 						<td><?php __('date'); ?></td>
-						<td>
-							<input type="text" class="text number"/>
-							<input type="text" class="text number"/>
-							<input type="text" class="text number"/>
+						<td colspan="3">
+							<input type="text" class="text number regional_fields" name="date_month_now" value="<?php echo date('m'); ?>" style="width:24px;"/>
+							<input type="text" class="text number regional_fields" name="date_day_now" value="<?php echo date('d'); ?>" style="width:24px;"/>
+							<input type="text" class="text number regional_fields" name="date_year_now" value="<?php echo date('Y'); ?>" style="width:40px;"/>
 						</td>
 					</tr>
 					<tr>
 						<td><?php __('format'); ?></td>
-						<td colspan="3"><input type="text" class="text"/></td>
+						<td colspan="3"><input type="text" class="text regional_fields" name="datetime_format" value="<?php echo personal('datetime_format'); ?>" style="width:80px;"/></td>
 					</tr>
 				</table>
+				<p class="helptext"><?php __('config/helptext_regional'); ?></p>
 			</div>
 		</div>
 		<div class="tab-content" id="administrative">
 			<div class="frame">
+				<p class="helptexttop"><?php __('config/administrative_top'); ?></p>
 				<table cellspacing="0" cellpadding="0" border="0">
 					<tr>
 						<td valign="top"><?php __('config/defaulttheme'); ?></td>
 						<td>
-							<select>
-								<option value="default"><?php __('default'); ?>/<?php __('systempreferences'); ?></a>
+							<select class="administrative_fields" name="theme">
+								<?php
+									$themes = unserialize(config('themes'));
+									foreach ($themes as $theme) {
+										$selected = '';
+										if (config('theme') == $theme) {
+											$selected = ' selected="selected"';
+										}
+										echo '<option value="' . $theme . '"' . $selected . '>' . $theme . '</a>';
+									}
+								?>
 							</select>
 							<div class="themescreensots">
 								<a href="javascript:;"><img src="http://dump.iamjamoy.com/workingcopy.PNG" width="200" alt="" /></a>
@@ -129,10 +167,14 @@ $timezones = array('Africa/Abidjan','Africa/Accra','Africa/Addis_Ababa','Africa/
 					<tr>
 						<td valign="top"><?php __('config/defaultlanguage'); ?></td>
 						<td>
-							<select>
+							<select class="administrative_fields" name="language">
 								<?php
 									foreach ($languages as $language => $name) {
-										echo '<option value="' . $language . '">' . $name . '</option>';
+										$selected = '';
+										if ($name == config('language')) {
+											$selected = ' selected="selected"';
+										}
+										echo '<option value="' . $language . '"' . $selected . '>' . $name . '</option>';
 									}
 								?>
 							</select>
@@ -141,10 +183,14 @@ $timezones = array('Africa/Abidjan','Africa/Accra','Africa/Addis_Ababa','Africa/
 					<tr>
 						<td valign="top"><?php __('config/defaulttimezone'); ?></td>
 						<td>
-							<select>
+							<select class="administrative_fields" name="timezone">
 								<?php
 									foreach ($timezones as $timezone) {
-										echo '<option value="' . $timezone . '">' . $timezone . '</option>';
+										$selected = '';
+										if ($timezone == config('timezone')) {
+											$selected = ' selected="selected"';
+										}
+										echo '<option value="' . $timezone . '"' . $selected . '>' . $timezone . '</option>';
 									}
 								?>
 							</select>
@@ -152,73 +198,78 @@ $timezones = array('Africa/Abidjan','Africa/Accra','Africa/Addis_Ababa','Africa/
 					</tr>
 					<tr>
 						<td valign="top"><?php __('config/allowautoupdate'); ?></td>
-						<td><input type="checkbox" class="checkbox" value="1" checked="checked"/></td>
+						<td><input type="checkbox" class="checkbox administrative_fields" name="autoupdate" value="1"<?php echo (config('autoupdate')) ? ' checked="checked"': ''; ?>/></td>
 					</tr>
 					<tr>
 						<td valign="top"><?php __('config/updateserver'); ?></td>
-						<td><input type="text" class="text"/></td>
+						<td><input type="text" class="text administrative_fields" name="updateserver" value="<?php echo config('updateserver'); ?>" style="width:260px;"/></td>
 					</tr>
 					<tr>
 						<td valign="top"><?php __('config/pingserver'); ?></td>
-						<td><input type="text" class="text"/></td>
+						<td><input type="text" class="text administrative_fields" name="pingserver" value="<?php echo config('pingserver'); ?>" style="width:260px;"/></td>
 					</tr>
 					<tr>
 						<td valign="top"><?php __('config/systemnamespace'); ?></td>
-						<td><input type="text" class="text"/></td>
+						<td><input type="text" class="text administrative_fields" name="namespace" value="<?php echo config('namespace'); ?>" style="width:220px;"/></td>
+					<tr>
+						<td valign="top"><?php __('config/systemurl'); ?></td>
+						<td><input type="text" class="text administrative_fields" name="appurl" value="<?php echo config('appurl'); ?>" style="width:180px;"/></td>
+					</tr>
 					</tr>
 					<tr>
 						<td valign="top"><?php __('config/systemname'); ?></td>
-						<td><input type="text" class="text"/></td>
+						<td><input type="text" class="text administrative_fields" name="appname" value="<?php echo config('appname'); ?>" style="width:140px;"/></td>
 					</tr>
 					<tr>
 						<td valign="top"><?php __('config/allowmultiple'); ?></td>
-						<td><input type="checkbox" class="checkbox" value="1" checked="checked"/></td>
+						<td><input type="checkbox" class="checkbox administrative_fields" name="multiuser" value="1"<?php echo (config('multiuser')) ? ' checked="checked"': ''; ?>/></td>
 					</tr>
 					<tr>
 						<td valign="top"><?php __('config/allowregistration'); ?></td>
-						<td><input type="checkbox" class="checkbox" value="1" checked="checked"/></td>
+						<td><input type="checkbox" class="checkbox administrative_fields" name="allowregistration" value="1"<?php echo (config('allowregistration')) ? ' checked="checked"': ''; ?>/></td>
 					</tr>
 					<tr>
 						<td valign="top"><?php __('config/dateformat'); ?></td>
-						<td><input type="text" class="text"/></td>
+						<td><input type="text" class="text administrative_fields" name="date_format" value="<?php echo config('date_format'); ?>" style="width:40px;"/></td>
 					</tr>
 					<tr>
 						<td valign="top"><?php __('config/timeformat'); ?></td>
-						<td><input type="text" class="text"/></td>
+						<td><input type="text" class="text administrative_fields" name="time_format" value="<?php echo config('time_format'); ?>" style="width:40px;"/></td>
 					</tr>
 					<tr>
 						<td valign="top"><?php __('config/allowbridging'); ?></td>
-						<td><input type="checkbox" class="checkbox" value="1" checked="checked"/></td>
+						<td><input type="checkbox" class="checkbox administrative_fields" name="accountbridging" value="1"<?php echo (config('accountbridging')) ? ' checked="checked"': ''; ?>/></td>
 					</tr>
 					<tr>
 						<td valign="top"><?php __('config/securitysalt'); ?></td>
-						<td><input type="text" class="text"/></td>
+						<td><input type="text" class="text administrative_fields" name="salt" value="<?php echo config('salt'); ?>" style="width:180px;"/></td>
 					</tr>
 					<tr>
 						<td valign="top"><?php __('config/partitionperuser'); ?></td>
-						<td><input type="text" class="text"/></td>
+						<td><input type="text" class="text administrative_fields" name="partition_per_user" value="<?php echo config('partition_per_user'); ?>" style="width:120px;"/> bytes</td>
 					</tr>
 					<tr>
 						<td valign="top"><?php __('config/defaultrefreshrate'); ?></td>
-						<td><input type="text" class="text number"/></td>
+						<td><input type="text" class="text number administrative_fields" name="refresh_rate" value="<?php echo config('refresh_rate'); ?>" style="width:24px;"/></td>
 					</tr>
 					<tr>
 						<td valign="top"><?php __('config/mailserver'); ?></td>
-						<td><input type="text" class="text"/></td>
+						<td><input type="text" class="text administrative_fields" name="smtp_url" value="<?php echo config('smtp_url'); ?>" style="width:260px;"/></td>
 					</tr>
 					<tr>
 						<td valign="top"><?php __('config/mailusername'); ?></td>
-						<td><input type="text" class="text"/></td>
+						<td><input type="text" class="text administrative_fields" name="smtp_username" value="<?php echo config('smtp_username'); ?>" style="width:150px;"/></td>
 					</tr>
 					<tr>
 						<td valign="top"><?php __('config/mailpassword'); ?></td>
-						<td><input type="text" class="text"/></td>
+						<td><input type="password" class="text administrative_fields" name="smtp_password" value="<?php echo config('smtp_password'); ?>" style="width:120px;"/></td>
 					</tr>
 					<tr>
 						<td valign="top"><?php __('config/mailport'); ?></td>
-						<td><input type="text" class="text number"/></td>
+						<td><input type="text" class="text number administrative_fields" name="smtp_port" value="<?php echo config('smtp_port'); ?>" style="width:40px;"/></td>
 					</tr>
 				</table>
+				<p class="helptext"><?php __('config/helptext_administrative'); ?></p>
 			</div>
 		</div>
 	</div>

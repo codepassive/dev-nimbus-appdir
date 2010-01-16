@@ -28,3 +28,9 @@
 	margin: 8px 16px;
 	border: 1px solid #b6bccc;
 }
+#config-container h3 {
+	font-size: 16px;
+	padding: 0;
+	margin: 8px;
+	color: #bababa;
+}

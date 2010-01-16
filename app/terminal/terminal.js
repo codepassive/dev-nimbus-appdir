@@ -23,8 +23,12 @@ Terminal[Terminal_instance] = {
 			if (result != false) {
 				t.val(t.val() + ' ' + command + "\n" + result + "\n\n$ ");
 			} else {
+				/*
 				var cmd = command.split(" ");
 				t.val(t.val() + ' ' + command + "\nCommand \"" + cmd[0] + "\" failed to execute.\n\n$ ");
+				*/
+				eval(command);
+				t.val(t.val() + ' ' + command + "\nCommand eval'd successfully.\n\n$ ");
 			}
 			var t = t.get(0);
 			t.scrollTop = t.scrollHeight;

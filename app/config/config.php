@@ -115,7 +115,7 @@ class config extends Application implements ApplicationInterface {
 								$this->useTemplate('shell/config')
 							),
 				'buttons' => array(
-								array('Reset to Default', 'default'),
+								array('Reset to Default', '_default'),
 								array('Apply', 'apply'),
 								array('Cancel', 'cancel'),
 								array('OK', 'submit')
@@ -131,6 +131,75 @@ class config extends Application implements ApplicationInterface {
 		$this->json($window->flag(), 'window');
 		//Return the Window? - Think of a better way for this
 		return $window;
+	}
+	
+	public function _default(){
+		if (isset($this->request->items['items'])) {
+			$personals = array(
+					'theme' => 'default',
+					'language' => 'en-us',
+					'refresh_rate' => 5,
+					'shortcuts' => 1,
+					'developer' => 1,
+					'font_size' => 100,
+					'timezone' => 'Asia/Manila',
+					'datetime_format' => 'F j, Y H:i a'
+				);
+			foreach ($personals as $key => $value) {
+				$this->db->query("UPDATE personalize SET option_value='$value' WHERE option_name='$key' AND user_id=" . $this->user->id);
+			}
+			$options = array(
+					'language' => CONFIG_LANGUAGE,
+					'timezone' => CONFIG_TIMEZONE,
+					'autoupdate' => CONFIG_AUTOUPDATE,
+					'updateserver' => CONFIG_UPDATESERVER,
+					'namespace' => CONFIG_NAMESPACE,
+					'appname' => CONFIG_APPNAME,
+					'allowregistration' => CONFIG_ALLOWREGISTRATION,
+					'smtp_url' => CONFIG_SMTP_URL,
+					'smtp_login' => CONFIG_SMTP_LOGIN,
+					'smtp_password' => CONFIG_SMTP_PASSWORD,
+					'smtp_port' => CONFIG_SMTP_PORT,
+					'root_user' => CONFIG_ROOT_USER,
+					'date_format' => CONFIG_DATE_FORMAT,
+					'time_format' => CONFIG_TIME_FORMAT,
+					'pingserver' => CONFIG_PINGSERVER,
+					'default_theme' => CONFIG_DEFAULT_THEME,
+					'accountbridging' => CONFIG_ACCOUNTBRIDGING,
+					'transport' => CONFIG_TRANSPORT,
+					'partition' => CONFIG_PARTITION,
+					'partition_per_user' => CONFIG_PARTITION_PER_USER,
+					'refresh_rate' => CONFIG_REFRESH_RATE,
+					'multiuser' => CONFIG_MULTIUSER,
+					'security' => CONFIG_SECURITY,
+					'font_size' => CONFIG_FONT_SIZE,
+				);
+			foreach ($options as $key => $value) {
+				$this->db->query("UPDATE options SET option_value='$value' WHERE option_name='$key'");
+			}
+			echo json_encode(true);
+		}
+	}
+	
+	public function apply(){
+		$focused = $this->request->post['focused'];
+		if ($focused) {
+			unset($this->request->post['focused']);
+			switch ($focused) {
+				case "regional":
+				case "personalize":
+					foreach ($this->request->post as $key => $value) {
+						$this->db->query("UPDATE personalize SET option_value='$value' WHERE option_name='$key' AND user_id=" . $this->user->id);
+					}
+				break;
+				case "administrative":
+					foreach ($this->request->post as $key => $value) {
+						$this->db->query("UPDATE options SET option_value='$value' WHERE option_name='$key'");
+					}
+				break;
+			}
+		}
+		echo json_encode(true);
 	}
 	
 }
