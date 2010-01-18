@@ -1,1 +1,47 @@
-si mark lester ay nandito
+5.0 Conclusion
+
+As discussed from the previous chapters, the proposed system, from the conception to its current development provided both the user and the developer a number of ways to collaborate and work before and after the current release. The system used a number of new implementations from the current trend of web technology, in essence utilizing the basic concept of cloud computing. The proposed system makes use of the most commonly used programming language on the web, the open-source PHP and the ever present browser scripting language, Javascript, to its advantage.
+
+During the first iteration of the development cycle, the first prototype was conceived. In this stage of development, the application supported a confident code base that can cater 3rd party development, and security in par to enterprise applications better than the current system. It also boasts versatility because of support for popular web services and social networks. The native look of the interface do not alienate the user is any way that distracts them in using it. All in all, every aspect of the system may be usable by not just one user group but a number of groups in general. Applications, Modules and Plugins within the system uses a single rule of code, the API. This API is the backbone to the system that provides the user and developer extensibility and interoperability with both external and internal transactions.
+           
+ The user groups that are currently adapting to the concept of web offices, working online or cloud computing in general proves to be useful as they are abstracted away from what is really behind how the system works where external services and internal interactions occur.
+
+In conclusion, it is determined that the system is useful in various ways where internet able applications reside. Workflow is improved greatly as the problem of compatibility and trust is solved. Also, the issue of lack of web presence is eliminated because of the use of 3rd party applications and plugins. As the program increases in popularity, the userbase and the codebase will grow extensively as envisioned from popular business models.
+
+There is a bright future with the current trend of Cloud Computing. With the continued development of the system, the Developers gained and continue to gain valuable knowledge that will be beneficial to them and for others at present and in the future. Users that will use the system will also benefit greatly from this Open Source alternative for web offices. 
+
+
+4.0 Performance Analysis
+4.1 Introduction
+A software system needs to be tested rigorously to seek out flaws and incorrect implementations throughout its development lifecycle. Software always go through the testing step to correct mistakes, remove faults and improve the flow of operation. Even though this step is the most hardest, it is the most essential in every development workflow.
+Testing often requires the software to be tested internally and externally. Internal testing makes use of the current codebase and checking if it runs in various scenarios and in different approaches. External testing on the other hand makes use of what is available to an end-user and gathering information on how the software works under regular or stressed use and how the software should work.
+The Nimbus system undergoes both internal and external testing continuously and is proving to be a valuable asset to the development lifecycle. The following topics are the points used in the testing process of the system.
+
+4.2 Experimental
+	4.2.1 White-box, Unit and Incremental Integration Testing
+	White-box Testing is based on knowledge of the internal logic of an application’s code. Also known as Glass box Testing. Internal software and code working should be known for this type of testing. Tests are based on coverage of code statements, branches, paths, conditions.
+	Unit Testing is a type of Test which checks individual software components or modules. This is typically done by the programmer and not by testers, as it requires detailed knowledge of the internal program design and code. This may require developing test driver modules or test harnesses.
+	Incremental Integration Testing is a Bottom up approach for testing continuously (Continuous testing of an application as new functionality is added). Application functionality and modules should be independent enough to test separately. This is done by programmers or by testers on controlled environments.
+	The most dominant method of testing from the following is Test-Driven Development which is a software development technique that relies on the repetition of a very short development cycle: First the developer writes a failing automated test case that defines a desired improvement or new function, then produces code to pass that test and finally refactors the new code to acceptable standards. TDD encourages simple designs and inspires confidence.
+	
+	4.2.2 Usability and Acceptance Testing
+Usability Testing or User-friendliness check is where application flow is tested. This knows if a new user can understand the application easily and provides proper help whenever a user is stuck at any point. Basically system navigation is checked in this testing.
+Acceptance Testing is normally a type of testing done to verify if a system meets the customer specified requirements. A user or customer does this testing to determine whether to accept application.
+Although the current system lacks this type of test greatly, it is still envisioned that this test be done as soon as a test group is fashioned. Tests were conducted on a small group only.
+	4.2.3 Security Testing
+Security Testing is determining when a system can be penetrated by any hacking way. Testing how well the system protects against unauthorized internal or external access. This checks if the system or the database is safe from external attacks.
+This is a major concern as the system will often reside on shared servers or hosts. Testing is done extensively on ACL (access control list)/Permission based scenarios. Applications and Resources are confidently protected by the system locks.
+	4.2.4 Stress and Compatibility Testing
+Stress Testing is testing that stresses the system beyond its specifications to check how and when it fails. This is performed under heavy load like putting large number beyond storage capacity, complex database queries, continuous input to system or database load.
+Compatibility Testing is how well software performs in a particular hardware/software/operating system/network environment and different combination s of above.
+Testing in this domain is the first layer done by the system itself. It checks for compatibilities and prints out faults upon detection.
+4.3 Result Analysis
+Testing proves to be a valuable asset in development of any software. In the case of developing nimbus, it is and continues to be, a basis of a confident codebase development. Furthermore the development is made easier since internal test results are seen immediately. 
+Using the external test results proved to be useful in both usability and acceptance of a user to the system. Also, it made a significant change to how the system works and how it shouldn’t. 
+The system also proved to be secure for production use because of a number of security tests made from and to the system through malicious or clean channels of communication, such as Web services or Cross site Injections. 
+
+4.4 Summary 
+Overall, the system scored exceptionally on all areas of testing. Although the time it took was pretty short, it echoed valuable information for continued development of the system on both the user and developer domains. 
+
+References:
+http://www.softwaretestinghelp.com/types-of-software-testing/

@@ -1,20 +1,6 @@
 #config-container {
 	width: 100%;
 }
-.tab-content {
-	width: 100%;
-}
-	.tab-content .frame {
-		margin: 4px;
-		padding: 4px;
-		padding-right: 0;
-		height: 386px;
-		border: 1px solid #b6bccc;
-		-moz-border-radius: 3px;
-		-webkit-border-radius: 3px;
-		-khtml-border-radius: 3px;
-		overflow: auto;
-	}
 #config-container table tr td {
 	padding: 4px 8px;
 }
@@ -34,3 +20,6 @@
 	margin: 8px;
 	color: #bababa;
 }
+	.tab-content .frame {
+		height: 386px;
+	}

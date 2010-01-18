@@ -15,11 +15,11 @@
 	bottom: 0;
 	right: 0;
 }
-	.desktop-icons .icon {
+	.desktop-icons .icon, .instance .icon {
 		height: 80px;
 		clear: both;
 	}
-	.desktop-icons .item {
+	.desktop-icons .item, .instance .item {
 		/*position: absolute;*/
 		float: left;
 		padding: 0 !important;
@@ -32,35 +32,35 @@
 		-webkit-border-radius: 8px;
 		-khtml-border-radius: 8px;
 	}
-	.desktop-icons .item .icon-inner { 
+	.desktop-icons .item .icon-inner, .instance .item .icon-inner { 
 		border: 1px solid transparent;
 		padding: 4px;
 		width: 64px;
 	}
-		.desktop-icons  .item:hover .icon-inner, .desktop-icons  .item:active .icon-inner { 
+		.desktop-icons  .item:hover .icon-inner, .instance .item:hover .icon-inner, .desktop-icons  .item:active .icon-inner { 
 			border: 1px solid rgba(255, 255, 255, 0.4);
 			border-top: 1px solid rgba(255, 255, 255, 0.7);
 			-moz-border-radius: 7px;
 			-webkit-border-radius: 7px;
 			-khtml-border-radius: 7px;
 		}
-		.desktop-icons  .item:hover, .desktop-icons  .item.selected {
+		.desktop-icons  .item:hover, .instance .item:hover, .desktop-icons  .item.selected, .instance .item.selected {
 			border: 1px solid rgba(0, 0, 0, 0.4);
 			background: url('?res=app://desktop/shell/images/icon-hover.png') repeat-x bottom left scroll;
 			-moz-box-shadow: 0 0 5px #c0c0c0;
 			-webkit-box-shadow: 0 0 5px #c0c0c0;
 		}
-		.desktop-icons  .item.selected:hover, .desktop-icons  .item:active {
+		.desktop-icons  .item.selected:hover, .desktop-icons  .item:active, .instance .item:active, .instance .item.selected:active {
 			border: 1px solid rgba(0, 0, 0, 0.7);
 		}
-		.desktop-icons  .item:active {
+		.desktop-icons  .item:active, .instance .item:active {
 			background: url('?res=app://desktop/shell/images/icon-click.png') repeat-x top left scroll;
 		}
-		.desktop-icons  a {
+		.desktop-icons  a, .instance  a {
 			text-shadow: 0 0 2px #000000;
 			color: #ffffff;
 		}
-		.desktop-icons  a img{
+		.desktop-icons  a img, .instance  a img{
 			display: block;
 			margin: 0 AUTO;
 			width: 32px;
@@ -304,6 +304,16 @@
 	color: #fff;
 	font-size: 90%;
 }
+#loading-container-desktop {
+	position: absolute;
+	display: none;
+	color: #ffffff;
+	background: #000000 url('/public/resources/images/loading.gif') no-repeat 6px 8px scroll;
+	left: 8px;
+	bottom: 8px;
+	padding: 8px;
+	padding-left: 30px;
+}
 #nimbus-tray {
 	position: absolute;
 	left: 0;
@@ -322,8 +332,6 @@
 	position: absolute;
 	top: 32px;
 	margin-left: -1px;
-	background: rgba(0, 0, 0, 0.7);
-	border: 1px solid #000000;
 	z-index: 700;
 	border-top: 0;
 	-moz-border-radius-bottomleft: 3px;
@@ -335,8 +343,6 @@
 	color: #ffffff;
 }
 	#nimbusbar-menu-container .inner {
-		width: 686px;
-		height: 367px;
 		-moz-border-radius-bottomleft: 2px;
 		-moz-border-radius-bottomright: 2px;
 		-webkit-border-bottom-left-radius: 2px;
@@ -344,124 +350,74 @@
 		-khtml-border-radius-bottomleft: 2px;
 		-khtml-border-radius-bottomright: 2px;
 	}
-		#nimbusbar-menu-container .inner .items {}
-			#nimbusbar-menu-container .inner .item {
-				padding: 8px;
+		#nimbusbar-menu-container .item.header {
+			padding: 8px;
+			color: #000000;
+			font-style: italic;
+			font-size: 16px;
+		}
+		#nimbusbar-menu-container ul {
+			border: 1px solid #000000;
+			border-left: 0;
+			/*-moz-box-shadow: 0 0 24px #000000;
+			-webkit-box-shadow: 0 0 24px #000000;*/
+		}
+		#nimbusbar-menu-container li {
+			padding: 1px;
+			background: rgba(255, 255, 255, 0.9);
+		}
+		#nimbusbar-menu-container li.separator span {
+			display: block;
+			background: transparent url('?res=app://desktop/shell/images/usermenudivider.png') repeat-x top left scroll;
+			height: 2px;
+			border: 0;
+			margin-left: 32px;
+			margin-right: 2px;
+		}
+			#nimbusbar-menu-container li a {
+				display: block;
+				margin: 1px;
+				border: 1px solid transparent;
+				color: #000000;
+				text-shadow: 0 1px 0 #ffffff;
 			}
-				#nimbusbar-menu-container .inner .item h1 {
-					font-size: 140%;
-					font-weight: bold;
-					text-transform: uppercase;
-					font-family: 'Myriad Pro', Calibri, 'Segoe UI';
+			#nimbusbar-menu-container li a span {
+				display: block;
+				padding: 2px 16px 2px 32px;
+				border: 1px solid transparent;
+			}
+			#nimbusbar-menu-container li a:hover {
+				background-color: rgba(255, 255, 255, 0.3);
+				border: 1px solid rgba(0, 102, 204, 0.4);
+				-moz-border-radius: 3px;
+				-webkit-border-radius: 3px;
+				-khtml-border-radius: 3px;
+			}
+			#nimbusbar-menu-container li a:hover span {
+				border: 1px solid rgba(255, 255, 255, 0.5);
+				border-bottom: 1px solid transparent;
+				-moz-border-radius: 2px;
+				-webkit-border-radius: 2px;
+				-khtml-border-radius: 2px;
+			}
+				#texteditor-icon {
+					background: transparent url('?res=img://icons/Tango/16/apps/accessories-text-editor.png') no-repeat 4px 4px scroll;
 				}
-					#nimbusbar-menu-container .inner .columns {
-						background: #ffffff url('?res=app://desktop/shell/images/nimbusmenu.png') repeat-x top left scroll;
-						height: 300px;
-						overflow: auto;
-						border: 1px solid #ffffff;
-						border-top: 0;
-						-moz-border-radius-bottomleft: 2px;
-						-moz-border-radius-bottomright: 2px;
-						-webkit-border-bottom-left-radius: 2px;
-						-webkit-border-bottom-right-radius: 2px;
-						-khtml-border-radius-bottomleft: 2px;
-						-khtml-border-radius-bottomright: 2px;
-					}
-						.columns h1 {
-							padding: 6px 8px 0 0;
-							color: #000000;
-							text-shadow: 0 -1px 0 #ffffff;
-						}
-						.menus .collection {
-							padding: 12px 0;
-						}
-						.menus .menu {
-							clear: both;
-						}
-						.menus .collection .item { /*Same effect as in the desktop*/
-							float: left;
-							padding: 0 !important;
-							margin-right: 8px;
-							text-align: center;
-							border: 1px solid transparent;
-							text-align: center;
-							word-wrap: break-word;
-							-moz-border-radius: 6px;
-							-webkit-border-radius: 6px;
-							-khtml-border-radius: 6px;
-						}
-						.menus .collection .item .icon-inner { 
-							border: 1px solid transparent;
-							padding: 4px;
-							width: 64px;
-						}
-							.menus .collection .item:hover .icon-inner, .menus .collection .item:active .icon-inner { 
-								border: 1px solid #ffffff;
-								-moz-border-radius: 5px;
-								-webkit-border-radius: 5px;
-								-khtml-border-radius: 5px;
-							}
-							.menus .collection .item:hover, .menus .collection .item.selected {
-								border: 1px solid rgba(0, 0, 0, 0.3);
-								background: #ffffff url('?res=app://desktop/shell/images/icon-hover.png') repeat-x bottom left scroll;
-								-moz-box-shadow: 0 0 5px #c0c0c0;
-								-webkit-box-shadow: 0 0 5px #c0c0c0;
-							}
-							.menus .collection .item.selected:hover {
-								border: 1px solid rgba(0, 0, 0, 0.6);
-							}
-							.menus .collection .item:active {
-								border: 1px solid rgba(0, 0, 0, 0.7);
-								background: #ffffff url('?res=app://desktop/shell/images/icon-click.png') repeat-x top left scroll;
-							}
-							.menus .collection a{
-								text-shadow: 0 0 2px #000000;
-								color: #ffffff;
-							}
-							.menus .collection a img{
-								display: block;
-								margin: 0 AUTO;
-								width: 32px;
-							}
-					#nimbusbar-menu-container .inner .menu-search {
-						border: 1px solid rgba(255, 255, 255, 0.2);
-						border-top: 0;
-						border-bottom: 0;
-					}
-						.menu-search h1, .menu-search p, .menu-search input {
-							float: left;
-						}
-						.menu-search h1 {
-							padding: 6px 8px 0 0;
-							color: #ffffff;
-							text-shadow: 0 -1px 0 #000000;
-						}
-						.menu-search p {
-							padding: 8px 0 0 8px;
-						}
-							.menu-search p a {
-								color: #ffffff;
-							}
-							.menu-search p a:hover{
-								text-decoration: underline;
-							}
-						.menu-search input {
-							padding: 4px;
-							width: 500px;
-							background: #ffffff;
-							font-family: 'Myriad Pro', Calibri, 'Segoe UI';
-							font-size: 120%;
-							font-style: italic;
-							border: 1px solid #000000;
-							-moz-border-radius: 4px;
-							-webkit-border-radius: 4px;
-							-khtml-border-radius: 4px;
-						}
-							.menu-search input:focus {
-								-moz-box-shadow: 0 0 12px #0066cc;
-								-webkit-box-shadow: 0 0 12px #0066cc;
-								border: 1px solid #67b0f8;
-							}
-				.ui-draggable-dragging {
-					z-index: 600;
+				#calculator-icon {
+					background: transparent url('?res=img://icons/Tango/16/apps/accessories-calculator.png') no-repeat 4px 4px scroll;
+				}
+				#calendar-icon {
+					background: transparent url('?res=img://icons/Tango/16/apps/office-calendar.png') no-repeat 4px 4px scroll;
+				}
+				#terminal-icon {
+					background: transparent url('?res=img://icons/Tango/16/apps/utilities-terminal.png') no-repeat 4px 4px scroll;
+				}
+				#config-icon {
+					background: transparent url('?res=img://icons/Tango/16/categories/applications-system.png') no-repeat 4px 4px scroll;
+				}
+				#usermanager-icon {
+					background: transparent url('?res=img://icons/Tango/16/apps/system-users.png') no-repeat 4px 4px scroll;
+				}
+				#instance-icon {
+					background: transparent url('?res=img://icons/Tango/16/apps/utilities-system-monitor.png') no-repeat 4px 4px scroll;
 				}

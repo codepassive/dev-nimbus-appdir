@@ -7,7 +7,9 @@ $timezones = array('Africa/Abidjan','Africa/Accra','Africa/Addis_Ababa','Africa/
 		<div class="tab-buttons">
 			<a href="javascript:;" class="tab-button focus" title="personalize"><span><?php __('config/personalize'); ?></span></a>
 			<a href="javascript:;" class="tab-button" title="regional"><span><?php __('config/regionalsettings'); ?></span></a>
+			<?php if (personal('is_admin') == '1') { ?>
 			<a href="javascript:;" class="tab-button" title="administrative"><span><?php __('config/administrativesettings'); ?></span></a>
+			<?php } ?>
 			<div class="clear"></div>
 		</div>
 		<div class="tab-content focus" id="personalize">
@@ -90,7 +92,7 @@ $timezones = array('Africa/Abidjan','Africa/Accra','Africa/Addis_Ababa','Africa/
 								<?php
 									foreach ($timezones as $timezone) {
 										$selected = '';
-										if (personal('timezone') == strtolower($timezone)) {
+										if (personal('timezone') == $timezone) {
 											$selected = ' selected="selected"';
 										}
 										echo '<option value="' . $timezone . '"' . $selected . '>' . $timezone . '</option>';
@@ -140,6 +142,7 @@ $timezones = array('Africa/Abidjan','Africa/Accra','Africa/Addis_Ababa','Africa/
 				<p class="helptext"><?php __('config/helptext_regional'); ?></p>
 			</div>
 		</div>
+		<?php if (personal('is_admin') == '1') { ?>
 		<div class="tab-content" id="administrative">
 			<div class="frame">
 				<p class="helptexttop"><?php __('config/administrative_top'); ?></p>
@@ -272,5 +275,6 @@ $timezones = array('Africa/Abidjan','Africa/Accra','Africa/Addis_Ababa','Africa/
 				<p class="helptext"><?php __('config/helptext_administrative'); ?></p>
 			</div>
 		</div>
+		<?php } ?>
 	</div>
 </div>

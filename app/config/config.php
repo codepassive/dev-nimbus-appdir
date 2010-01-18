@@ -104,12 +104,13 @@ class config extends Application implements ApplicationInterface {
 				'handle' => $this->api_handle,
 				'id' => 'config-container-' . generateHash(microtime()),
 				'type' => 0,
-				'classes' => array('config'),
+				'classes' => array('config', 'static'),
 				'title' => 'Nimbus Configuration Dashboard',
 				'x' => 'center',
 				'y' => 'center',
 				'width' => '500px',
 				'icon' => config('appurl') . 'public/resources/images/icons/Tango/16/categories/applications-system.png',
+				'height' => '454px',
 				'toolbars' => array(),
 				'content' => array(
 								$this->useTemplate('shell/config')
@@ -124,7 +125,7 @@ class config extends Application implements ApplicationInterface {
 				'minimizable' => true,
 				'closable' => true,
 				'toggable' => false,
-				'resizable' => true,
+				'resizable' => false,
 				'draggable' => true,
 			));
 		//Return the window flags

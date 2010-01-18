@@ -1,0 +1,38 @@
+#usermanager-container .tab-content .frame {
+	height: 400px;
+}
+#usermanager-container .table-container {
+	overflow: auto;
+	height: 328px;
+}
+#usermanager-container table tr td {
+	padding: 4px 8px;
+}
+#usermanager-container .avatar {
+	margin: 4px 8px;
+	float: right;
+}
+#usermanager-container .avatar span {
+	position: absolute;
+	display: none;
+	background: rgba(255, 255, 255, 0.6);
+	padding: 4px;
+}
+#usermanager-container .avatar:hover span {
+	display: block;
+}
+#usermanager-container h3 {
+	font-size: 16px;
+	padding: 0;
+	margin: 8px;
+	color: #bababa;
+}
+#usermanager-container .textarea {
+	padding: 4px;
+	margin: 4px 0;
+	border: 1px solid #2e3436;
+	background: #ffffff url('images/textbox.png') repeat-x top left scroll;
+	font-family: inherit;
+	font-size: 11px;
+	text-shadow: 0 1px 1px #ffffff;
+}
