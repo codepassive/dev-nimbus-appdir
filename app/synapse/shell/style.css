@@ -1,44 +1,24 @@
-.instance {
-	top: 38px;
-	left: auto;
-	right: 2px;
-}
-.instance .titlebar .icon {
-	display: none;
-}
-.instance .icons .icon .item {
-	float: left;
-	padding: 0 !important;
-	margin: 8px;
-	text-align: center;
-	border: 1px solid transparent;
-	text-align: center;
-	word-wrap: break-word;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
-	-khtml-border-radius: 8px;
-}
-.instance .icons .icon .icon-inner { 
-	border: 1px solid transparent;
-	padding: 4px;
-	width: 64px;
-}
-.instance h3 {
+#synapse-container h3 {
 	font-size: 16px;
 	padding: 0;
-	margin: 8px 8px 0;
+	margin: 8px;
 	color: #bababa;
 }
-.instance .frame {
-	margin: 4px;
-	padding: 4px;
-	padding-right: 0;
-	border: 1px solid #b6bccc;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	-khtml-border-radius: 3px;
-	overflow: auto;
+#synapse-container h4 {
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 52px;
 }
-.instance .active_instance td {
-	padding: 4px;
+#synapse-container .frame {
+	background: #fff url('public/resources/images/icons/Tango/48/mimetypes/archive.png') no-repeat 2px 14px scroll;
+	height: 160px;
+	margin: 8px 12px;
+}
+#synapse-container .frame p {
+	margin-bottom: 8px;
+	margin-left: 52px;
+	margin-right: 12px;
+}
+.hidden {
+	display: none;
 }

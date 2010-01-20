@@ -61,14 +61,14 @@ class textedit extends Application implements ApplicationInterface {
 	 *
 	 * @access	Public
 	 */
-	public $update_url = 'http://synapse.nimbusdesktop.org/latest/textedit/';
+	public $update_url = 'http://thesis/apps/textedit/';
 
 	/**
 	 * The version of the application
 	 *
 	 * @access	Public
 	 */
-	public $version = '1.0';
+	public $version = '1.0.0';
 
 	/**
 	 * The javascript handle of the application

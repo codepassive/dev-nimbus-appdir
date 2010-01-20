@@ -89,28 +89,7 @@ class instance extends Application implements ApplicationInterface {
 	 *
 	 * @access	Public
 	 */
-	public function init(){
-		/*$arr = array();
-		$arr['textedit'] = new stdClass();
-		$arr['textedit']->name = 'Nimbus Textedit';
-		$arr['textedit']->handle = 'textedit';
-		$arr['textedit']->icon = config('appurl') . 'public/resources/images/icons/Tango/32/apps/accessories-text-editor.png';
-		$arr['calculator'] = new stdClass();
-		$arr['calculator']->name = 'Nimbus Calculator';
-		$arr['calculator']->handle = 'calculator';
-		$arr['calculator']->icon = config('appurl') . 'public/resources/images/icons/Tango/32/apps/accessories-calculator.png';
-		$arr['terminal'] = new stdClass();
-		$arr['terminal']->name = 'Nimbus Terminal';
-		$arr['terminal']->handle = 'terminal';
-		$arr['terminal']->icon = config('appurl') . 'public/resources/images/icons/Tango/32/apps/utilities-terminal.png';
-		$arr['calendar'] = new stdClass();
-		$arr['calendar']->name = 'Nimbus Calendar';
-		$arr['calendar']->handle = 'calendar';
-		$arr['calendar']->icon = config('appurl') . 'public/resources/images/icons/Tango/32/apps/office-calendar.png';
-		echo "<pre>";		
-		print_r($arr);
-		echo serialize($arr);*/
-	}
+	public function init(){}
 	
 	public function main(){
 		//Create a Window

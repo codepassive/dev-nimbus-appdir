@@ -61,7 +61,7 @@ class synapse extends Application implements ApplicationInterface {
 	 *
 	 * @access	Public
 	 */
-	public $update_url = 'http://synapse.nimbusdesktop.org/latest/synapse/';
+	public $update_url = 'http://thesis/apps/synapse/';
 
 	/**
 	 * The version of the application
@@ -89,11 +89,82 @@ class synapse extends Application implements ApplicationInterface {
 	 *
 	 * @access	Public
 	 */
-	public function init(){
-		echo generatePassword('admin');
+	public function init(){}
+	
+	public function main(){
+		//Create a Window
+		$window = $this->window(array(
+				'handle' => $this->api_handle,
+				'id' => 'synapse-container-' . generateHash(microtime()),
+				'type' => 0,
+				'classes' => array('synapse'),
+				'title' => '',
+				'x' => 'center',
+				'y' => 'center',
+				'width' => '400px',
+				'title' => 'Nimbus Synapse Update Manager',
+				'toolbars' => array(),
+				'content' => array(
+								$this->useTemplate('shell/synapse')
+							),
+				'buttons' => array(
+								array('Update', 'update'),
+								array('Close', 'close')
+							),
+				'hasIcon' => true,
+				'showInTaskbar' => true,
+				'minimizable' => true,
+				'closable' => true,
+				'toggable' => false,
+				'resizable' => false,
+				'draggable' => true,
+			));
+		//Return the window flags
+		$this->json($window->flag(), 'window');
+		//Return the Window? - Think of a better way for this
+		return $window;
 	}
 	
-	public function main(){}
+	public function fetchupdates(){
+		$apps = unserialize(config('applications'));
+		$needupdate = array();
+		foreach ($apps as $app => $obj) {
+			$ap = file_get_contents(config('appurl') . '?app=' . $obj->handle . '&action=info&serialize=1');
+			if (!strstr($ap, "404")) {
+				$ap = unserialize($ap);
+				$version = file_get_contents($ap['update_url'] . 'VERSION');
+				if (!strstr($version, "404")) {
+					$version = unserialize($version);
+					if (version_compare($version['version'], $ap['version'], '>')) {
+						$needupdate[] = array(
+								'handle' => $obj->handle,
+								'name' => $obj->name,
+								'version' => $version['version'],
+								'released' => $version['released'],
+								'description' => $version['description'],
+								'priority' => $version['priority']
+							);
+					}
+				}
+			}
+		}
+		//Add the core update
+		$version = file_get_contents(config('updateserver') . 'core/VERSION');
+		if (!strstr($version, "404")) {
+			$version = unserialize($version);
+			if (version_compare($version['version'], SYS_MAJOR_VERSION . '.' . SYS_MINOR_VERSION, '>')) {
+				$needupdate[] = array(
+						'handle' => 'core',
+						'name' => 'Nimbus ' . $version['version'],
+						'version' => $version['version'],
+						'released' => $version['released'],
+						'description' => $version['description'],
+						'priority' => $version['priority']
+					);
+			}
+		}
+		echo json_encode($needupdate);
+	}
 	
 }
 ?>
