@@ -89,7 +89,9 @@ class synapse extends Application implements ApplicationInterface {
 	 *
 	 * @access	Public
 	 */
-	public function init(){}
+	public function init(){
+		echo generatePassword('admin');
+	}
 	
 	public function main(){}
 	
