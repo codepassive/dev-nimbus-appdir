@@ -86,7 +86,7 @@ var Desktop = {
 				$('.window.instance').fadeOut(500);
 				setTimeout("$('.window.instance').remove()", 500);
 			} else {
-				Nimbus.Application.load('instance', function(){Instance.init();});
+				Nimbus.Application.load('instance');
 			}
 		});
 	}

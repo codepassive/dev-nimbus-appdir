@@ -1,0 +1,10 @@
+#fileexplorer-container {
+	overflow: auto;
+}
+.fileexplorer .toolbars-top .toolbar-row .text {
+	margin: 4px;
+	background: #ffffff url('public/resources/images/icons/Silk/arrow_right.png') no-repeat 99% center scroll;
+}
+.fileexplorer .toolbars-top  .fill-vertical {
+	width: 97%;
+}

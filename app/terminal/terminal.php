@@ -98,7 +98,7 @@ class Terminal extends Application implements ApplicationInterface {
 	 */
 	public function init(){
 		//Include the language list
-		$language = 'shell' . DS . 'languages' . DS . config('language') . '.php';
+		$language = 'shell' . DS . 'languages' . DS . personal('language') . '.php';
 		if (!file_exists($language)) {
 			$language = 'shell' . DS . 'languages' . DS . 'en-us.php';
 		}

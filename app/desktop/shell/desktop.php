@@ -1,3 +1,20 @@
+<!-- CUSTOM -->
+<style type="text/css">
+.screen {
+	font-size: <?php echo personal('font_size'); ?>;
+}
+</style>
+<script type="text/javascript">
+	<?php echo (personal('theme') != 'default') ? "$('#stylesheet-parent').attr('href','" . personal('theme') . "');": ''; ?>;	
+	Nimbus.Desktop.refreshRate = <?php echo personal('refresh_rate'); ?>;
+	Nimbus.Desktop.shortcuts = <?php echo personal('shortcuts'); ?>;
+	<?php if (is_array(unserialize(personal('background')))) { ?>
+		Nimbus.Desktop.background(<?php echo json_encode(unserialize(personal('background'))) ?>, 30);
+	<?php } else { ?>
+		Nimbus.Desktop.background('<?php echo unserialize(personal('background')); ?>');
+	<?php } ?>
+</script>
+<!-- /CUSTOM -->
 <div id="desktop-container">
 	<div id="icon-screen">
 		<div class="desktop-icons"></div>

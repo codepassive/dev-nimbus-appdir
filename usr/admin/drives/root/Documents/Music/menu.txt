@@ -1,0 +1,161 @@
+<div class="item menu-search">
+								<h1><?php __('search'); ?></h1>
+								<input type="text" value="<?php __('search_more'); ?>" id="quicksearch_from_menu" onfocus="if(this.value == '<?php __('search_more'); ?>'){this.value='';}" onblur="if(this.value==''){this.value='<?php __('search_more'); ?>';}"/>
+								<p><a href="javascript:;" id=""><?php __('advanced_search'); ?></a></p>
+								<div class="clear"></div>
+							</div>
+							<div class="item columns">
+								<div class="menus">
+									<div class="menu" id="menu-quickapps">
+										<h1><?php __('quick_apps'); ?></h1>
+										<div class="collection">
+											<!--div class="item"><div class="icon-inner"><a href="javascript:;" title="Application"><img src="http://thesis/public/resources/images/icons/Tango/32/apps/help-browser.png" border="0" alt="" /></a><a href="javascript:;" title="Application">User Documentation</a></div></div-->
+										</div>
+									</div>
+									<div class="menu" id="menu-applications">
+										<h1><?php __('applications'); ?></h1>
+										<div class="collection"></div>
+									</div>
+									<div class="menu" id="menu-system">
+										<h1><?php __('system'); ?></h1>
+										<div class="collection"></div>
+									</div>
+									<div class="menu" id="menu-places">
+										<h1><?php __('places'); ?></h1>
+										<div class="collection"></div>
+									</div>
+									<div class="clear"></div>
+								</div>
+								<div class="searchresults"></div>
+							</div>
+
+
+
+
+
+
+
+
+
+
+		#nimbusbar-menu-container .inner .items {}
+			#nimbusbar-menu-container .inner .item {
+				padding: 8px;
+			}
+				#nimbusbar-menu-container .inner .item h1 {
+					font-size: 140%;
+					font-weight: bold;
+					text-transform: uppercase;
+					font-family: 'Myriad Pro', Calibri, 'Segoe UI';
+				}
+					#nimbusbar-menu-container .inner .columns {
+						background: #ffffff url('?res=app://desktop/shell/images/nimbusmenu.png') repeat-x top left scroll;
+						height: 300px;
+						overflow: auto;
+						border: 1px solid #ffffff;
+						border-top: 0;
+						-moz-border-radius-bottomleft: 2px;
+						-moz-border-radius-bottomright: 2px;
+						-webkit-border-bottom-left-radius: 2px;
+						-webkit-border-bottom-right-radius: 2px;
+						-khtml-border-radius-bottomleft: 2px;
+						-khtml-border-radius-bottomright: 2px;
+					}
+						.columns h1 {
+							padding: 6px 8px 0 0;
+							color: #000000;
+							text-shadow: 0 -1px 0 #ffffff;
+						}
+						.menus .collection {
+							padding: 12px 0;
+						}
+						.menus .menu {
+							clear: both;
+						}
+						.menus .collection .item { /*Same effect as in the desktop*/
+							float: left;
+							padding: 0 !important;
+							margin-right: 8px;
+							text-align: center;
+							border: 1px solid transparent;
+							text-align: center;
+							word-wrap: break-word;
+							-moz-border-radius: 6px;
+							-webkit-border-radius: 6px;
+							-khtml-border-radius: 6px;
+						}
+						.menus .collection .item .icon-inner { 
+							border: 1px solid transparent;
+							padding: 4px;
+							width: 64px;
+						}
+							.menus .collection .item:hover .icon-inner, .menus .collection .item:active .icon-inner { 
+								border: 1px solid #ffffff;
+								-moz-border-radius: 5px;
+								-webkit-border-radius: 5px;
+								-khtml-border-radius: 5px;
+							}
+							.menus .collection .item:hover, .menus .collection .item.selected {
+								border: 1px solid rgba(0, 0, 0, 0.3);
+								background: #ffffff url('?res=app://desktop/shell/images/icon-hover.png') repeat-x bottom left scroll;
+								-moz-box-shadow: 0 0 5px #c0c0c0;
+								-webkit-box-shadow: 0 0 5px #c0c0c0;
+							}
+							.menus .collection .item.selected:hover {
+								border: 1px solid rgba(0, 0, 0, 0.6);
+							}
+							.menus .collection .item:active {
+								border: 1px solid rgba(0, 0, 0, 0.7);
+								background: #ffffff url('?res=app://desktop/shell/images/icon-click.png') repeat-x top left scroll;
+							}
+							.menus .collection a{
+								text-shadow: 0 0 2px #000000;
+								color: #ffffff;
+							}
+							.menus .collection a img{
+								display: block;
+								margin: 0 AUTO;
+								width: 32px;
+							}
+					#nimbusbar-menu-container .inner .menu-search {
+						border: 1px solid rgba(255, 255, 255, 0.2);
+						border-top: 0;
+						border-bottom: 0;
+					}
+						.menu-search h1, .menu-search p, .menu-search input {
+							float: left;
+						}
+						.menu-search h1 {
+							padding: 6px 8px 0 0;
+							color: #ffffff;
+							text-shadow: 0 -1px 0 #000000;
+						}
+						.menu-search p {
+							padding: 8px 0 0 8px;
+						}
+							.menu-search p a {
+								color: #ffffff;
+							}
+							.menu-search p a:hover{
+								text-decoration: underline;
+							}
+						.menu-search input {
+							padding: 4px;
+							width: 500px;
+							background: #ffffff;
+							font-family: 'Myriad Pro', Calibri, 'Segoe UI';
+							font-size: 120%;
+							font-style: italic;
+							border: 1px solid #000000;
+							-moz-border-radius: 4px;
+							-webkit-border-radius: 4px;
+							-khtml-border-radius: 4px;
+						}
+							.menu-search input:focus {
+								-moz-box-shadow: 0 0 12px #0066cc;
+								-webkit-box-shadow: 0 0 12px #0066cc;
+								border: 1px solid #67b0f8;
+							}
+				.ui-draggable-dragging {
+					z-index: 600;
+				}

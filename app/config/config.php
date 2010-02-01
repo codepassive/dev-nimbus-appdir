@@ -91,7 +91,7 @@ class config extends Application implements ApplicationInterface {
 	 */
 	public function init(){
 		//Include the language list
-		$language = 'shell' . DS . 'languages' . DS . config('language') . '.php';
+		$language = 'shell' . DS . 'languages' . DS . personal('language') . '.php';
 		if (!file_exists($language)) {
 			$language = 'shell' . DS . 'languages' . DS . 'en-us.php';
 		}
@@ -190,7 +190,15 @@ class config extends Application implements ApplicationInterface {
 				case "regional":
 				case "personalize":
 					foreach ($this->request->post as $key => $value) {
-						$this->db->query("UPDATE personalize SET option_value='$value' WHERE option_name='$key' AND user_id=" . $this->user->id);
+						if ($key == 'background') {
+							if (strstr($value, ",")) {
+								$value = explode(",", $value);
+							}
+							$value = serialize($value);
+						}
+						if ($value != '') {
+							$this->db->query("UPDATE personalize SET option_value='$value' WHERE option_name='$key' AND user_id=" . $this->user->id);
+						}
 					}
 				break;
 				case "administrative":

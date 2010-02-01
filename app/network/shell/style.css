@@ -1,0 +1,43 @@
+#network-container {
+	overflow: auto;
+}
+.network .toolbars-top a {
+	display: block;
+	float: left;
+	margin: 2px;
+	border: 1px solid transparent;
+}
+.network .toolbars-top a span {
+	display: block;
+	padding: 2px;
+	padding-bottom: 0;
+	border: 1px solid transparent;
+}
+.network .toolbars-top a:hover {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+}
+.network .toolbars-top a:hover span {
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+}
+.network .toolbars-top .toolbar-row .text {
+	margin: 4px;
+	background: #ffffff url('public/resources/images/icons/Silk/arrow_right.png') no-repeat 99% center scroll;
+}
+.network .toolbars-top  .fill-vertical {
+	width: 97%;
+}
+.network .grid .icon {
+	height: 70px;
+	float: left;
+	margin-bottom: 12px;
+	clear: none;
+}
+.network .sidebar {
+	margin-right: 12px;
+}

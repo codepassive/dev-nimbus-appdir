@@ -3,13 +3,18 @@
 	left: auto;
 	right: 2px;
 }
+.instance .icon {
+	height: 70px;
+	clear: both;
+}
 .instance .titlebar .icon {
 	display: none;
 }
-.instance .icons .icon .item {
+.instance .item {
+	/*position: absolute;*/
 	float: left;
 	padding: 0 !important;
-	margin: 8px;
+	margin-right: 8px;
 	text-align: center;
 	border: 1px solid transparent;
 	text-align: center;
@@ -18,11 +23,39 @@
 	-webkit-border-radius: 8px;
 	-khtml-border-radius: 8px;
 }
-.instance .icons .icon .icon-inner { 
+.instance .item .icon-inner { 
 	border: 1px solid transparent;
 	padding: 4px;
 	width: 64px;
 }
+	.instance .item:hover .icon-inner, .instance .item:active .icon-inner { 
+		border: 1px solid rgba(255, 255, 255, 0.4);
+		border-top: 1px solid rgba(255, 255, 255, 0.7);
+		-moz-border-radius: 7px;
+		-webkit-border-radius: 7px;
+		-khtml-border-radius: 7px;
+	}
+	.instance .item:hover, .instance .item.selected {
+		border: 1px solid rgba(0, 0, 0, 0.4);
+		background: url('?res=app://desktop/shell/images/icon-hover.png') repeat-x bottom left scroll;
+		-moz-box-shadow: 0 0 5px #c0c0c0;
+		-webkit-box-shadow: 0 0 5px #c0c0c0;
+	}
+	.instance .item.selected:hover, .instance .item:active {
+		border: 1px solid rgba(0, 0, 0, 0.7);
+	}
+	.instance .item:active {
+		background: url('?res=app://desktop/shell/images/icon-click.png') repeat-x top left scroll;
+	}
+	.instance a {
+		text-shadow: 0 0 2px #000000;
+		color: #ffffff;
+	}
+	.instance a img {
+		display: block;
+		margin: 0 AUTO;
+		width: 32px;
+	}
 .instance h3 {
 	font-size: 16px;
 	padding: 0;

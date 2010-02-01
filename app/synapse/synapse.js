@@ -15,15 +15,14 @@ var Synapse = {
 			$('#synapse-container .table tbody').html('');
 			$.each(result, function(i, r){
 				var odd = (i % 2 == 0) ? ' class="odd"': '';
-				$('#synapse-container .table tbody').append('<tr' + odd + '><td style="text-align:center"><input type="radio" name="updateto" val="' + r.handle + '" /></td><td class="title"><span>' + r.name + '</span></td><td style="text-align:center;"><span>' + r.version + '</span></td><td><span>' + r.released + '</span></td><td class="hidden"><span>' + r.description + '</span></td></tr>');
+				$('#synapse-container .table tbody').append('<tr' + odd + '><td style="text-align:center"><input type="radio" name="updateto" value="' + r.handle + '" /></td><td class="title"><span>' + r.name + '</span></td><td style="text-align:center;"><span>' + r.version + '</span></td><td><span>' + r.released + '</span></td><td class="hidden"><span>' + r.description + '</span></td></tr>');
 			});
 		});
-		$('#' + Synapse_window.id + ' .buttons .button:eq(1)').click(function(){
-			Nimbus.Desktop.window.close(Synapse_window.id);
-		});
-		$('#' + Synapse_window.id + ' .buttons .button:eq(0)').click(function(){
-			alert($('#synapse-container tr td input[name=updateto]').val());
-		});
-		
+	},
+	update: function(){
+		alert($('#synapse-container tr td input:checked').val());
+	},
+	close: function(){
+		Nimbus.Application.close(Synapse_window.id);
 	}
 }

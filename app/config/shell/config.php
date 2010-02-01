@@ -38,7 +38,16 @@ $timezones = array('Africa/Abidjan','Africa/Accra','Africa/Addis_Ababa','Africa/
 					</tr>
 					<tr>
 						<td><?php __('config/background'); ?></td>
-						<td><input type="button" class="button" value="<?php __('config/selectbackground'); ?>" /></td>
+						<td>
+							<input type="button" class="button" id="personalbackground" value="<?php __('config/selectbackground'); ?>" />
+							<?php
+								$backgrounds = (is_array(personal('background'))) ? unserialize(personal('background')): personal('background'); 
+								if (is_array($backgrounds)) {
+									$backgrounds = implode(",", $backgrounds);
+								}
+							?>
+							<input type="hidden" value="<?php echo $backgrounds; ?>" id="personalbackground_hidden" class="personalize_fields" name="background" />
+						</td>
 					</tr>
 					<tr>
 						<td><?php __('config/fontsize'); ?></td>
@@ -54,7 +63,6 @@ $timezones = array('Africa/Abidjan','Africa/Accra','Africa/Addis_Ababa','Africa/
 										echo '<option value="' . $fontsize . '%"' . $selected . '>' . $fontsize . '%</a>';
 									}
 								?>
-								<option>Custom</option>
 							</select>
 						</td>
 					</tr>

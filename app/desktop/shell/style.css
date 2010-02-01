@@ -50,17 +50,17 @@
 			-moz-box-shadow: 0 0 5px #c0c0c0;
 			-webkit-box-shadow: 0 0 5px #c0c0c0;
 		}
-		.desktop-icons  .item.selected:hover, .desktop-icons  .item:active, .instance .item:active, .instance .item.selected:active {
+		.desktop-icons .item.selected:hover, .desktop-icons  .item:active, .instance .item:active, .instance .item.selected:active {
 			border: 1px solid rgba(0, 0, 0, 0.7);
 		}
-		.desktop-icons  .item:active, .instance .item:active {
+		.desktop-icons .item:active, .instance .item:active {
 			background: url('?res=app://desktop/shell/images/icon-click.png') repeat-x top left scroll;
 		}
-		.desktop-icons  a, .instance  a {
+		.desktop-icons a, .instance a {
 			text-shadow: 0 0 2px #000000;
 			color: #ffffff;
 		}
-		.desktop-icons  a img, .instance  a img{
+		.desktop-icons a img, .instance a img{
 			display: block;
 			margin: 0 AUTO;
 			width: 32px;
