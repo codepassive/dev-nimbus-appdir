@@ -31,9 +31,6 @@ $timezones = array('Africa/Abidjan','Africa/Accra','Africa/Addis_Ababa','Africa/
 									}
 								?>
 							</select>
-							<div class="themescreensots">
-								<a href="javascript:;"><img src="http://dump.iamjamoy.com/workingcopy.PNG" width="200" alt="" /></a>
-							</div>
 						</td>
 					</tr>
 					<tr>
@@ -41,12 +38,29 @@ $timezones = array('Africa/Abidjan','Africa/Accra','Africa/Addis_Ababa','Africa/
 						<td>
 							<input type="button" class="button" id="personalbackground" value="<?php __('config/selectbackground'); ?>" />
 							<?php
-								$backgrounds = (is_array(personal('background'))) ? unserialize(personal('background')): personal('background'); 
+								$backgrounds = (is_array(unserialize(personal('background')))) ? unserialize(personal('background')): unserialize(personal('background')); 
 								if (is_array($backgrounds)) {
 									$backgrounds = implode(",", $backgrounds);
 								}
 							?>
 							<input type="hidden" value="<?php echo $backgrounds; ?>" id="personalbackground_hidden" class="personalize_fields" name="background" />
+							<div style="padding:8px 0;" id="backgroundimagelist">
+							<?php
+								if (is_array($backgrounds)) {
+									foreach ($backgrounds as $background) {
+										echo '<img src="' . $background . '" alt="" border="0" width="90"/>&nbsp;';
+									}
+								} else {
+									echo '<img src="' . $backgrounds . '" alt="" border="0" width="90"/>&nbsp;';
+								}
+							?>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td><?php __('config/background'); ?> Position</td>
+						<td>
+							<input type="text" class="personalize_fields" name="background_position" value="<?php echo personal('background_position'); ?>" />
 						</td>
 					</tr>
 					<tr>
@@ -123,7 +137,7 @@ $timezones = array('Africa/Abidjan','Africa/Accra','Africa/Addis_Ababa','Africa/
 							</select>
 						</td>
 					</tr>
-					<tr>
+					<!--tr>
 						<td><?php __('time'); ?></td>
 						<td colspan="3">
 							<input type="text" class="text number regional_fields" name="time_hour_now" value="<?php echo date('h'); ?>" style="width:24px;"/>
@@ -133,7 +147,7 @@ $timezones = array('Africa/Abidjan','Africa/Accra','Africa/Addis_Ababa','Africa/
 								<option value="pm"<?php echo (date('a') == 'pm') ? ' selected="selected"': ''; ?>>PM</option>
 							</select>
 						</td>
-					</tr>
+					</tr-->
 					<tr>
 						<td><?php __('date'); ?></td>
 						<td colspan="3">

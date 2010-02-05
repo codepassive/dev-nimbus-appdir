@@ -8,7 +8,7 @@
 #usermanager-container table tr td {
 	padding: 4px 8px;
 }
-#usermanager-container .avatar {
+#usermanager-container .avatar, #usermanager-container .underavatar {
 	margin: 4px 8px;
 	float: right;
 }

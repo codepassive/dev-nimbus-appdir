@@ -13,6 +13,7 @@
 	<?php } else { ?>
 		Nimbus.Desktop.background('<?php echo unserialize(personal('background')); ?>');
 	<?php } ?>
+	$('.screen-background').css({backgroundPosition:'<?php echo personal('background_position'); ?>'});
 </script>
 <!-- /CUSTOM -->
 <div id="desktop-container">

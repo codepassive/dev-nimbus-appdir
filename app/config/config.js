@@ -22,16 +22,22 @@ var Config = {
 		$('#personalbackground').click(function(){
 			Nimbus.Dialog.open({multiple:true,allow:['jpg','gif','png','bmp'],id:'dialog_' + Config_window.id,parent: Config_window.id}, function(result){
 				if (result.constructor == Array) {
+					$('#backgroundimagelist').html(' ');
+					$.each(result, function(i, e){
+						$('#backgroundimagelist').append('<img src="' + e + '" alt="" border="0" width="90"/>&nbsp;');
+					});
 					result = result.join(",");
+				} else {
+					$('#backgroundimagelist').html('<img src="' + result + '" alt="" border="0" width="90"/>&nbsp;');
 				}
 				$('#personalbackground_hidden').val(result);
-			})
+			});
 		});
 	},
 	_default: function(){
 		Nimbus.confirm({id:'dialog315125',title:'Are you sure?',content:'Are you sure you want to revert to default settings?'}, function(){
 			Nimbus.Connect.post(SERVER_URL + '?app=config&action=_default', {items:0}, function(result){
-				Nimbus.msgbox2({id:'dialog315125',title:'Nimbus Confirmation',content:'System reverted to Default Settings.'});
+				Nimbus.msgbox2({id:'closedialog-' + Config_window.id,title:'Nimbus Confirmation',content:'System reverted to Default Settings.'});
 				Config.cancel();
 			});
 		});
@@ -50,12 +56,14 @@ var Config = {
 			Nimbus.Desktop.refreshRate = request.refresh_rate;
 			Nimbus.Desktop.shortcuts = request.shortcuts;
 			var background = request.background;
+			//BACKGROUND REFERENCE DISAPPEARS
 			if (background.indexOf(",") > 0) {
 				background = background.split(",");
 				Nimbus.Desktop.background(background, 30);
 			} else {
 				Nimbus.Desktop.background(background);
 			}
+			$('.screen-background').css({backgroundPosition:request.background_position});
 			Nimbus.msgbox2({id:'dialog315125',title:'Nimbus Confirmation',content:'System Updated. The system needs to restart for some settings to take effect.'});
 		});
 	},
