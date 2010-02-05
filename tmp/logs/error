@@ -1264,3 +1264,28 @@
 [February 5, 2010 21:39:38 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
 [February 5, 2010 21:40:12 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
 [February 5, 2010 21:40:28 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 5, 2010 22:29:25 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 5, 2010 22:30:36 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 5, 2010 22:33:28 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 5, 2010 22:33:31 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 5, 2010 22:33:35 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 5, 2010 22:35:42 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 5, 2010 22:35:46 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 5, 2010 22:35:54 pm] Undefined property: User::$default on E:\Thesis\Dev\nimbus\sys\user.php:177 <strong>[8]</strong>
+[February 5, 2010 22:35:54 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\user.php:177 <strong>[2]</strong>
+[February 5, 2010 22:36:26 pm] Undefined index: username on E:\Thesis\Dev\nimbus\sys\user.php:171 <strong>[8]</strong>
+[February 5, 2010 22:36:26 pm] Undefined index: password on E:\Thesis\Dev\nimbus\sys\user.php:172 <strong>[8]</strong>
+[February 5, 2010 22:36:26 pm] Undefined property: User::$default on E:\Thesis\Dev\nimbus\sys\user.php:177 <strong>[8]</strong>
+[February 5, 2010 22:36:26 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\user.php:177 <strong>[2]</strong>
+[February 5, 2010 22:36:43 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 5, 2010 22:36:48 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 5, 2010 22:37:04 pm] Undefined property: User::$default on E:\Thesis\Dev\nimbus\sys\user.php:177 <strong>[8]</strong>
+[February 5, 2010 22:37:04 pm] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\user.php:177 <strong>[2]</strong>
+[February 5, 2010 22:38:54 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 5, 2010 22:38:59 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 5, 2010 22:49:10 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 5, 2010 22:49:15 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 5, 2010 22:49:28 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 5, 2010 22:49:47 pm] Undefined offset: 0 on E:\.nimbus\app\usermanager\usermanager.php:220 <strong>[8]</strong>
+[February 5, 2010 22:49:51 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 5, 2010 22:49:54 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>

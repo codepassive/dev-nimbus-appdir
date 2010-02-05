@@ -69,16 +69,17 @@ var Usermanager = {
 		$('#newuser').click(function(){
 			Nimbus.Dialog.custom({width:'400px',height:'426px',title:'Add a New User',content_id:'adduser_dialog_content',id:'dialog_' + Usermanager_window.id,parent: Usermanager_window.id,
 				save: function(){
-					Nimbus.Dialog.custom({width:'400px',height:'426px',title:'Edit a User',content_id:'adduser_dialog_content',id:'dialog_' + Usermanager_window.id,parent: Usermanager_window.id,
-						save: function(){
-							var request = {}
-							$('#dialog_' + Usermanager_window.id + ' .adduser_fields').each(function(){
-								eval("request." + $(this).attr('title') + " = '" + $(this).val() + "';");
-							});
-							alert(request.username);
-						},
-						cancel: function(){}
-					})
+					var request = {}
+					$('#dialog_' + Usermanager_window.id + ' .adduser_fields').each(function(){
+						eval("request." + $(this).attr('title') + " = '" + $(this).val() + "';");
+					});
+					Nimbus.Connect.post(SERVER_URL + '?app=usermanager&action=addUser', request, function(result){
+						Nimbus.msgbox2({id:'closedialog-' + Usermanager_window.id,title:'Added Account',content: result.message}, function(){
+							if (result.result == true) {
+								$('#dialog_' + Usermanager_window.id + ', .child-dialog_' + Usermanager_window.id).remove();
+							}
+						});	
+					});
 				},
 				cancel: function(){}
 			})

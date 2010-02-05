@@ -162,7 +162,13 @@ class usermanager extends Application implements ApplicationInterface {
 	}
 	
 	public function addUser(){
-		
+		if ($this->user->isLoggedIn()) {
+			if ($this->user->register()) {
+				echo json_encode(array('response'=>true,'message'=>'You have successfully added an Account'));
+			} else {
+				echo json_encode(array('response'=>false,'message'=>'The system could not recognize the request. Please try again'));
+			}
+		}
 	}
 	
 	public function updateUser(){
@@ -261,7 +267,7 @@ class usermanager extends Application implements ApplicationInterface {
 			$id = $this->request->post['id'];
 			unset($this->request->post['id']);
 			if ($this->db->update($this->request->post, "external_id=$id", "externals")) {
-				echo json_encode(array('response'=>true,'message'=>'You have successfully added an External Account'));
+				echo json_encode(array('response'=>true,'message'=>'You have successfully updated an External Account'));
 			} else {
 				echo json_encode(array('response'=>false,'message'=>'The system could not recognize the request. Please try again'));
 			}
@@ -272,7 +278,7 @@ class usermanager extends Application implements ApplicationInterface {
 		if ($this->user->isLoggedIn()) {
 			$id = $this->request->post['id'];
 			if ($this->db->query("DELETE FROM accounts WHERE account_id=" . $id)) {
-				echo json_encode(array('response'=>true,'message'=>'You have successfully deleted an External Account'));
+				echo json_encode(array('response'=>true,'message'=>'You have successfully deleted an Account'));
 			} else {
 				echo json_encode(array('response'=>false,'message'=>$this->db->queryString));
 			}
@@ -294,7 +300,7 @@ class usermanager extends Application implements ApplicationInterface {
 		if ($this->user->isLoggedIn()) {
 			$where = "accessor_id='{$this->request->post['accessor_id']}' AND resource_handle='{$this->request->post['resource_handle']}'";
 			if ($this->db->query("DELETE FROM acl WHERE " . $where)) {
-				echo json_encode(array('response'=>true,'message'=>'You have successfully deleted an External Account'));
+				echo json_encode(array('response'=>true,'message'=>'You have successfully deleted a Permission'));
 			} else {
 				echo json_encode(array('response'=>false,'message'=>'The system could not recognize the request. Please try again'));
 			}
