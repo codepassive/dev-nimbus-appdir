@@ -19,14 +19,14 @@
  *
  * @category:   		Applications
  */
-class textedit extends Application implements ApplicationInterface {
+class photoeditor extends Application implements ApplicationInterface {
 
 	/**
 	 * The public name of the application
 	 *
 	 * @access	Public
 	 */
-	public $name = 'textedit';
+	public $name = 'photoeditor';
 
 	/**
 	 * The public description of the application
@@ -40,7 +40,7 @@ class textedit extends Application implements ApplicationInterface {
 	 *
 	 * @access	Public
 	 */
-	public $app_url = 'http://apps.nimbusdesktop.com/textedit/';
+	public $app_url = 'http://apps.nimbusdesktop.com/photoeditor/';
 
 	/**
 	 * The author of the application
@@ -61,35 +61,28 @@ class textedit extends Application implements ApplicationInterface {
 	 *
 	 * @access	Public
 	 */
-	public $update_url = 'http://thesis/apps/textedit/';
+	public $update_url = 'http://synapse.nimbusdesktop.org/latest/photoeditor/';
 
 	/**
 	 * The version of the application
 	 *
 	 * @access	Public
 	 */
-	public $version = '1.0.0';
+	public $version = '1.0';
 
 	/**
 	 * The javascript handle of the application
 	 *
 	 * @access	Public
 	 */
-	public $api_handle = 'Textedit';
+	public $api_handle = 'Photoeditor';
 
 	/**
 	 * Styles used by the application
 	 *
 	 * @access	Public
 	 */
-	public $styles = array('app://textedit/shell/style.css');
-
-	/**
-	 * Determine whether an Application uses multiple instances
-	 *
-	 * @access	Public
-	 */
-	public $multiple = true;
+	public $styles = array('app://photoeditor/shell/style.css');
 
 	/**
 	 * The initial method that instantiates the application
@@ -107,30 +100,18 @@ class textedit extends Application implements ApplicationInterface {
 		//Create a Window
 		$window = $this->window(array(
 				'handle' => $this->api_handle,
-				'id' => 'textedit-container-' . generateHash(microtime()),
+				'id' => 'photoeditor-container-' . generateHash(microtime()),
 				'type' => 0,
-				'classes' => array('textedit'),
-				'title' => 'Textedit - Nimbus Text Editor',
+				'classes' => array('photoeditor'),
+				'title' => 'Photoeditor - Nimbus Image Editor',
 				'x' => 'center',
 				'y' => 'center',
 				'width' => '400px',
-				'height' => '200px',
 				'icon' => config('appurl') . 'public/resources/images/icons/Tango/16/apps/accessories-text-editor.png',
 				'height' => '300px',
-				'toolbars' => array(
-								'top' => array(
-									//Text, JS Function, Shortcut, PHP Function
-									$this->toolbar(array(
-										'handle' => $this->api_handle,
-										'standard', 
-										'File' => array(array('New', 'New', 'Ctrl+N'), array('Save', 'Save', 'Ctrl+S', 'Save'), null, array('Close', 'Close', 'Alt+F4', 'Close')),
-										'Insert' => array(array('Time/Date', 'Time', 'F5')),
-										'Information' => array(array('About', 'About', null, 'About')),
-									))
-								)
-							),
+				'toolbars' => array(),
 				'content' => array(
-								$this->useTemplate('shell/textedit')
+								$this->useTemplate('shell/photoeditor')
 							),
 				'hasIcon' => true,
 				'minimizable' => true,
@@ -143,20 +124,6 @@ class textedit extends Application implements ApplicationInterface {
 		$this->json($window->flag(), 'window');
 		//Return the Window? - Think of a better way for this
 		return $window;
-	}
-
-	public function save(){
-		$content = $this->request->post['content'];
-		$filename = $this->request->post['filename'];
-		$path = $this->request->post['path'];
-		$result = false;
-		if ($file = new File(DATA_DIR . 'usr' . DS . $this->user->username . DS . $path . DS . $filename, true)) {
-			$result = true;
-			$file->write($content);
-			echo json_encode(array('response'=>true,'message'=>'Successfully saved ' . $filename . ' to "' . $path . '".'));
-		} else {
-			echo json_encode(array('response'=>false,'message'=>'The system could not save this file. Please try again'));
-		}
 	}
 
 }

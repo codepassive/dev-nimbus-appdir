@@ -11,6 +11,13 @@ Calendar = {
 					right: 'month,agendaWeek,agendaDay'
 				},
 				editable: true,
+				dayClick: function(date, allDay, jsEvent, view) {
+					//have a custom dialog box and save the event
+				},
+				eventClick: function(calEvent, jsEvent, view) {
+					//on click
+					//show details of event
+				}
 			});
 		});
 		Nimbus.Desktop.window.redraw(Calendar_window.id);

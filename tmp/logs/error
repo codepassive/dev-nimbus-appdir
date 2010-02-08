@@ -1289,3 +1289,108 @@
 [February 5, 2010 22:49:47 pm] Undefined offset: 0 on E:\.nimbus\app\usermanager\usermanager.php:220 <strong>[8]</strong>
 [February 5, 2010 22:49:51 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
 [February 5, 2010 22:49:54 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 7, 2010 23:27:34 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 00:20:41 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 00:28:28 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 00:29:02 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 03:38:14 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 03:38:35 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 04:17:54 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 04:26:06 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 07:20:39 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 07:28:20 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 07:28:29 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 07:29:15 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 07:29:53 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 07:29:59 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 07:33:29 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 07:33:48 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 07:33:53 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 07:35:51 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 07:35:55 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 07:35:55 am] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:56 <strong>[2]</strong>
+[February 8, 2010 07:35:55 am] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:56 <strong>[2]</strong>
+[February 8, 2010 07:35:55 am] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:56 <strong>[2]</strong>
+[February 8, 2010 07:36:06 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 07:36:06 am] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:56 <strong>[2]</strong>
+[February 8, 2010 07:36:06 am] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:56 <strong>[2]</strong>
+[February 8, 2010 07:36:06 am] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:56 <strong>[2]</strong>
+[February 8, 2010 07:37:00 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 07:37:15 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 07:37:15 am] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:56 <strong>[2]</strong>
+[February 8, 2010 07:37:15 am] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:56 <strong>[2]</strong>
+[February 8, 2010 07:37:15 am] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\sys\kernel\api\elements\toolbar.php:56 <strong>[2]</strong>
+[February 8, 2010 07:37:54 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 07:38:11 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 07:38:53 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 07:39:12 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 07:39:43 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 07:39:56 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 07:40:55 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 07:40:59 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 07:41:46 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 07:43:43 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 07:44:28 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 07:44:34 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 07:45:07 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 07:45:15 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 07:56:20 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 07:56:29 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 08:28:07 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 08:28:12 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 08:33:08 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 08:33:13 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 08:35:58 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 08:43:31 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 08:43:38 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 08:44:11 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 08:44:18 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 08:48:20 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 08:48:25 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 08:58:10 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 08:58:15 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 08:59:07 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 08:59:11 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:01:32 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:01:36 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:02:32 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:02:37 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:04:23 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:04:28 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:05:05 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:05:24 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:05:43 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:07:44 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:07:48 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:08:33 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:08:37 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:17:03 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:17:17 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:19:28 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:19:31 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:21:09 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:21:12 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:22:14 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:22:17 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:22:34 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:22:38 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:23:01 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:23:04 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:23:35 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:23:39 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:23:55 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:23:59 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:24:33 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:24:52 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:26:12 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:26:15 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:30:55 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:31:14 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:32:19 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:32:41 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:33:04 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:33:42 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:33:46 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:34:09 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:42:18 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 8, 2010 09:42:23 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>

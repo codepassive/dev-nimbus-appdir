@@ -5,23 +5,26 @@ Textedit[Textedit_instance] = {
 		Nimbus.Desktop.window.redraw(Textedit_window.id);
 	},
 	New: function(e){
-		var id = $(e).parents('.window').attr('id');
-		$('#' + id + ' .textarea').val('');
-		$(e).parents('.child').hide();
+		Nimbus.confirm({id:'new_' + Textedit_window.id,title:'Confirmation',content:'Are you sure you want to clear the focused textarea?'}, function(){
+			var id = $(e).parents('.window').attr('id');
+			$('#' + id + ' .textarea').val('');
+			$(e).parents('.child').hide();
+		});
 	},
 	Save: function(e, func){
 		var id = $(e).parents('.window').attr('id');
 		var content = $('#' + id + ' .textarea').val();
-		var filename = 'test.txt';
-		var path = 'drives/root/' + 'Documents';
-		Nimbus.Connect.post(SERVER_URL + '?app=textedit&action=save', {filename: filename, content: content, path: path}, function(result){
-			//do a Msgbox message
+		Nimbus.Dialog.save({save:SERVER_URL + '?app=textedit&action=save',id:'save_' + Textedit_window.id,parent: Textedit_window.id, content: content}, function(result){
+			$(e).parents('.window').find('.filename').val(result.filename);
+			$(e).parents('.window').find('.path').val(result.path);
+			$(e).parents('.window').find('.titlebar .title').html(result.path + '/' + result.filename + ' - ' + $(e).parents('.window').find('.titlebar .title').html());
 		});
-		$(e).parents('.child').hide();
 	},
 	Close: function(e){
-		var id = $(e).parents('.window').attr('id');
-		Nimbus.Desktop.window.close(id, Textedit_window);
+		Nimbus.confirm({id:'close_' + Textedit_window.id,title:'Confirmation',content:'Are you sure you want to close this application?'}, function(){
+			var id = $(e).parents('.window').attr('id');
+			Nimbus.Desktop.window.close(id, Textedit_window);
+		});
 	},
 	Time: function(e){
 		var id = $(e).parents('.window').attr('id');
@@ -29,5 +32,7 @@ Textedit[Textedit_instance] = {
 		$('#' + id + ' .textarea').val($('#' + id + ' .textarea').val() + date);
 		$(e).parents('.child').hide();
 	},
-	About: function(){alert('about');},
+	About: function(){
+		Nimbus.Dialog.justOk({width:'270px',height:'180px',title:'About',content_id:'textedit-dialog-about',id:'dialog_' + Textedit_window.id,parent: Textedit_window.id}, function(){});
+	}
 }
