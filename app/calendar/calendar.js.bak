@@ -104,7 +104,7 @@ Calendar = {
 		});
 		Nimbus.Desktop.window.redraw(Calendar_window.id);
 		$('#closecalendar').click(function(){
-			Nimbus.Application.close(Calendar_window.id);
+			Nimbus.Application.close(Instance_window.id);
 		});
 	},
 	eventDelete: function(id){

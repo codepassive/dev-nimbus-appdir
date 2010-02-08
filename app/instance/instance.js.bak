@@ -7,7 +7,7 @@ var Instance = {
 		$('.instance .icon').draggable({delay:200, stack:{group:'.desktop-icons .item', min: 520}});
 		$('.instance .icon').each(function(){
 			$(this).dblclick(function(){
-				Nimbus.Application.close(Instance_window.id);
+				Nimbus.Application.close('instance');
 				Nimbus.Application.load($(this).attr('title'));
 			});
 		});

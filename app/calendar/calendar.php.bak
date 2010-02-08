@@ -183,7 +183,7 @@ class Calendar extends Application implements ApplicationInterface {
 		if ($this->user->isAllowed('calendar')){
 			$id = $this->request->post['id'];
 			if ($this->db->delete("id=$id", "app_calendar")) {
-				echo json_encode(array('response'=>true,'message'=>'Event Deleted successfully'));
+				echo json_encode(array('response'=>true,'message'=>'Event Updated successfully','event'=>$query[0]));
 			} else {
 				echo json_encode(array('response'=>false,'message'=>'Could not recognize the request. Please try again.'));
 			}
