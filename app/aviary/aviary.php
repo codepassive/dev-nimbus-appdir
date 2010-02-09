@@ -89,26 +89,7 @@ class aviary extends Application implements ApplicationInterface {
 	 *
 	 * @access	Public
 	 */
-	public function init(){
-		$arr = unserialize('a:1:{i:0;O:8:"stdClass":5:{s:2:"id";s:9:"361c477b3";s:4:"name";s:16:"Aviary - Phoenix";s:5:"title";s:29:"Aviary - Phoenix Image Editor";s:6:"handle";s:6:"Aviary";s:4:"path";s:44:"http://aviary.com/images/eggs/32/phoenix.png";}}');
-
-		$obj = new stdClass();
-		$obj->id = generateHash();
-		$obj->name = 'Nimbus Browser';
-		$obj->title = 'Nimbus Web Browser';
-		$obj->handle = 'Browser';
-		$obj->path = 'public/resources/images/icons/Tango/32/apps/internet-web-browser.png';
-		$arr[] = $obj;
-		$obj = new stdClass();
-		$obj->id = generateHash();
-		$obj->name = 'Zoho - Show';
-		$obj->title = 'Zoho Presentation Software';
-		$obj->handle = 'zohoshow';
-		$obj->path = 'public/resources/images/icons/Tango/32/apps/internet-web-browser.png';
-		$arr[] = $obj;
-		print_r($arr);
-		echo serialize($arr);
-	}
+	public function init(){}
 
 	/**
 	 * The method that contains the main interface for the application
@@ -153,7 +134,6 @@ class aviary extends Application implements ApplicationInterface {
 			$info = file_get_contents('http://iamjamoy.com/projects/remote/handler.php?userhash=' . $uid);
 			$infos = explode("\n", $info);
 			foreach ($infos as $inf) {
-				echo $inf;
 				$in = unserialize($inf);
 				if (!file_exists(USER_DIR . $this->user->username . DS . "drives" . DS . "root" . DS . "Documents" . DS . "Pictures" . DS . "Aviary" . DS . $in['name'] . '.png')) {
 					copy($in['imageurl'], USER_DIR . $this->user->username . DS . "drives" . DS . "root" . DS . "Documents" . DS . "Pictures" . DS . "Aviary" . DS . $in['name'] . '.png');

@@ -245,7 +245,7 @@ class usermanager extends Application implements ApplicationInterface {
 			if ($this->db->insert($this->request->post, "`acl`")) {
 				echo json_encode(array('response'=>true,'message'=>'You have successfully added a new Permission'));
 			} else {
-				echo json_encode(array('response'=>false,'message'=>$this->db->queryString));
+				echo json_encode(array('response'=>false,'message'=>'The system could not recognize the request. Please try again'));
 			}
 		}
 	}
@@ -280,7 +280,7 @@ class usermanager extends Application implements ApplicationInterface {
 			if ($this->db->query("DELETE FROM accounts WHERE account_id=" . $id)) {
 				echo json_encode(array('response'=>true,'message'=>'You have successfully deleted an Account'));
 			} else {
-				echo json_encode(array('response'=>false,'message'=>$this->db->queryString));
+				echo json_encode(array('response'=>false,'message'=>'The system could not recognize the request. Please try again'));
 			}
 		}
 	}

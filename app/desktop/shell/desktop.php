@@ -28,18 +28,18 @@
 					<div class="inner">
 						<div class="items">
 							<ul>
-								<li class="item"><a href="javascript:;" id="usermenusetstatus"><span><?php __('usermenu/setstatus'); ?></span></a></li>
+								<!--li class="item"><a href="javascript:;" id="usermenusetstatus"><span><?php __('usermenu/setstatus'); ?></span></a></li>
 								<li class="separator"><span></span></li>
 								<li class="item"><a href="javascript:;" id="usermenulockscreen"><span><?php __('usermenu/lockscreen'); ?></span></a></li>
 								<li class="item"><a href="javascript:;" id="usermenulogoff"><span><?php __('usermenu/logoff'); ?></span></a></li>
-								<li class="separator"><span></span></li>
+								<li class="separator"><span></span></li-->
 								<li class="item"><a href="javascript:;" id="usermenupersonalize"><span><?php __('usermenu/personalize'); ?></span></a></li>
 								<li class="item"><a href="javascript:;" id="usermenupersonal"><span><?php __('usermenu/personal'); ?></span></a></li>
 								<li class="item"><a href="javascript:;" id="usermenuconfiguserpermissions"><span><?php __('usermenu/configuserpermissions'); ?></span></a></li>
 								<li class="item"><a href="javascript:;" id="usermenuattachexternal"><span><?php __('usermenu/attachexternal'); ?></span></a></li>
-								<li class="separator"><span></span></li>
+								<!--li class="separator"><span></span></li>
 								<li class="item"><a href="javascript:;" id="usermenulogintomessenger"><span><?php __('usermenu/logintomessenger'); ?></span></a></li>
-								<li class="item"><a href="javascript:;" id="usermenucheckmail"><span><?php __('usermenu/checkmail'); ?></span></a></li>
+								<li class="item"><a href="javascript:;" id="usermenucheckmail"><span><?php __('usermenu/checkmail'); ?></span></a></li-->
 							</ul>
 						</div>
 					</div>
@@ -56,7 +56,13 @@
 								<li class="item"><a href="javascript:;" title="calculator" id="calculator-icon"><span>Calculator</span></a></li>
 								<li class="item"><a href="javascript:;" title="calendar" id="calendar-icon"><span>Calendar</span></a></li>
 								<li class="item"><a href="javascript:;" title="terminal" id="terminal-icon"><span>Terminal</span></a></li>
+								<li class="item"><a href="javascript:;" title="browser" id="browser-icon"><span>Browser</span></a></li>
+								<li class="item"><a href="javascript:;" title="aviary" id="aviary-icon"><span>Aviary</span></a></li>
+								<li class="item"><a href="javascript:;" title="writer" id="writer-icon"><span>Zoho Writer</span></a></li>
+								<li class="item"><a href="javascript:;" title="sheet" id="sheet-icon"><span>Zoho Sheet</span></a></li>
+								<li class="item"><a href="javascript:;" title="show" id="show-icon"><span>Zoho Show</span></a></li>
 								<li class="item header"><span>System<span></li>
+								<li class="item"><a href="javascript:;" title="fileexplorer" id="fileexplorer-icon"><span>File Explorer</span></a></li>
 								<li class="item"><a href="javascript:;" title="config" id="config-icon"><span>System Settings</span></a></li>
 								<li class="item"><a href="javascript:;" title="usermanager" id="usermanager-icon"><span>User Dashboard</span></a></li>
 								<li class="item"><a href="javascript:;" title="instance" id="instance-icon"><span>Instance/Process Manager</span></a></li>

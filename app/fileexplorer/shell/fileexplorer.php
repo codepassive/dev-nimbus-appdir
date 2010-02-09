@@ -1,17 +1,59 @@
-<div id="fileexplorer-container" class="fill-all" style="height:400px;">
-	<div class="sidebar">
-		<div class="sidebar_inner">
-			<h2>Actions</h2>
-			<ul>
-				<li><a href="javascript:;">Add a Network</a></li>
-				<li><a href="javascript:;">Configure Connections</a></li>
-				<li><a href="javascript:;">Need Help?</a></li>
-			</ul>
-		</div>
-	</div>
-	<div style="float:left;">
+<div id="fileexplorer-container" class="fill-all" style="overflow:auto;">
+	<div class="tree" style="margin:8px 0;">
 	<?php
 		$this->grid();
 	?>
 	</div>
+</div>
+<div id="newfile_dialog_content" class="dialog_content">
+	<div style="margin:8px 8px 12px;">
+		<h3 style="font-size:16px;padding:8px;">Create a new File</h3>
+		<table cellspacing="0" cellpadding="0" border="0" style="margin:0 8px;">
+			<tr>
+				<td valign="top">Path&nbsp;</td>
+				<td style="padding:4px 0;"><input type="text" name="path" class="newfile_fields text" style="width:180px;" value="root/Documents/Documents" /></td>
+			</tr>
+			<tr>
+				<td valign="top">Filename&nbsp;</td>
+				<td style="padding:4px 0;"><input type="text" name="filename" class="newfile_fields text" style="width:180px;" value="newFile.txt" /></td>
+			</tr>
+		</table>
+	</div>	
+</div>
+<div id="newdirectory_dialog_content" class="dialog_content">
+	<div style="margin:8px 8px 12px;">
+		<h3 style="font-size:16px;padding:8px;">Create a new Directory</h3>
+		<table cellspacing="0" cellpadding="0" border="0" style="margin:0 8px;">
+			<tr>
+				<td valign="top">Path&nbsp;</td>
+				<td style="padding:4px 0;"><input type="text" name="path" class="newdirectory_fields text" style="width:180px;" value="root" /></td>
+			</tr>
+			<tr>
+				<td valign="top">Directory Name&nbsp;</td>
+				<td style="padding:4px 0;"><input type="text" name="directory_name" class="newdirectory_fields text" style="width:180px;" value="newDirectory" /></td>
+			</tr>
+		</table>
+	</div>	
+</div>
+<div id="move_dialog_content" class="dialog_content">
+	<div style="margin:8px 8px 12px;">
+		<h3 style="font-size:16px;padding:8px;">Move to...</h3>
+		<table cellspacing="0" cellpadding="0" border="0" style="margin:0 8px;">
+			<tr>
+				<td valign="top">Path&nbsp;</td>
+				<td style="padding:4px 0;"><input type="text" name="path" class="move_fields text" style="width:180px;" value="root" /></td>
+			</tr>
+		</table>
+	</div>	
+</div>
+<div id="copy_dialog_content" class="dialog_content">
+	<div style="margin:8px 8px 12px;">
+		<h3 style="font-size:16px;padding:8px;">Copy to...</h3>
+		<table cellspacing="0" cellpadding="0" border="0" style="margin:0 8px;">
+			<tr>
+				<td valign="top">Path&nbsp;</td>
+				<td style="padding:4px 0;"><input type="text" name="path" class="copy_fields text" style="width:180px;" value="root" /></td>
+			</tr>
+		</table>
+	</div>	
 </div>

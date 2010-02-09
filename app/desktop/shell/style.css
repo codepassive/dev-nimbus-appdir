@@ -412,6 +412,24 @@
 				#terminal-icon {
 					background: transparent url('?res=img://icons/Tango/16/apps/utilities-terminal.png') no-repeat 4px 4px scroll;
 				}
+				#browser-icon {
+					background: transparent url('?res=img://icons/Tango/16/apps/internet-web-browser.png') no-repeat 4px 4px scroll;
+				}
+				#aviary-icon {
+					background: transparent url('http://aviary.com/images/eggs/16/phoenix.png') no-repeat 4px 4px scroll;
+				}
+				#writer-icon {
+					background: transparent url('?res=img://icons/Tango/16/mimetypes/x-office-document.png') no-repeat 4px 4px scroll;
+				}
+				#sheet-icon {
+					background: transparent url('?res=img://icons/Tango/16/mimetypes/x-office-spreadsheet.png') no-repeat 4px 4px scroll;
+				}
+				#show-icon {
+					background: transparent url('?res=img://icons/Tango/16/mimetypes/x-office-presentation.png') no-repeat 4px 4px scroll;
+				}
+				#fileexplorer-icon {
+					background: transparent url('?res=img://icons/Tango/16/places/folder.png') no-repeat 4px 4px scroll;
+				}
 				#config-icon {
 					background: transparent url('?res=img://icons/Tango/16/categories/applications-system.png') no-repeat 4px 4px scroll;
 				}
