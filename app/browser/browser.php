@@ -19,14 +19,14 @@
  *
  * @category:   		Applications
  */
-class photoeditor extends Application implements ApplicationInterface {
+class browser extends Application implements ApplicationInterface {
 
 	/**
 	 * The public name of the application
 	 *
 	 * @access	Public
 	 */
-	public $name = 'photoeditor';
+	public $name = 'browser';
 
 	/**
 	 * The public description of the application
@@ -40,7 +40,7 @@ class photoeditor extends Application implements ApplicationInterface {
 	 *
 	 * @access	Public
 	 */
-	public $app_url = 'http://apps.nimbusdesktop.com/photoeditor/';
+	public $app_url = 'http://apps.nimbusdesktop.com/browser/';
 
 	/**
 	 * The author of the application
@@ -61,7 +61,7 @@ class photoeditor extends Application implements ApplicationInterface {
 	 *
 	 * @access	Public
 	 */
-	public $update_url = 'http://synapse.nimbusdesktop.org/latest/photoeditor/';
+	public $update_url = 'http://synapse.nimbusdesktop.org/latest/browser/';
 
 	/**
 	 * The version of the application
@@ -75,21 +75,24 @@ class photoeditor extends Application implements ApplicationInterface {
 	 *
 	 * @access	Public
 	 */
-	public $api_handle = 'Photoeditor';
+	public $api_handle = 'Browser';
+	
+	public $multiple = true;
 
 	/**
 	 * Styles used by the application
 	 *
 	 * @access	Public
 	 */
-	public $styles = array('app://photoeditor/shell/style.css');
+	public $styles = array('app://browser/shell/style.css');
 
 	/**
 	 * The initial method that instantiates the application
 	 *
 	 * @access	Public
 	 */
-	public function init(){}
+	public function init(){
+	}
 
 	/**
 	 * The method that contains the main interface for the application
@@ -100,18 +103,20 @@ class photoeditor extends Application implements ApplicationInterface {
 		//Create a Window
 		$window = $this->window(array(
 				'handle' => $this->api_handle,
-				'id' => 'photoeditor-container-' . generateHash(microtime()),
+				'id' => 'browser-container-' . generateHash(microtime()),
 				'type' => 0,
-				'classes' => array('photoeditor'),
-				'title' => 'Photoeditor - Nimbus Image Editor',
+				'classes' => array('browser'),
+				'title' => 'Nimbus Web Browser',
 				'x' => 'center',
 				'y' => 'center',
 				'width' => '400px',
-				'icon' => config('appurl') . 'public/resources/images/icons/Tango/16/apps/accessories-text-editor.png',
+				'icon' => config('appurl') . 'public/resources/images/icons/Tango/16/apps/internet-web-browser.png',
 				'height' => '300px',
-				'toolbars' => array(),
+				'toolbars' => array(
+								'top' => array('<div style="padding:2px;"><input type="text" class="text src" value="http://iamjamoy.com/projects/splash.html" style="width:97.8%;"/></div>')
+							),
 				'content' => array(
-								$this->useTemplate('shell/photoeditor')
+								$this->useTemplate('shell/browser')
 							),
 				'hasIcon' => true,
 				'minimizable' => true,
