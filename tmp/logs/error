@@ -1730,3 +1730,486 @@
 [February 9, 2010 11:03:44 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
 [February 9, 2010 11:04:08 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
 [February 9, 2010 11:04:23 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 14, 2010 19:42:59 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 03:48:37 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 03:50:40 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 05:03:08 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 05:40:52 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 05:40:53 am] Undefined property: Login::$module on E:\.nimbus\app\login\login.php:144 <strong>[8]</strong>
+[February 15, 2010 05:40:53 am] Trying to get property of non-object on E:\.nimbus\app\login\login.php:144 <strong>[8]</strong>
+[February 15, 2010 05:40:53 am] Trying to get property of non-object on E:\.nimbus\app\login\login.php:144 <strong>[8]</strong>
+[February 15, 2010 05:41:01 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 05:41:01 am] Undefined property: Login::$module on E:\.nimbus\app\login\login.php:144 <strong>[8]</strong>
+[February 15, 2010 05:41:01 am] Trying to get property of non-object on E:\.nimbus\app\login\login.php:144 <strong>[8]</strong>
+[February 15, 2010 05:41:01 am] Trying to get property of non-object on E:\.nimbus\app\login\login.php:144 <strong>[8]</strong>
+[February 15, 2010 05:41:13 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 05:41:13 am] Undefined property: stdClass::$openID on E:\.nimbus\app\login\login.php:144 <strong>[8]</strong>
+[February 15, 2010 05:41:13 am] Trying to get property of non-object on E:\.nimbus\app\login\login.php:144 <strong>[8]</strong>
+[February 15, 2010 05:41:40 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 05:47:44 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 05:47:47 am] Undefined index: openid_assoc_handle on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:298 <strong>[8]</strong>
+[February 15, 2010 05:47:47 am] Undefined index: openid_signed on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:299 <strong>[8]</strong>
+[February 15, 2010 05:47:47 am] Undefined index: openid_sig on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:300 <strong>[8]</strong>
+[February 15, 2010 05:47:47 am] Undefined index: openid_signed on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:303 <strong>[8]</strong>
+[February 15, 2010 05:47:47 am] Undefined index: openid_ on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:306 <strong>[8]</strong>
+[February 15, 2010 05:55:40 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 05:56:08 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 05:56:29 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 05:56:46 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 06:12:01 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 06:12:05 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 06:12:13 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 06:13:25 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 06:26:32 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 06:33:04 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 06:38:00 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 06:41:12 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 06:42:04 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 06:47:07 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 06:56:50 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 06:58:54 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:11:15 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:11:27 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:11:32 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:11:40 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:12:04 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:12:13 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:13:31 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:13:35 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:18:07 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:18:13 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:19:01 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:19:06 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:19:12 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:19:23 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:19:31 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:19:37 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:22:13 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:22:53 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:26:21 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:26:31 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:26:47 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:26:55 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:28:34 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:28:38 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:29:05 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:29:09 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:32:25 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:32:30 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:33:13 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:33:17 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:33:48 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:33:52 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:36:41 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:36:45 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:37:21 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:37:35 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:38:03 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:38:09 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:39:47 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:39:51 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:40:12 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:40:15 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:40:21 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:40:24 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:41:07 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:41:11 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:41:46 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:41:50 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:42:48 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:42:52 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:45:14 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:45:18 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:46:06 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:46:10 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:46:47 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:46:50 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:47:19 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:47:23 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:47:39 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:48:26 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:48:46 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:48:54 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:49:17 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:49:27 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:52:28 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:52:32 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:58:57 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:59:00 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:59:37 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 07:59:41 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:00:05 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:00:10 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:02:01 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:02:04 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:02:28 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:02:32 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:03:13 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:07:16 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:07:20 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:12:01 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:12:10 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:12:18 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:14:15 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:14:20 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:17:39 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:17:46 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:18:13 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:18:17 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:19:34 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:19:39 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:21:44 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:21:49 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:21:57 am] file_get_contents(/menu.txt): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\lib\filesystem\file.php:151 <strong>[2]</strong>
+[February 15, 2010 08:22:27 am] Undefined index: path on E:\.nimbus\app\textedit\textedit.php:166 <strong>[8]</strong>
+[February 15, 2010 08:22:27 am] file_get_contents(E:\.nimbus\usr\): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\lib\filesystem\file.php:151 <strong>[2]</strong>
+[February 15, 2010 08:23:02 am] Undefined index: path on E:\.nimbus\app\textedit\textedit.php:166 <strong>[8]</strong>
+[February 15, 2010 08:23:02 am] file_get_contents(E:\.nimbus\usr\): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\lib\filesystem\file.php:151 <strong>[2]</strong>
+[February 15, 2010 08:23:06 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:23:11 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:31:53 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:36:54 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:37:13 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:38:20 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:38:49 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:42:58 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:44:15 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:44:47 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:46:05 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 08:47:18 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 18:01:30 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 19:43:26 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 19:45:29 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 19:52:33 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 19:53:48 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 20:30:27 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 20:30:38 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 20:30:56 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 20:34:45 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 20:36:33 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 20:38:02 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 20:39:01 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 20:40:42 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 20:50:15 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 20:50:49 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 20:51:12 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 20:51:28 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 20:53:44 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 20:54:37 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 20:55:17 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 20:56:24 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 20:56:32 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 20:58:57 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 20:59:30 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 21:00:09 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 21:00:33 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 21:02:16 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 21:07:02 pm] Missing argument 1 for Facebook::__construct(), called in E:\Thesis\Dev\nimbus\mod\facebook.php on line 37 and defined on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:65 <strong>[2]</strong>
+[February 15, 2010 21:07:02 pm] Missing argument 2 for Facebook::__construct(), called in E:\Thesis\Dev\nimbus\mod\facebook.php on line 37 and defined on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:65 <strong>[2]</strong>
+[February 15, 2010 21:07:02 pm] Undefined variable: api_key on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:66 <strong>[8]</strong>
+[February 15, 2010 21:07:02 pm] Undefined variable: secret on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:67 <strong>[8]</strong>
+[February 15, 2010 21:07:02 pm] Undefined variable: api_key on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:69 <strong>[8]</strong>
+[February 15, 2010 21:07:02 pm] Undefined variable: secret on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:69 <strong>[8]</strong>
+[February 15, 2010 21:08:02 pm] Missing argument 1 for Facebook::__construct(), called in E:\Thesis\Dev\nimbus\mod\facebook.php on line 37 and defined on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:65 <strong>[2]</strong>
+[February 15, 2010 21:08:02 pm] Missing argument 2 for Facebook::__construct(), called in E:\Thesis\Dev\nimbus\mod\facebook.php on line 37 and defined on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:65 <strong>[2]</strong>
+[February 15, 2010 21:08:02 pm] Undefined variable: api_key on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:66 <strong>[8]</strong>
+[February 15, 2010 21:08:02 pm] Undefined variable: secret on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:67 <strong>[8]</strong>
+[February 15, 2010 21:08:02 pm] Undefined variable: api_key on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:69 <strong>[8]</strong>
+[February 15, 2010 21:08:02 pm] Undefined variable: secret on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:69 <strong>[8]</strong>
+[February 15, 2010 21:08:15 pm] Missing argument 1 for Facebook::__construct(), called in E:\Thesis\Dev\nimbus\mod\facebook.php on line 37 and defined on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:65 <strong>[2]</strong>
+[February 15, 2010 21:08:15 pm] Missing argument 2 for Facebook::__construct(), called in E:\Thesis\Dev\nimbus\mod\facebook.php on line 37 and defined on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:65 <strong>[2]</strong>
+[February 15, 2010 21:08:15 pm] Undefined variable: api_key on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:66 <strong>[8]</strong>
+[February 15, 2010 21:08:15 pm] Undefined variable: secret on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:67 <strong>[8]</strong>
+[February 15, 2010 21:08:15 pm] Undefined variable: api_key on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:69 <strong>[8]</strong>
+[February 15, 2010 21:08:15 pm] Undefined variable: secret on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:69 <strong>[8]</strong>
+[February 15, 2010 21:09:03 pm] Missing argument 1 for Facebook::__construct(), called in E:\Thesis\Dev\nimbus\mod\facebook.php on line 37 and defined on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:65 <strong>[2]</strong>
+[February 15, 2010 21:09:03 pm] Missing argument 2 for Facebook::__construct(), called in E:\Thesis\Dev\nimbus\mod\facebook.php on line 37 and defined on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:65 <strong>[2]</strong>
+[February 15, 2010 21:09:03 pm] Undefined variable: api_key on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:66 <strong>[8]</strong>
+[February 15, 2010 21:09:03 pm] Undefined variable: secret on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:67 <strong>[8]</strong>
+[February 15, 2010 21:09:03 pm] Undefined variable: api_key on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:69 <strong>[8]</strong>
+[February 15, 2010 21:09:03 pm] Undefined variable: secret on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:69 <strong>[8]</strong>
+[February 15, 2010 21:15:01 pm] Missing argument 1 for Facebook::__construct(), called in E:\Thesis\Dev\nimbus\mod\facebook.php on line 37 and defined on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:65 <strong>[2]</strong>
+[February 15, 2010 21:15:01 pm] Missing argument 2 for Facebook::__construct(), called in E:\Thesis\Dev\nimbus\mod\facebook.php on line 37 and defined on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:65 <strong>[2]</strong>
+[February 15, 2010 21:15:01 pm] Undefined variable: api_key on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:66 <strong>[8]</strong>
+[February 15, 2010 21:15:01 pm] Undefined variable: secret on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:67 <strong>[8]</strong>
+[February 15, 2010 21:15:01 pm] Undefined variable: api_key on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:69 <strong>[8]</strong>
+[February 15, 2010 21:15:01 pm] Undefined variable: secret on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:69 <strong>[8]</strong>
+[February 15, 2010 21:18:54 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 21:18:58 pm] Missing argument 1 for Facebook::__construct(), called in E:\Thesis\Dev\nimbus\mod\facebook.php on line 37 and defined on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:65 <strong>[2]</strong>
+[February 15, 2010 21:18:58 pm] Missing argument 2 for Facebook::__construct(), called in E:\Thesis\Dev\nimbus\mod\facebook.php on line 37 and defined on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:65 <strong>[2]</strong>
+[February 15, 2010 21:18:58 pm] Undefined variable: api_key on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:66 <strong>[8]</strong>
+[February 15, 2010 21:18:58 pm] Undefined variable: secret on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:67 <strong>[8]</strong>
+[February 15, 2010 21:18:58 pm] Undefined variable: api_key on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:69 <strong>[8]</strong>
+[February 15, 2010 21:18:58 pm] Undefined variable: secret on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:69 <strong>[8]</strong>
+[February 15, 2010 21:19:21 pm] Missing argument 1 for Facebook::__construct(), called in E:\Thesis\Dev\nimbus\mod\facebook.php on line 37 and defined on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:65 <strong>[2]</strong>
+[February 15, 2010 21:19:21 pm] Missing argument 2 for Facebook::__construct(), called in E:\Thesis\Dev\nimbus\mod\facebook.php on line 37 and defined on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:65 <strong>[2]</strong>
+[February 15, 2010 21:19:21 pm] Undefined variable: api_key on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:66 <strong>[8]</strong>
+[February 15, 2010 21:19:21 pm] Undefined variable: secret on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:67 <strong>[8]</strong>
+[February 15, 2010 21:19:21 pm] Undefined variable: api_key on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:69 <strong>[8]</strong>
+[February 15, 2010 21:19:21 pm] Undefined variable: secret on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:69 <strong>[8]</strong>
+[February 15, 2010 21:19:21 pm] Undefined variable: user_id on E:\.nimbus\app\desktop\desktop.php:114 <strong>[8]</strong>
+[February 15, 2010 21:19:30 pm] Undefined variable: user_id on E:\.nimbus\app\desktop\desktop.php:114 <strong>[8]</strong>
+[February 15, 2010 21:21:52 pm] Undefined variable: user_id on E:\.nimbus\app\desktop\desktop.php:117 <strong>[8]</strong>
+[February 15, 2010 21:22:00 pm] Undefined variable: user_id on E:\.nimbus\app\desktop\desktop.php:117 <strong>[8]</strong>
+[February 15, 2010 21:22:10 pm] Undefined variable: user_id on E:\.nimbus\app\desktop\desktop.php:117 <strong>[8]</strong>
+[February 15, 2010 21:22:32 pm] Undefined variable: user_id on E:\.nimbus\app\desktop\desktop.php:118 <strong>[8]</strong>
+[February 15, 2010 21:34:16 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 21:37:10 pm] A session had already been started - ignoring session_start() on E:\.nimbus\app\desktop\desktop.php:114 <strong>[8]</strong>
+[February 15, 2010 21:50:25 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 22:11:45 pm] Undefined index: user_id on E:\.nimbus\app\desktop\desktop.php:117 <strong>[8]</strong>
+[February 15, 2010 22:12:07 pm] Undefined index: user_id on E:\.nimbus\app\desktop\desktop.php:117 <strong>[8]</strong>
+[February 15, 2010 22:42:38 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 22:45:10 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 22:46:42 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 22:47:57 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 22:48:32 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 22:48:45 pm] Undefined index: status on E:\.nimbus\app\desktop\desktop.php:111 <strong>[8]</strong>
+[February 15, 2010 22:49:26 pm] Undefined index: status on E:\.nimbus\app\desktop\desktop.php:111 <strong>[8]</strong>
+[February 15, 2010 22:50:04 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 22:51:26 pm] Undefined index: status on E:\.nimbus\app\desktop\desktop.php:120 <strong>[8]</strong>
+[February 15, 2010 22:53:08 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 23:11:44 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 23:12:15 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 23:12:34 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 23:14:35 pm] Missing argument 1 for Facebook::do_get_session(), called in E:\.nimbus\app\desktop\desktop.php on line 119 and defined on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:188 <strong>[2]</strong>
+[February 15, 2010 23:14:35 pm] Undefined variable: auth_token on E:\Thesis\Dev\nimbus\mod\facebook\facebook.php:190 <strong>[8]</strong>
+[February 15, 2010 23:16:27 pm] Missing argument 1 for FacebookRestClient::use_session_secret(), called in E:\.nimbus\app\desktop\desktop.php on line 118 and defined on E:\Thesis\Dev\nimbus\mod\facebook\facebookapi_php5_restlib.php:141 <strong>[2]</strong>
+[February 15, 2010 23:16:27 pm] Undefined variable: session_secret on E:\Thesis\Dev\nimbus\mod\facebook\facebookapi_php5_restlib.php:142 <strong>[8]</strong>
+[February 15, 2010 23:30:51 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 23:41:42 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 23:41:49 pm] Undefined index: status on E:\.nimbus\app\desktop\desktop.php:117 <strong>[8]</strong>
+[February 15, 2010 23:42:18 pm] Undefined index: status on E:\.nimbus\app\desktop\desktop.php:117 <strong>[8]</strong>
+[February 15, 2010 23:48:23 pm] call_user_func_array() expects parameter 1 to be a valid callback, class 'desktop' does not have a method 'facebook' on E:\Thesis\Dev\nimbus\sys\application.php:193 <strong>[2]</strong>
+[February 15, 2010 23:48:30 pm] call_user_func_array() expects parameter 1 to be a valid callback, class 'desktop' does not have a method 'facebook' on E:\Thesis\Dev\nimbus\sys\application.php:193 <strong>[2]</strong>
+[February 15, 2010 23:48:31 pm] call_user_func_array() expects parameter 1 to be a valid callback, class 'desktop' does not have a method 'facebook' on E:\Thesis\Dev\nimbus\sys\application.php:193 <strong>[2]</strong>
+[February 15, 2010 23:48:34 pm] call_user_func_array() expects parameter 1 to be a valid callback, class 'desktop' does not have a method 'facebook' on E:\Thesis\Dev\nimbus\sys\application.php:193 <strong>[2]</strong>
+[February 15, 2010 23:51:06 pm] Undefined variable: facebook on E:\.nimbus\app\desktop\desktop.php:118 <strong>[8]</strong>
+[February 15, 2010 23:51:23 pm] Undefined index: status on E:\.nimbus\app\desktop\desktop.php:123 <strong>[8]</strong>
+[February 15, 2010 23:52:52 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 23:56:11 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 23:56:42 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 23:56:50 pm] Undefined index: status on E:\.nimbus\app\desktop\desktop.php:123 <strong>[8]</strong>
+[February 15, 2010 23:57:27 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 23:57:43 pm] Undefined index: status on E:\.nimbus\app\desktop\desktop.php:123 <strong>[8]</strong>
+[February 15, 2010 23:58:09 pm] Undefined index: status on E:\.nimbus\app\desktop\desktop.php:124 <strong>[8]</strong>
+[February 15, 2010 23:58:12 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 15, 2010 23:58:19 pm] Undefined index: status on E:\.nimbus\app\desktop\desktop.php:124 <strong>[8]</strong>
+[February 15, 2010 23:59:43 pm] Undefined index: status on E:\.nimbus\app\desktop\desktop.php:124 <strong>[8]</strong>
+[February 15, 2010 23:59:48 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 00:00:45 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 00:00:55 am] Undefined index: status on E:\.nimbus\app\desktop\desktop.php:124 <strong>[8]</strong>
+[February 16, 2010 00:07:12 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 00:12:39 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 00:12:50 am] Undefined index: status on E:\.nimbus\app\desktop\desktop.php:124 <strong>[8]</strong>
+[February 16, 2010 00:16:31 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 00:16:43 am] call_user_func_array() expects parameter 1 to be a valid callback, class 'desktop' does not have a method 'facebook' on E:\Thesis\Dev\nimbus\sys\application.php:193 <strong>[2]</strong>
+[February 16, 2010 00:18:08 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 00:18:19 am] call_user_func_array() expects parameter 1 to be a valid callback, class 'desktop' does not have a method 'facebook' on E:\Thesis\Dev\nimbus\sys\application.php:193 <strong>[2]</strong>
+[February 16, 2010 00:21:24 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 00:22:04 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 00:22:22 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 00:23:50 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 00:24:57 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 00:26:29 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 00:35:09 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 00:36:01 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 00:38:50 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 00:39:56 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 00:40:11 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 00:40:28 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 00:42:53 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 00:45:15 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 00:45:57 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 00:47:19 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 00:48:05 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 00:59:25 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 01:01:20 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 01:03:25 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 01:11:59 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 01:19:27 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 03:27:19 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 04:34:49 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 04:35:12 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 04:35:18 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 04:54:07 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 04:54:26 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 05:03:35 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 05:03:46 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 05:05:16 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 05:05:54 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 05:06:23 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 05:06:29 am] call_user_func_array() expects parameter 1 to be a valid callback, class 'Login' does not have a method 'openid_begin?openid_identifier=https://www.google.com/accounts/o8/id' on E:\Thesis\Dev\nimbus\sys\application.php:193 <strong>[2]</strong>
+[February 16, 2010 05:07:05 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 05:07:51 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 05:08:06 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 05:08:39 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 05:10:47 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 05:11:08 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 05:16:55 am] Undefined property: stdClass::$openID on E:\.nimbus\app\login\login.php:164 <strong>[8]</strong>
+[February 16, 2010 05:16:55 am] Trying to get property of non-object on E:\.nimbus\app\login\login.php:164 <strong>[8]</strong>
+[February 16, 2010 05:17:17 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 05:17:31 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 05:18:00 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 05:18:14 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 05:19:32 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 05:33:20 am] Redefining already defined constructor for class Dope_OpenID on E:\Thesis\Dev\nimbus\mod\openID\class.dopeopenid.php:72 <strong>[2048]</strong>
+[February 16, 2010 05:33:20 am] require_once(Services/Yadis/PlainHTTPFetcher.php): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:20 <strong>[2]</strong>
+[February 16, 2010 05:33:58 am] Redefining already defined constructor for class Dope_OpenID on E:\Thesis\Dev\nimbus\mod\openID\class.dopeopenid.php:72 <strong>[2048]</strong>
+[February 16, 2010 05:33:58 am] require_once(Services/Yadis/PlainHTTPFetcher.php): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:20 <strong>[2]</strong>
+[February 16, 2010 05:34:05 am] Redefining already defined constructor for class Dope_OpenID on E:\Thesis\Dev\nimbus\mod\openID\class.dopeopenid.php:72 <strong>[2048]</strong>
+[February 16, 2010 05:34:05 am] require_once(Services/Yadis/PlainHTTPFetcher.php): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:20 <strong>[2]</strong>
+[February 16, 2010 05:34:06 am] Redefining already defined constructor for class Dope_OpenID on E:\Thesis\Dev\nimbus\mod\openID\class.dopeopenid.php:72 <strong>[2048]</strong>
+[February 16, 2010 05:34:06 am] require_once(Services/Yadis/PlainHTTPFetcher.php): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:20 <strong>[2]</strong>
+[February 16, 2010 05:35:23 am] require_once(Services/Yadis/PlainHTTPFetcher.php): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:20 <strong>[2]</strong>
+[February 16, 2010 05:35:25 am] require_once(Services/Yadis/PlainHTTPFetcher.php): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:20 <strong>[2]</strong>
+[February 16, 2010 05:35:43 am] require_once(Services/Yadis/PlainHTTPFetcher.php): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:20 <strong>[2]</strong>
+[February 16, 2010 05:36:19 am] require_once(Services/Yadis/PlainHTTPFetcher.php): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:20 <strong>[2]</strong>
+[February 16, 2010 05:36:54 am] require_once(Services/Yadis/PlainHTTPFetcher.php): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:20 <strong>[2]</strong>
+[February 16, 2010 05:37:11 am] require_once(nimbus/mod/openID/Services/YadisPlainHTTPFetcher.php): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:20 <strong>[2]</strong>
+[February 16, 2010 05:38:41 am] require_once(Services/Yadis/HTTPFetcher.php): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\PlainHTTPFetcher.php:20 <strong>[2]</strong>
+[February 16, 2010 05:39:05 am] require_once(E:\Thesis\Dev\nimbus/mod/openID/Services/YadisHTTPFetcher.php): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\PlainHTTPFetcher.php:20 <strong>[2]</strong>
+[February 16, 2010 05:40:02 am] require_once(Services/Yadis/HTTPFetcher.php): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\ParanoidHTTPFetcher.php:19 <strong>[2]</strong>
+[February 16, 2010 05:40:14 am] Assigning the return value of new by reference is deprecated on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\XRDS.php:295 <strong>[8192]</strong>
+[February 16, 2010 05:40:14 am] require_once(Services/Yadis/XML.php): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\XRDS.php:19 <strong>[2]</strong>
+[February 16, 2010 05:40:37 am] require_once(Services/Yadis/XML.php): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\XRDS.php:19 <strong>[2]</strong>
+[February 16, 2010 05:40:46 am] require_once(Services/Yadis/XML.php): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\XRDS.php:19 <strong>[2]</strong>
+[February 16, 2010 05:41:12 am] Declaration of Services_Yadis_domxml::evalXPath() should be compatible with that of Services_Yadis_XMLParser::evalXPath() on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\XML.php:203 <strong>[2048]</strong>
+[February 16, 2010 05:41:12 am] Declaration of Services_Yadis_dom::evalXPath() should be compatible with that of Services_Yadis_XMLParser::evalXPath() on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\XML.php:290 <strong>[2048]</strong>
+[February 16, 2010 05:41:12 am] Declaration of Services_Yadis_domxml::evalXPath() should be compatible with that of Services_Yadis_XMLParser::evalXPath() on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\XML.php:203 <strong>[2048]</strong>
+[February 16, 2010 05:41:12 am] Declaration of Services_Yadis_dom::evalXPath() should be compatible with that of Services_Yadis_XMLParser::evalXPath() on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\XML.php:290 <strong>[2048]</strong>
+[February 16, 2010 05:41:13 am] Declaration of Services_Yadis_domxml::evalXPath() should be compatible with that of Services_Yadis_XMLParser::evalXPath() on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\XML.php:203 <strong>[2048]</strong>
+[February 16, 2010 05:41:13 am] Declaration of Services_Yadis_dom::evalXPath() should be compatible with that of Services_Yadis_XMLParser::evalXPath() on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\XML.php:290 <strong>[2048]</strong>
+[February 16, 2010 05:41:13 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 05:41:29 am] Declaration of Services_Yadis_domxml::evalXPath() should be compatible with that of Services_Yadis_XMLParser::evalXPath() on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\XML.php:203 <strong>[2048]</strong>
+[February 16, 2010 05:41:29 am] Declaration of Services_Yadis_dom::evalXPath() should be compatible with that of Services_Yadis_XMLParser::evalXPath() on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\XML.php:290 <strong>[2048]</strong>
+[February 16, 2010 05:48:14 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 05:51:46 am] Non-static method Services_Yadis_Yadis::getHTTPFetcher() should not be called statically, assuming $this from incompatible context on E:\Thesis\Dev\nimbus\mod\openID\class.dopeopenid.php:162 <strong>[2048]</strong>
+[February 16, 2010 05:51:46 am] Non-static method Services_Yadis_Yadis::discover() should not be called statically, assuming $this from incompatible context on E:\Thesis\Dev\nimbus\mod\openID\class.dopeopenid.php:163 <strong>[2048]</strong>
+[February 16, 2010 05:51:49 am] Undefined offset: 1 on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\ParanoidHTTPFetcher.php:135 <strong>[8]</strong>
+[February 16, 2010 05:51:49 am] Undefined offset: 1 on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\ParanoidHTTPFetcher.php:135 <strong>[8]</strong>
+[February 16, 2010 05:51:49 am] Non-static method Services_Yadis_Yadis::_getHeader() should not be called statically, assuming $this from incompatible context on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:213 <strong>[2048]</strong>
+[February 16, 2010 05:51:49 am] Non-static method Services_Yadis_Yadis::_getHeader() should not be called statically, assuming $this from incompatible context on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:218 <strong>[2048]</strong>
+[February 16, 2010 05:51:49 am] Non-static method Services_Yadis_Yadis::_getContentType() should not be called statically, assuming $this from incompatible context on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:235 <strong>[2048]</strong>
+[February 16, 2010 05:51:49 am] Non-static method Services_Yadis_XRDS::parseXRDS() should not be called statically, assuming $this from incompatible context on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:255 <strong>[2048]</strong>
+[February 16, 2010 05:51:49 am] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\XML.php:332 <strong>[2]</strong>
+[February 16, 2010 05:51:49 am] Only variable references should be returned by reference on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\XML.php:343 <strong>[8]</strong>
+[February 16, 2010 05:51:51 am] Non-static method Services_Yadis_Yadis::getHTTPFetcher() should not be called statically, assuming $this from incompatible context on E:\Thesis\Dev\nimbus\mod\openID\class.dopeopenid.php:162 <strong>[2048]</strong>
+[February 16, 2010 05:51:51 am] Non-static method Services_Yadis_Yadis::discover() should not be called statically, assuming $this from incompatible context on E:\Thesis\Dev\nimbus\mod\openID\class.dopeopenid.php:163 <strong>[2048]</strong>
+[February 16, 2010 05:51:53 am] Undefined offset: 1 on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\ParanoidHTTPFetcher.php:135 <strong>[8]</strong>
+[February 16, 2010 05:51:53 am] Undefined offset: 1 on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\ParanoidHTTPFetcher.php:135 <strong>[8]</strong>
+[February 16, 2010 05:51:53 am] Non-static method Services_Yadis_Yadis::_getHeader() should not be called statically, assuming $this from incompatible context on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:213 <strong>[2048]</strong>
+[February 16, 2010 05:51:53 am] Non-static method Services_Yadis_Yadis::_getHeader() should not be called statically, assuming $this from incompatible context on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:218 <strong>[2048]</strong>
+[February 16, 2010 05:51:53 am] Non-static method Services_Yadis_Yadis::_getContentType() should not be called statically, assuming $this from incompatible context on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:235 <strong>[2048]</strong>
+[February 16, 2010 05:51:53 am] Non-static method Services_Yadis_XRDS::parseXRDS() should not be called statically, assuming $this from incompatible context on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:255 <strong>[2048]</strong>
+[February 16, 2010 05:51:53 am] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\XML.php:332 <strong>[2]</strong>
+[February 16, 2010 05:51:53 am] Only variable references should be returned by reference on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\XML.php:343 <strong>[8]</strong>
+[February 16, 2010 05:52:08 am] Non-static method Services_Yadis_Yadis::getHTTPFetcher() should not be called statically, assuming $this from incompatible context on E:\Thesis\Dev\nimbus\mod\openID\class.dopeopenid.php:162 <strong>[2048]</strong>
+[February 16, 2010 05:52:08 am] Non-static method Services_Yadis_Yadis::discover() should not be called statically, assuming $this from incompatible context on E:\Thesis\Dev\nimbus\mod\openID\class.dopeopenid.php:163 <strong>[2048]</strong>
+[February 16, 2010 05:52:15 am] Undefined offset: 1 on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\ParanoidHTTPFetcher.php:135 <strong>[8]</strong>
+[February 16, 2010 05:52:15 am] Undefined offset: 1 on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\ParanoidHTTPFetcher.php:135 <strong>[8]</strong>
+[February 16, 2010 05:52:15 am] Non-static method Services_Yadis_Yadis::_getHeader() should not be called statically, assuming $this from incompatible context on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:213 <strong>[2048]</strong>
+[February 16, 2010 05:52:15 am] Non-static method Services_Yadis_Yadis::_getHeader() should not be called statically, assuming $this from incompatible context on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:218 <strong>[2048]</strong>
+[February 16, 2010 05:52:15 am] Non-static method Services_Yadis_Yadis::_getContentType() should not be called statically, assuming $this from incompatible context on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:235 <strong>[2048]</strong>
+[February 16, 2010 05:52:15 am] Non-static method Services_Yadis_XRDS::parseXRDS() should not be called statically, assuming $this from incompatible context on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:255 <strong>[2048]</strong>
+[February 16, 2010 05:52:15 am] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\XML.php:332 <strong>[2]</strong>
+[February 16, 2010 05:52:15 am] Only variable references should be returned by reference on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\XML.php:343 <strong>[8]</strong>
+[February 16, 2010 05:57:16 am] Non-static method Services_Yadis_Yadis::discover() should not be called statically, assuming $this from incompatible context on E:\Thesis\Dev\nimbus\mod\openID\class.dopeopenid.php:163 <strong>[2048]</strong>
+[February 16, 2010 05:57:23 am] Undefined offset: 1 on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\ParanoidHTTPFetcher.php:135 <strong>[8]</strong>
+[February 16, 2010 05:57:23 am] Undefined offset: 1 on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\ParanoidHTTPFetcher.php:135 <strong>[8]</strong>
+[February 16, 2010 05:57:23 am] Non-static method Services_Yadis_Yadis::_getHeader() should not be called statically, assuming $this from incompatible context on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:213 <strong>[2048]</strong>
+[February 16, 2010 05:57:23 am] Non-static method Services_Yadis_Yadis::_getHeader() should not be called statically, assuming $this from incompatible context on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:218 <strong>[2048]</strong>
+[February 16, 2010 05:57:23 am] Non-static method Services_Yadis_Yadis::_getContentType() should not be called statically, assuming $this from incompatible context on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:235 <strong>[2048]</strong>
+[February 16, 2010 05:57:23 am] Non-static method Services_Yadis_XRDS::parseXRDS() should not be called statically, assuming $this from incompatible context on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:255 <strong>[2048]</strong>
+[February 16, 2010 05:57:23 am] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\XML.php:332 <strong>[2]</strong>
+[February 16, 2010 05:57:23 am] Only variable references should be returned by reference on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\XML.php:343 <strong>[8]</strong>
+[February 16, 2010 05:57:57 am] Undefined offset: 1 on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\ParanoidHTTPFetcher.php:135 <strong>[8]</strong>
+[February 16, 2010 05:57:57 am] Undefined offset: 1 on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\ParanoidHTTPFetcher.php:135 <strong>[8]</strong>
+[February 16, 2010 05:57:57 am] Non-static method Services_Yadis_Yadis::_getHeader() should not be called statically on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:216 <strong>[2048]</strong>
+[February 16, 2010 05:57:57 am] Non-static method Services_Yadis_Yadis::_getHeader() should not be called statically on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:219 <strong>[2048]</strong>
+[February 16, 2010 05:57:57 am] Non-static method Services_Yadis_Yadis::_getContentType() should not be called statically on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:235 <strong>[2048]</strong>
+[February 16, 2010 05:57:57 am] Non-static method Services_Yadis_XRDS::parseXRDS() should not be called statically on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:255 <strong>[2048]</strong>
+[February 16, 2010 05:57:57 am] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\XML.php:332 <strong>[2]</strong>
+[February 16, 2010 05:57:57 am] Only variable references should be returned by reference on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\XML.php:343 <strong>[8]</strong>
+[February 16, 2010 05:59:54 am] Undefined offset: 1 on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\ParanoidHTTPFetcher.php:135 <strong>[8]</strong>
+[February 16, 2010 05:59:54 am] Undefined offset: 1 on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\ParanoidHTTPFetcher.php:135 <strong>[8]</strong>
+[February 16, 2010 05:59:54 am] Non-static method Services_Yadis_Yadis::_getContentType() should not be called statically on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:235 <strong>[2048]</strong>
+[February 16, 2010 05:59:54 am] Non-static method Services_Yadis_XRDS::parseXRDS() should not be called statically on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:255 <strong>[2048]</strong>
+[February 16, 2010 05:59:54 am] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\XML.php:332 <strong>[2]</strong>
+[February 16, 2010 05:59:54 am] Only variable references should be returned by reference on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\XML.php:343 <strong>[8]</strong>
+[February 16, 2010 06:01:15 am] Undefined offset: 1 on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\ParanoidHTTPFetcher.php:135 <strong>[8]</strong>
+[February 16, 2010 06:01:15 am] Undefined offset: 1 on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\ParanoidHTTPFetcher.php:135 <strong>[8]</strong>
+[February 16, 2010 06:01:15 am] Non-static method Services_Yadis_Yadis::_getContentType() should not be called statically on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\Yadis.php:235 <strong>[2048]</strong>
+[February 16, 2010 06:01:15 am] Invalid argument supplied for foreach() on E:\Thesis\Dev\nimbus\mod\openID\Services\Yadis\XML.php:332 <strong>[2]</strong>
+[February 16, 2010 06:11:33 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 06:31:03 am] Undefined offset: 0 on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:271 <strong>[8]</strong>
+[February 16, 2010 06:31:03 am] Undefined offset: 0 on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:272 <strong>[8]</strong>
+[February 16, 2010 06:31:03 am] Undefined variable: url on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:273 <strong>[8]</strong>
+[February 16, 2010 06:32:34 am] Undefined offset: 0 on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:271 <strong>[8]</strong>
+[February 16, 2010 06:32:34 am] Undefined offset: 0 on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:272 <strong>[8]</strong>
+[February 16, 2010 06:32:34 am] Undefined variable: url on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:273 <strong>[8]</strong>
+[February 16, 2010 06:32:40 am] Undefined offset: 0 on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:347 <strong>[8]</strong>
+[February 16, 2010 06:34:08 am] Undefined offset: 0 on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:347 <strong>[8]</strong>
+[February 16, 2010 06:34:08 am] Undefined index: required on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:361 <strong>[8]</strong>
+[February 16, 2010 06:34:08 am] Undefined index: optional on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:364 <strong>[8]</strong>
+[February 16, 2010 06:34:08 am] Undefined index: policyurl on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:367 <strong>[8]</strong>
+[February 16, 2010 06:36:06 am] Undefined index: openid_identifier on E:\.nimbus\app\login\login.php:166 <strong>[8]</strong>
+[February 16, 2010 06:36:09 am] Undefined offset: 0 on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:271 <strong>[8]</strong>
+[February 16, 2010 06:36:09 am] Undefined offset: 0 on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:272 <strong>[8]</strong>
+[February 16, 2010 06:36:09 am] Undefined variable: url on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:273 <strong>[8]</strong>
+[February 16, 2010 06:36:09 am] Undefined index: required on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:361 <strong>[8]</strong>
+[February 16, 2010 06:36:09 am] Undefined index: optional on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:364 <strong>[8]</strong>
+[February 16, 2010 06:36:09 am] Undefined index: policyurl on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:367 <strong>[8]</strong>
+[February 16, 2010 06:36:09 am] Undefined index: openid_server on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:369 <strong>[8]</strong>
+[February 16, 2010 06:36:09 am] Undefined index: openid_server on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:371 <strong>[8]</strong>
+[February 16, 2010 06:36:29 am] Undefined offset: 0 on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:347 <strong>[8]</strong>
+[February 16, 2010 06:36:29 am] Undefined index: required on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:361 <strong>[8]</strong>
+[February 16, 2010 06:36:29 am] Undefined index: optional on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:364 <strong>[8]</strong>
+[February 16, 2010 06:36:29 am] Undefined index: policyurl on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:367 <strong>[8]</strong>
+[February 16, 2010 06:36:50 am] Undefined index: openid_identity on E:\.nimbus\app\login\login.php:176 <strong>[8]</strong>
+[February 16, 2010 06:36:50 am] Undefined index: openid_assoc_handle on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:387 <strong>[8]</strong>
+[February 16, 2010 06:36:50 am] Undefined index: openid_signed on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:388 <strong>[8]</strong>
+[February 16, 2010 06:36:50 am] Undefined index: openid_sig on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:389 <strong>[8]</strong>
+[February 16, 2010 06:36:50 am] Undefined index: openid_signed on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:392 <strong>[8]</strong>
+[February 16, 2010 06:36:50 am] Undefined index: openid_ on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:395 <strong>[8]</strong>
+[February 16, 2010 06:36:53 am] Undefined offset: 0 on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:271 <strong>[8]</strong>
+[February 16, 2010 06:36:53 am] Undefined offset: 0 on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:272 <strong>[8]</strong>
+[February 16, 2010 06:36:53 am] Undefined variable: url on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:273 <strong>[8]</strong>
+[February 16, 2010 06:38:17 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 06:38:32 am] Undefined index: openid_identity on E:\.nimbus\app\login\login.php:176 <strong>[8]</strong>
+[February 16, 2010 06:38:32 am] Undefined index: openid_assoc_handle on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:298 <strong>[8]</strong>
+[February 16, 2010 06:38:32 am] Undefined index: openid_signed on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:299 <strong>[8]</strong>
+[February 16, 2010 06:38:32 am] Undefined index: openid_sig on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:300 <strong>[8]</strong>
+[February 16, 2010 06:38:32 am] Undefined index: openid_signed on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:303 <strong>[8]</strong>
+[February 16, 2010 06:38:32 am] Undefined index: openid_ on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:306 <strong>[8]</strong>
+[February 16, 2010 06:39:41 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 06:41:47 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 06:42:20 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 06:47:46 am] Undefined index: openid_server on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:282 <strong>[8]</strong>
+[February 16, 2010 07:13:09 am] require_once(Auth/Yadis/PlainHTTPFetcher.php): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\mod\openID\Auth\OpenID.php:28 <strong>[2]</strong>
+[February 16, 2010 07:16:22 am] require_once(Auth/Yadis/PlainHTTPFetcher.php): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\mod\openID\Auth\OpenID.php:30 <strong>[2]</strong>
+[February 16, 2010 07:16:42 am] require_once(Auth/Yadis/PlainHTTPFetcher.php): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\mod\openID\Auth\OpenID.php:30 <strong>[2]</strong>
+[February 16, 2010 07:17:16 am] require_once(Auth/Yadis/PlainHTTPFetcher.php): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\mod\openID\Auth\OpenID.php:28 <strong>[2]</strong>
+[February 16, 2010 07:19:11 am] require_once(Auth/Yadis/PlainHTTPFetcher.php): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\mod\openID\Auth\OpenID.php:28 <strong>[2]</strong>
+[February 16, 2010 07:19:40 am] require_once(E:\Thesis\Dev\nimbus\mod\openIDAuth/Yadis/PlainHTTPFetcher.php): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\mod\openID\Auth\OpenID.php:28 <strong>[2]</strong>
+[February 16, 2010 07:19:48 am] require_once(E:\Thesis\Dev\nimbus\mod\openIDAuth/Yadis/PlainHTTPFetcher.php): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\mod\openID\Auth\OpenID.php:30 <strong>[2]</strong>
+[February 16, 2010 07:19:56 am] require_once(Auth/Yadis/PlainHTTPFetcher.php): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\mod\openID\Auth\OpenID.php:28 <strong>[2]</strong>
+[February 16, 2010 07:20:20 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 07:28:03 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 07:28:20 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 07:29:50 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 07:30:06 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 07:30:34 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 07:30:55 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 07:31:50 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 07:31:57 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 07:33:58 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 07:34:49 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 07:35:38 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 07:35:44 am] Undefined index: openid_server on E:\Thesis\Dev\nimbus\mod\openID\class.openid.php:282 <strong>[8]</strong>
+[February 16, 2010 07:39:59 am] require_once(Auth/Yadis/PlainHTTPFetcher.php): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\mod\openID\Auth\OpenID.php:28 <strong>[2]</strong>
+[February 16, 2010 07:41:01 am] require_once(Auth/Yadis/HTTPFetcher.php): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\mod\openID\Auth\Yadis\PlainHTTPFetcher.php:20 <strong>[2]</strong>
+[February 16, 2010 07:42:05 am] require_once(Auth/OpenID/CryptUtil.php): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\mod\openID\Auth\OpenID\BigMath.php:21 <strong>[2]</strong>
+[February 16, 2010 07:43:25 am] require_once(E:\Thesis\Dev\nimbus\mod\openID\openID\Auth/OpenID.php): failed to open stream: No such file or directory on E:\Thesis\Dev\nimbus\mod\openID.php:35 <strong>[2]</strong>
+[February 16, 2010 07:46:31 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 07:47:22 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 16, 2010 08:04:43 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>

@@ -34,5 +34,38 @@ Textedit[Textedit_instance] = {
 	},
 	About: function(){
 		Nimbus.Dialog.justOk({width:'270px',height:'180px',title:'About',content_id:'textedit-dialog-about',id:'dialog_' + Textedit_window.id,parent: Textedit_window.id}, function(){});
+	},
+	Open: function(e){
+		var id = $(e).parents('.window').attr('id');
+		Nimbus.Dialog.open({multiple:true,allow:[],id:'dialog_' + Textedit_window.id,parent: Textedit_window.id}, function(result){
+			$.post(result, function(res){
+				$(e).parents('.window').find('.titlebar .title').html(result + ' - Textedit - Nimbus Text Editor');
+				$('#' + id + ' .textarea').val(res);
+			});
+		});
+	},
+	Lines: function(e){
+		var id = $(e).parents('.window').attr('id');
+		var width = $('#' + id + ' .textarea').width();
+		$('#' + id + ' .textarea').keypress(function(){
+			var string = $('#' + id + ' .textarea').val();
+			var arr = string.split("\n");
+			$('#' + id + ' .lines').html('');
+			if (arr) {
+				$.each(arr, function(i){
+					$('#' + id + ' .lines').append("<p>" + (i+1) + "</p>");
+				});
+			}
+			$('#' + id + ' .textarea').width(width - 24);
+			$('#' + id + ' .textarea').css({marginLeft:'24px'});
+		});
+		if (!$(e).parents('.window').hasClass('showlines')) {
+			$('#' + id + ' .lines').show();
+			$(e).parents('.window').addClass('showlines');
+		} else {
+			$(e).parents('.window').removeClass('showlines');
+			$('#' + id + ' .lines').hide();
+		}
+		$(e).parents('.child').hide();
 	}
 }

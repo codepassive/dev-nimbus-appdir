@@ -102,7 +102,7 @@ class Login extends Application implements ApplicationInterface {
 				'handle' => 'Login',
 				'id' => 'login-container',
 				'type' => 1,
-				'classes' => array('login'),
+				'classes' => array('login','static'),
 				'x' => 'center',
 				'y' => 'center',
 				'toolbars' => array(
@@ -140,13 +140,50 @@ class Login extends Application implements ApplicationInterface {
 		$token = null;
 		//if (request('token')) {
 			if (request('username') && request('password')) {
-				if ($this->user->login(request('username'), request('password'))) {
-					$response = true;
-					$token = Token::create();
+				if (config('allow_oauth') == 1) {
+					if (false) {
+						
+					} else {
+						if ($this->user->login(request('username'), request('password'))) {
+							$response = true;
+							$token = Token::create();
+						}
+					}
+				} else {
+					if ($this->user->login(request('username'), request('password'))) {
+						$response = true;
+						$token = Token::create();
+					}
 				}
 			}
 		//}
 		$this->json(array('response' => $response));
+	}
+	
+	function openid_begin() {
+		$this->module('openID');
+		$openid = $this->modules->openID->module;
+		$openid->SetIdentity($_GET['openid_identifier']);
+		$openid->SetApprovedURL('http://thesis/?app=login&action=openid_finish');
+		$openid->SetTrustRoot('http://thesis/');
+		$openid->GetOpenIDServer();
+		$openid->redirect();
+	}
+	
+	function openid_finish() {
+		$this->module('openID');
+		$openid = $this->modules->openID->module;
+		$identity = $_GET['openid_identity'];
+		$openid->SetIdentity($identity);
+		$ok = $openid->ValidateWithServer();
+		if ($ok) {
+			print_r($_REQUEST);
+		} else if ($openid->IsError() == true) {
+			$error = $openid->GetError();
+			echo "OpenID auth problem\nCode: {$error['code']}\nDescription: {$error['description']}\nOpenID: {$identity}\n";
+		} else { 
+			echo 'Authorisation failed, please check the credentials entered and double check the use of caplocks.';
+		}
 	}
 	
 }

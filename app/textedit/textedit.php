@@ -123,8 +123,8 @@ class textedit extends Application implements ApplicationInterface {
 									$this->toolbar(array(
 										'handle' => $this->api_handle,
 										'standard', 
-										'File' => array(array('New', 'New', 'Ctrl+N'), array('Save', 'Save', 'Ctrl+S', 'Save'), null, array('Close', 'Close', 'Alt+F4', 'Close')),
-										'Insert' => array(array('Time/Date', 'Time', 'F5')),
+										'File' => array(array('New', 'New', 'Ctrl+N'), array('Open', 'Open', 'Ctrl+O', 'Open'), array('Save', 'Save', 'Ctrl+S', 'Save'), null, array('Close', 'Close', 'Alt+F4', 'Close')),
+										'Actions' => array(array('Insert Time/Date', 'Time', 'F5')),
 										'Information' => array(array('About', 'About', null, 'About')),
 									))
 								)
@@ -146,16 +146,31 @@ class textedit extends Application implements ApplicationInterface {
 	}
 
 	public function save(){
-		$content = $this->request->post['content'];
-		$filename = $this->request->post['filename'];
-		$path = $this->request->post['path'];
-		$result = false;
-		if ($file = new File(DATA_DIR . 'usr' . DS . $this->user->username . DS . $path . DS . $filename, true)) {
-			$result = true;
-			$file->write($content);
-			echo json_encode(array('response'=>true,'message'=>'Successfully saved ' . $filename . ' to "' . $path . '".'));
-		} else {
-			echo json_encode(array('response'=>false,'message'=>'The system could not save this file. Please try again'));
+		if ($this->user->isAllowed('textedit')) {
+			$content = $this->request->post['content'];
+			$filename = $this->request->post['filename'];
+			$path = $this->request->post['path'];
+			$result = false;
+			if ($file = new File(DATA_DIR . 'usr' . DS . $this->user->username . DS . $path . DS . $filename, true)) {
+				$result = true;
+				$file->write($content);
+				echo json_encode(array('response'=>true,'message'=>'Successfully saved ' . $filename . ' to "' . $path . '".'));
+			} else {
+				echo json_encode(array('response'=>false,'message'=>'The system could not save this file. Please try again'));
+			}
+		}
+	}
+	
+	public function read(){
+		if ($this->user->isAllowed('textedit')) {
+			$path = $this->request->post['path'];
+			$result = false;
+			if ($file = new File(DATA_DIR . 'usr' . DS . $this->user->username . DS . $path)) {
+				$result = true;
+				echo json_encode(array('response'=>true,'message'=>'','content'=>$file->read()));
+			} else {
+				echo json_encode(array('response'=>false,'message'=>'The system could not read this file. Please try again'));
+			}
 		}
 	}
 

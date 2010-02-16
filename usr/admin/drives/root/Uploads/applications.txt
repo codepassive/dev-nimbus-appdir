@@ -1,0 +1,22 @@
+FILE API
+UPDATE
+NETWORK
+--------------
+Notifications
+Uploader
+Application Installer
+Nimbus Installer
+Image Editor
+Word Processor
+Spreadhsheet
+Presentation
+Media Player
+Feed
+Browser
+Project Manager
+SVN/GIT Manager
+Chat
+Email
+Help
+Get Started
+OAUTH

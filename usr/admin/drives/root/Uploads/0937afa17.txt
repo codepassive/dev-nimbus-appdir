@@ -1,0 +1,1 @@
+a:8:{s:8:"fileguid";s:36:"f264d7a6-65c9-102d-92fe-0030488e168c";s:4:"name";s:8:"test.egg";s:8:"imageurl";s:62:"http://rookery5.aviary.com/storagev12/3039500/3039576_85e5.png";s:9:"thumbnail";s:66:"http://rookery5.aviary.com/storagev12/3039500/3039576_ea47_sqr.jpg";s:11:"description";s:0:"";s:4:"tags";s:0:"";s:8:"userhash";s:9:"0937afa17";s:4:"tool";s:7:"phoenix";}

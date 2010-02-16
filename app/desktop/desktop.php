@@ -98,11 +98,41 @@ class desktop extends Application implements ApplicationInterface {
 			
 			//Append some important desktop information
 			global $language;
-			$personal->title = sprintf($language['titlebar_inside'], $personal->username, config('appname'));
+			$personal->title = sprintf($language['titlebar_inside'], $personal->username, config('appname'));			
 			
 			//Send out the output
 			$this->json($personal, 'data');
 			$this->view('shell/desktop');
+		}
+	}
+	
+	public function facebook(){
+		if ($this->user->isLoggedIn()) {
+			$this->module('facebook');
+			$facebook = $this->modules->facebook->module;
+			//$user_id = $facebook->require_frame();
+			if (!isset($_GET['auth_token'])) {
+				$facebook->require_login('publish_stream,status_update');
+			} else {
+				$sess = $facebook->do_get_session($_GET['auth_token']);
+				$facebook->set_user($sess['uid'], $sess['session_key'], $sess['expires']);
+				$user_id = $facebook->get_loggedin_user();
+				$facebook->api_client->stream_publish($_REQUEST['status']);
+				echo 'Status Update Successfully';
+			}
+		}
+	}
+	
+	public function twitter(){
+		if ($this->user->isLoggedIn()) {
+			include 'twitter.php';
+			//ITERATE THROUGH EVERY TWITTER ACCOUNT ON THE BRIDGE
+			$twitter = new Twitter('jmrocela','forward');
+			if ($twitter->update($_REQUEST['status'])) {
+				echo json_encode(array('response'=>true,'message'=>'Your Status has been Updated'));
+			} else {
+				echo json_encode(array('response'=>false,'message'=>'Could not update your status. Please try again.'));
+			}
 		}
 	}
 	

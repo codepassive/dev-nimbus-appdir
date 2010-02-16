@@ -1,4 +1,5 @@
 <div class="textedit-inner">
+	<div class="lines"></div>
 	<textarea class="fill-all textarea"></textarea>
 </div>
 <div class="textedit-dialog-about dialog_content">

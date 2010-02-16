@@ -2,3 +2,15 @@
 	border: 0;
 	width: 100%;
 }
+.textedit .lines {
+	display: none;
+	position: absolute;
+	left: 0;
+	background: #c0c0c0;
+	color: #ffffff;
+	padding: 0 4px;
+	margin-left: 8px;
+}
+.textedit.maximized .lines {
+	margin-left: 0;
+}

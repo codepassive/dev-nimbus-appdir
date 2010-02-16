@@ -1,4 +1,5 @@
 var Desktop = {
+	status: '',
 	init: function(){
 		//Add the desktop container
 		Nimbus.Desktop.load(Desktop_view, "desktop-container");
@@ -41,7 +42,16 @@ var Desktop = {
 			$('.menu-container').hide();
 		}});
 		//Usermenu
-		$('#usermenusetstatus').click(function(){alert('Not yet implemented. Will attach to the Bridge application.');});
+		$('#usermenusetstatus').click(function(){
+			Nimbus.Dialog.custom({width:'260px',height:'140px',title:'What are you doing?',content_id:'setstatus',id:'dialog_' + Desktop_data.id,parent: Desktop_data.id, load: function(){
+				$('#dialog_' + Desktop_data.id + ' #iframecontainer').hide();
+			}}, function(){
+				var status = $('#dialog_' + Desktop_data.id + ' #status-text1').val();
+				$('#dialog_' + Desktop_data.id + ' #iframecontainer').show();
+				$('#dialog_' + Desktop_data.id + ' #iframe').attr('src', SERVER_URL + '?app=desktop&action=facebook&status=' + escape(status));
+				Nimbus.Connect.post(SERVER_URL + '?app=desktop&action=twitter', {status:status}, function(res){});
+			});
+		});
 		$('#usermenulockscreen').click(function(){alert('Not yet implemented. Should Lock the screen on idle sessions');});
 		$('#usermenulogoff').click(function(){alert('Not yet implemented. Should log a user out of their session');});
 		$('#usermenupersonalize').click(function(){

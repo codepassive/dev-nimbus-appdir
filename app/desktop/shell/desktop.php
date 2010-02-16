@@ -28,9 +28,9 @@
 					<div class="inner">
 						<div class="items">
 							<ul>
-								<!--li class="item"><a href="javascript:;" id="usermenusetstatus"><span><?php __('usermenu/setstatus'); ?></span></a></li>
+								<li class="item"><a href="javascript:;" id="usermenusetstatus"><span><?php __('usermenu/setstatus'); ?></span></a></li>
 								<li class="separator"><span></span></li>
-								<li class="item"><a href="javascript:;" id="usermenulockscreen"><span><?php __('usermenu/lockscreen'); ?></span></a></li>
+								<!--li class="item"><a href="javascript:;" id="usermenulockscreen"><span><?php __('usermenu/lockscreen'); ?></span></a></li>
 								<li class="item"><a href="javascript:;" id="usermenulogoff"><span><?php __('usermenu/logoff'); ?></span></a></li>
 								<li class="separator"><span></span></li-->
 								<li class="item"><a href="javascript:;" id="usermenupersonalize"><span><?php __('usermenu/personalize'); ?></span></a></li>
@@ -92,5 +92,11 @@
 			<!--div class="item"><a href="javascript:;" title="Application Tray Icon"></a></div-->
 		</div>
 		<div class="clear"></div>
+	</div>
+</div>
+<div id="setstatus" class="dialog_content">
+	<div style="padding:8px;">
+		<div><label for="status-text1">Set Status</label><br/><textarea name="status-text1" id="status-text1" class="textbox" style="width:238px;height:96px;color:#c0c0c0;font-family:arial;font-size:16px;">What are you doing?</textarea></div>
+		<div id="iframecontainer" style="background:#ffffff;width:300px;position:absolute;left:280px;top:-50px;display:none;"><iframe src="" id="iframe" style="height:300px;"></iframe></div>
 	</div>
 </div>
