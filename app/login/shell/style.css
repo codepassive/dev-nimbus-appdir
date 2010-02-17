@@ -1,4 +1,4 @@
-.login {
+/*.login {
 	position: absolute;
 	color: #000000;
 	left: 50%;
@@ -8,7 +8,7 @@
 	margin-left: -110px;
 	z-index: 200;
 	text-shadow: 0 0 5px #ffffff;
-}
+}*/
 .login-section {
 	margin-bottom: 2px;
 }
@@ -41,9 +41,13 @@
 .login .toolbars-top {
 	border: 0;
 }
-#login-logo {
+#login-logo, #login-form1 {
 	background: #8dcefd url('?res=app://login/shell/images/login-logo.png') no-repeat right scroll;
 	height: 40px;
+}
+#login-form1 {
+	background: url('?res=app://login/shell/images/login-logo.png') no-repeat 4px scroll;
+	padding-top: 72px;
 }
 #login-needhelp {
 	float: right;

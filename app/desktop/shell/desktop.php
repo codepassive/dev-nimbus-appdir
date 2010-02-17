@@ -30,16 +30,16 @@
 							<ul>
 								<li class="item"><a href="javascript:;" id="usermenusetstatus"><span><?php __('usermenu/setstatus'); ?></span></a></li>
 								<li class="separator"><span></span></li>
-								<!--li class="item"><a href="javascript:;" id="usermenulockscreen"><span><?php __('usermenu/lockscreen'); ?></span></a></li>
+								<!--li class="item"><a href="javascript:;" id="usermenulockscreen"><span><?php __('usermenu/lockscreen'); ?></span></a></li-->
 								<li class="item"><a href="javascript:;" id="usermenulogoff"><span><?php __('usermenu/logoff'); ?></span></a></li>
-								<li class="separator"><span></span></li-->
+								<li class="separator"><span></span></li>
 								<li class="item"><a href="javascript:;" id="usermenupersonalize"><span><?php __('usermenu/personalize'); ?></span></a></li>
 								<li class="item"><a href="javascript:;" id="usermenupersonal"><span><?php __('usermenu/personal'); ?></span></a></li>
 								<li class="item"><a href="javascript:;" id="usermenuconfiguserpermissions"><span><?php __('usermenu/configuserpermissions'); ?></span></a></li>
 								<li class="item"><a href="javascript:;" id="usermenuattachexternal"><span><?php __('usermenu/attachexternal'); ?></span></a></li>
-								<!--li class="separator"><span></span></li>
-								<li class="item"><a href="javascript:;" id="usermenulogintomessenger"><span><?php __('usermenu/logintomessenger'); ?></span></a></li>
-								<li class="item"><a href="javascript:;" id="usermenucheckmail"><span><?php __('usermenu/checkmail'); ?></span></a></li-->
+								<li class="separator"><span></span></li>
+								<li class="item"><a href="javascript:;" id="usermenulogintomessenger"><span>Internal Discussion</span></a></li>
+								<!--li class="item"><a href="javascript:;" id="usermenucheckmail"><span><?php __('usermenu/checkmail'); ?></span></a></li-->
 							</ul>
 						</div>
 					</div>
@@ -97,6 +97,8 @@
 <div id="setstatus" class="dialog_content">
 	<div style="padding:8px;">
 		<div><label for="status-text1">Set Status</label><br/><textarea name="status-text1" id="status-text1" class="textbox" style="width:238px;height:96px;color:#c0c0c0;font-family:arial;font-size:16px;">What are you doing?</textarea></div>
-		<div id="iframecontainer" style="background:#ffffff;width:300px;position:absolute;left:280px;top:-50px;display:none;"><iframe src="" id="iframe" style="height:300px;"></iframe></div>
 	</div>
+</div>
+<div id="facebookstatus" class="dialog_content">
+	<div id="iframecontainer"><iframe src="" id="iframe" style="width:720px;height:507px;"></iframe></div>
 </div>

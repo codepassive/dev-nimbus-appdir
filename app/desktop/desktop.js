@@ -7,6 +7,9 @@ var Desktop = {
 		//Set the user data to the desktop
 		document.title = Desktop_data.title;
 		$('#nimbusbar-user a.userbutton').html(Desktop_data.username);
+		var height = $('#nimbusbar').height();
+		$('#nimbusbar').css({top:(0 - height)})
+		$('#nimbusbar').animate({top:0}, 1000);
 
 		$.each(Desktop_data.desktop_icons, function(i, e){
 			Nimbus.Desktop.addIcon(e);
@@ -44,16 +47,29 @@ var Desktop = {
 		//Usermenu
 		$('#usermenusetstatus').click(function(){
 			Nimbus.Dialog.custom({width:'260px',height:'140px',title:'What are you doing?',content_id:'setstatus',id:'dialog_' + Desktop_data.id,parent: Desktop_data.id, load: function(){
-				$('#dialog_' + Desktop_data.id + ' #iframecontainer').hide();
+				//$('#dialog_' + Desktop_data.id + ' #iframecontainer').hide();
 			}}, function(){
 				var status = $('#dialog_' + Desktop_data.id + ' #status-text1').val();
-				$('#dialog_' + Desktop_data.id + ' #iframecontainer').show();
-				$('#dialog_' + Desktop_data.id + ' #iframe').attr('src', SERVER_URL + '?app=desktop&action=facebook&status=' + escape(status));
+				//$('#dialog_' + Desktop_data.id + ' #iframecontainer').show();
+				Nimbus.Dialog.custom({width:'720px',height:'510px',title:'Facebook Status',content_id:'facebookstatus',id:'dialog2_' + Desktop_data.id,parent:'dialog_' + Desktop_data.id,
+					load: function(){
+						$('#dialog2_' + Desktop_data.id + ' #iframe').attr('src', SERVER_URL + '?app=desktop&action=facebook&status=' + escape(status));
+					}}, function(){
+						$('#dialog2_' + Desktop_data.id).remove();
+					}
+				);
 				Nimbus.Connect.post(SERVER_URL + '?app=desktop&action=twitter', {status:status}, function(res){});
 			});
 		});
 		$('#usermenulockscreen').click(function(){alert('Not yet implemented. Should Lock the screen on idle sessions');});
-		$('#usermenulogoff').click(function(){alert('Not yet implemented. Should log a user out of their session');});
+		$('#usermenulogoff').click(function(){
+			Nimbus.modal(true);
+			Nimbus.confirm({id:'new_' + Desktop_data.id,title:'Are you sure you want to Logout?',content:'You are going to end this session. Are you sure?'}, function(){
+				window.location = SERVER_URL;
+			}, function(){
+				Nimbus.modal(false);
+			});
+		});
 		$('#usermenupersonalize').click(function(){
 			Nimbus.Application.load('config', function(){
 				$('#config-container .tab-button:eq(0)').click();
@@ -78,7 +94,9 @@ var Desktop = {
 			});
 			$('#usermanager-container .tab-button:eq(1)').click();
 		});
-		$('#usermenulogintomessenger').click(function(){alert('Not yet implemented. Will attach to the Messenger application.');});
+		$('#usermenulogintomessenger').click(function(){
+			Nimbus.Application.load('chat');
+		});
 		$('#usermenucheckmail').click(function(){alert('Not yet implemented. Will attach to the Email application.');});
 		
 		//Startmenu

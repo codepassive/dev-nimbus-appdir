@@ -1,0 +1,28 @@
+.chat {
+	position: absolute;
+	left: 0;
+	top: 34px;
+	width: 255px;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+}
+#closechat {
+	position: absolute;
+	top: 0;
+	left: 255px;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	padding: 8px;
+}
+#closechat:hover {
+	background: rgba(255,255,255,0.5);
+}
+.chat .message, .chat .message p {
+	padding: 4px;
+}
+.chat .message {
+	border-bottom: 1px solid #ebebeb;
+}
+.chat .message:hover {
+	background: #ecf1f8;
+}

@@ -98,36 +98,12 @@ class Login extends Application implements ApplicationInterface {
 	 */
 	public function main(){
 		//Create a Window
-		$window = $this->window(array(
-				'handle' => 'Login',
-				'id' => 'login-container',
-				'type' => 1,
-				'classes' => array('login','static'),
-				'x' => 'center',
-				'y' => 'center',
-				'toolbars' => array(
-								'top' => array('<div id="login-logo"></div>')
-							),
-				'content' => array(
-								$this->useTemplate('shell/login')
-							),
-				'buttons' => array(
-								array('Proceed', 'submit'),
-								'<p id="login-needhelp"><a href="http://wiki.nimbusinitiative.org/Getting_Started" target="_blank">Need Help?</a></p>'
-							),
-				'hasIcon' => false,
-				'title' => '',
-				'minimizable' => false,
-				'closable' => false,
-				'toggable' => false,
-				'resizable' => false,
-				'draggable' => false,
-			));
 		//Add an event to the textboxes
 		$script = "var button = $('#login-container .buttons .proceed').get(0);var code = (e.keyCode ? e.keyCode : e.which);if(code == 13) {{$this->api_handle}.submit(button);}";
-		Application::bindEvent('keypress', array('login-text1', 'login-password1'), 'Login', $script, true);
+		//Application::bindEvent('keypress', array('login-text1', 'login-password1'), 'Login', $script, true);
+		$this->view('shell/login2');
 		//Return the Window? - Think of a better way for this
-		return $window;
+		//return $window;
 	}
 
 	/**
