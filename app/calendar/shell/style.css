@@ -6,3 +6,35 @@
 .calendar-display {
 	padding: 8px;
 }
+/* COLORS */
+.fc-event.red, .fc-agenda .fc-event-time.red, .fc-event.red a {
+	background-color: #cc0000 !important;
+}
+.fc-event.blue, .fc-agenda .fc-event-time.blue, .fc-event.blue a {
+	background-color: #3465a4 !important;
+}
+.fc-event.green, .fc-agenda .fc-event-time.green, .fc-event.green a {
+	background-color: #4e9a06 !important;
+}
+.fc-event.purple, .fc-agenda .fc-event-time.purple, .fc-event.purple a {
+	background-color: #75507b !important;
+}
+.fc-event.gray, .fc-agenda .fc-event-time.gray, .fc-event.gray a {
+	background-color: #ffd7d7 !important;
+	color: #000000 !important;
+}
+.fc-event.dark, .fc-agenda .fc-event-time.dark, .fc-event.dark a {
+	background-color: #888a85 !important;
+}
+.fc-event.yellow, .fc-agenda .fc-event-time.yellow, .fc-event.yellow a {
+	background-color: #fce94f !important;
+	color: #000000 !important;
+}
+.fc-event.orange, .fc-agenda .fc-event-time.orange, .fc-event.orange a {
+	background-color: #fcaf3e !important;
+}
+.fc-event, .fc-agenda .fc-event-time, .fc-event a {
+	border: 0 !important;
+	padding: 2px !important;
+	font-size: 11px !important;
+}

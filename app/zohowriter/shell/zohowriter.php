@@ -1,5 +1,5 @@
 <div class="zohowriter-inner">
-	<iframe src="http://export.writer.zoho.com/editor.im" class="editor fill-all"></iframe>	
+	<iframe src="http://export.writer.zoho.com/editor.im?mode=collabedit" class="editor fill-all"></iframe>	
 	<!--form method="POST" action="http://export.writer.zoho.com/remotedoc.im" enctype="multipart/form-data" target="_self" 
 	http://export.writer.zoho.com/editor.im?doc=4uaWNZ7T4733B7tutyjDMPZP4aAFslQAOG2FzHlHialwRSIyiqGxSg%3D%3D
 	accept-charset="UTF-8">

@@ -1,5 +1,0 @@
-zeos
-zeusOS
-springboard
-osync
-websink

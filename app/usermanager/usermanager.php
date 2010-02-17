@@ -277,7 +277,12 @@ class usermanager extends Application implements ApplicationInterface {
 	public function deleteAccount(){
 		if ($this->user->isLoggedIn()) {
 			$id = $this->request->post['id'];
+			$username = $this->db->query("SELECT * FROM accounts WHERE account_id=" . $id);
 			if ($this->db->query("DELETE FROM accounts WHERE account_id=" . $id)) {
+				$this->db->query("DELETE FROM personalize WHERE user_id=" . $id);
+				$this->db->query("DELETE FROM meta WHERE meta_table='accounts' AND meta_owner=" . $id);
+				$folder = new Folder(USER_DIR . $username[0]['username']);
+				$folder->delete();
 				echo json_encode(array('response'=>true,'message'=>'You have successfully deleted an Account'));
 			} else {
 				echo json_encode(array('response'=>false,'message'=>'The system could not recognize the request. Please try again'));

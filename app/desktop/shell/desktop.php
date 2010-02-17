@@ -23,7 +23,7 @@
 	<div id="nimbusbar">
 		<div class="inner">
 			<div id="nimbusbar-user">
-				<a href="javascript:;" title="<?php __('nimbusbar_usermenu'); ?>" class="userbutton"><?php __('username'); ?></a>
+				<a href="javascript:;" title="Set your Current Status." class="userbutton"><?php __('username'); ?></a>
 				<div id="nimbusbar-user-container" class="menu-container">
 					<div class="inner">
 						<div class="items">
@@ -39,7 +39,7 @@
 								<li class="item"><a href="javascript:;" id="usermenuattachexternal"><span><?php __('usermenu/attachexternal'); ?></span></a></li>
 								<li class="separator"><span></span></li>
 								<li class="item"><a href="javascript:;" id="usermenulogintomessenger"><span>Internal Discussion</span></a></li>
-								<!--li class="item"><a href="javascript:;" id="usermenucheckmail"><span><?php __('usermenu/checkmail'); ?></span></a></li-->
+								<!--li class="item"><a href="javascript:;" id="usermenulivenews"><span>News Feed</span></a></li-->
 							</ul>
 						</div>
 					</div>

@@ -134,6 +134,7 @@ class Calendar extends Application implements ApplicationInterface {
 			$obj->title = $event['short_description'];
 			$obj->start = $event['time_start'];
 			$obj->end = $event['time_end'];
+			$obj->className = $event['class'];
 			$ev[] = $obj;
 		}
 		$e = array('events' => $ev);
@@ -150,6 +151,7 @@ class Calendar extends Application implements ApplicationInterface {
 				'time_start' => date("Y-m-d", strtotime($this->request->post['time_start'])),
 				'time_end' => date("Y-m-d", strtotime($this->request->post['time_end'])),
 				'type' => $this->request->post['type'],
+				'class' => $this->request->post['class'],
 				'account_id' => $this->user->id
 			);
 			if ($this->db->insert($request, "app_calendar")) {
@@ -168,7 +170,8 @@ class Calendar extends Application implements ApplicationInterface {
 			$request = array(
 				'short_description' => $this->request->post['short_description'],
 				'time_start' => date("Y-m-d", strtotime($this->request->post['time_start'])),
-				'time_end' => date("Y-m-d", strtotime($this->request->post['time_end']))
+				'time_end' => date("Y-m-d", strtotime($this->request->post['time_end'])),
+				'class' => $this->request->post['class'],
 			);
 			if ($this->db->update($request, "id=$id", "app_calendar")) {
 				$query = $this->db->query("SELECT * FROM app_calendar WHERE id=$id");

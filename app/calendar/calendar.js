@@ -77,6 +77,7 @@ Calendar = {
 							}
 							$('.editevent_fields[name=time_start]').val(start.getFullYear() + '-' + FormatNumberLength(start.getMonth()+1,2) + '-' + FormatNumberLength(start.getDate(),2));
 							$('.editevent_fields[name=time_end]').val(end.getFullYear() + '-' + FormatNumberLength(end.getMonth()+1,2) + '-' + FormatNumberLength(end.getDate(),2));
+							$('.editevent_fields[name=class]').val(calEvent.className);
 							$('.editevent_delete').click(function(){
 								Calendar.eventDelete(calEvent.id);
 							});

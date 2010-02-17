@@ -96,6 +96,9 @@
 			background: transparent url('?res=app://desktop/shell/images/not-social.png') no-repeat 12px 8px scroll;
 			border-right: 1px solid rgba(255, 255, 255, 0.2);
 		}
+		#nimbusbar-user a.userbutton.has {
+			background: transparent url('?res=app://desktop/shell/images/has-status.png') no-repeat 12px 8px scroll;
+		}
 		#nimbusbar-user-container {
 			position: absolute;
 			display: none;
@@ -147,6 +150,9 @@
 				}
 				#usermenusetstatus {
 					background: transparent url('?res=app://desktop/shell/images/not-social.png') no-repeat 4px 4px scroll;
+				}
+				#usermenusetstatus.has {
+					background: transparent url('?res=app://desktop/shell/images/has-status.png') no-repeat 4px 4px scroll;
 				}
 				#usermenulockscreen {
 					background: transparent url('?res=img://icons/Tango/16/actions/media-playback-pause.png') no-repeat 4px 4px scroll;

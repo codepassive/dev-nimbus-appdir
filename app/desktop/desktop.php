@@ -136,5 +136,12 @@ class desktop extends Application implements ApplicationInterface {
 		}
 	}
 	
+	public function checkInstance(){
+		if (!$this->user->isLoggedIn()) {
+			echo 'clearInterval(Desktop.instanceInterval);';
+			echo 'Nimbus.modal(true);';
+		}
+	}
+	
 }
 ?>
