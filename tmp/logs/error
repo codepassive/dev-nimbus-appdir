@@ -3830,3 +3830,21 @@
 [February 17, 2010 19:09:34 pm] rmdir(/Resources/CakePHP/app/config/sql/\.svn/prop-base): Directory not empty on E:\Thesis\Dev\nimbus\lib\filesystem\folder.php:599 <strong>[2]</strong>
 [February 17, 2010 19:09:38 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
 [February 17, 2010 19:22:59 pm] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 18, 2010 05:39:50 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 18, 2010 05:40:00 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 18, 2010 15:47:37 pm] unlink(/Resources/CakePHP/app/config/sql/\.svn/all-wcprops): Permission denied on E:\Server\Work\installertest\nimbus\lib\filesystem\folder.php:588 <strong>[2]</strong>
+[February 18, 2010 15:47:37 pm] unlink(/Resources/CakePHP/app/config/sql/\.svn/entries): Permission denied on E:\Server\Work\installertest\nimbus\lib\filesystem\folder.php:588 <strong>[2]</strong>
+[February 18, 2010 15:47:37 pm] unlink(/Resources/CakePHP/app/config/sql/\.svn/prop-base/db_acl.php.svn-base): Permission denied on E:\Server\Work\installertest\nimbus\lib\filesystem\folder.php:588 <strong>[2]</strong>
+[February 18, 2010 15:47:37 pm] unlink(/Resources/CakePHP/app/config/sql/\.svn/prop-base/db_acl.sql.svn-base): Permission denied on E:\Server\Work\installertest\nimbus\lib\filesystem\folder.php:588 <strong>[2]</strong>
+[February 18, 2010 15:47:37 pm] unlink(/Resources/CakePHP/app/config/sql/\.svn/prop-base/i18n.php.svn-base): Permission denied on E:\Server\Work\installertest\nimbus\lib\filesystem\folder.php:588 <strong>[2]</strong>
+[February 18, 2010 15:47:37 pm] unlink(/Resources/CakePHP/app/config/sql/\.svn/prop-base/i18n.sql.svn-base): Permission denied on E:\Server\Work\installertest\nimbus\lib\filesystem\folder.php:588 <strong>[2]</strong>
+[February 18, 2010 15:47:37 pm] unlink(/Resources/CakePHP/app/config/sql/\.svn/prop-base/sessions.php.svn-base): Permission denied on E:\Server\Work\installertest\nimbus\lib\filesystem\folder.php:588 <strong>[2]</strong>
+[February 18, 2010 15:47:37 pm] unlink(/Resources/CakePHP/app/config/sql/\.svn/prop-base/sessions.sql.svn-base): Permission denied on E:\Server\Work\installertest\nimbus\lib\filesystem\folder.php:588 <strong>[2]</strong>
+[February 18, 2010 15:47:37 pm] rmdir(/Resources/CakePHP/app/config/sql/\.svn/prop-base): Directory not empty on E:\Server\Work\installertest\nimbus\lib\filesystem\folder.php:599 <strong>[2]</strong>
+[February 18, 2010 08:16:32 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 18, 2010 08:19:47 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 18, 2010 08:19:52 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 18, 2010 08:22:07 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 18, 2010 08:22:53 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 18, 2010 08:23:15 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>
+[February 18, 2010 08:24:02 am] in_array() expects parameter 2 to be array, boolean given on E:\Thesis\Dev\nimbus\sys\application.php:371 <strong>[2]</strong>

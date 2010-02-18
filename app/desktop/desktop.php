@@ -127,11 +127,14 @@ class desktop extends Application implements ApplicationInterface {
 		if ($this->user->isLoggedIn()) {
 			include 'twitter.php';
 			//ITERATE THROUGH EVERY TWITTER ACCOUNT ON THE BRIDGE
-			$twitter = new Twitter('jmrocela','forward');
-			if ($twitter->update($_REQUEST['status'])) {
-				echo json_encode(array('response'=>true,'message'=>'Your Status has been Updated'));
-			} else {
-				echo json_encode(array('response'=>false,'message'=>'Could not update your status. Please try again.'));
+			$twitters = $this->db->query("SELECT * FROM externals WHERE handle='twitter'");
+			foreach ($twitters as $t) {
+				$twitter = new Twitter($t['username'],$t['password']);
+				if ($twitter->update($_REQUEST['status'])) {
+					echo json_encode(array('response'=>true,'message'=>'Your Status has been Updated'));
+				} else {
+					echo json_encode(array('response'=>false,'message'=>'Could not update your status. Please try again.'));
+				}
 			}
 		}
 	}

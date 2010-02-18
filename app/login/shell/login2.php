@@ -1,7 +1,7 @@
 <div class="login" style="position:absolute;top:0;height:100%;right:0;width:240px;background:rgba(0,0,0,0.5);color:#ffffff;">
 	<div id="login-form1" class="form" style="position:relative;top:50%;margin-top:-200px;">
-		<div><label for="login-text1"><?php __('username'); ?></label> <input type="text" name="login-text1" id="login-text1" class="textbox" value="admin" /></div>
-		<div><label for="login-password1"><?php __('password'); ?></label> <input type="password" name="login-password1" id="login-password1" class="textbox" value="admin" /></div>
+		<div><label for="login-text1"><?php __('username'); ?></label> <input type="text" name="login-text1" id="login-text1" class="textbox" value="" /></div>
+		<div><label for="login-password1"><?php __('password'); ?></label> <input type="password" name="login-password1" id="login-password1" class="textbox" value="" /></div>
 		<?php if (config('allow_openID')) {?>
 			<select name="login-select1" id="login-select1" class="selectbox">
 				<option value="0">Nimbus</option>

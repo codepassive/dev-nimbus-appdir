@@ -4,7 +4,9 @@ var Login = {
 		Nimbus.Desktop.load(Login_view, "login-container");
 		//Add some effects that changes the background of the desktop every 30 seconds
 		Nimbus.Desktop.background([SERVER_URL + "public/resources/images/wallpapers/aurora1.jpg", SERVER_URL + "public/resources/images/wallpapers/aurora2.jpg", SERVER_URL + "public/resources/images/wallpapers/aurora3.jpg"], 30);
-		Login.submit($('#login-button1').get());
+		$('.login').css({right:-300});
+		$('.login').animate({right:0}, 1000);
+		//Login.submit($('#login-button1').get());
 		$('#login-button1').click(function(){Login.submit()});
 		$('.textbox').keypress(function(e){
 			var button = $('#login-container .buttons .proceed').get(0);

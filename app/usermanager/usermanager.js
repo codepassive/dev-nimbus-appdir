@@ -222,7 +222,7 @@ var Usermanager = {
 			var id = parent.find('.identifier a span').attr('title');
 			if (confirm('Are you sure you want to delete this external account? applications attached to this account might not work after this.')) {
 				Nimbus.Connect.post(SERVER_URL + '?app=usermanager&action=deleteExternal', {id: id}, function(result){
-					Nimbus.msgbox2({id:'closedialog-' + Usermanager_window.id,title:'Deleted External Account',content: result.message}, function(){if(result.result == true){parent.fadeOut(500);}});	
+					Nimbus.msgbox2({id:'closedialog-' + Usermanager_window.id,title:'Deleted External Account',content: result.message}, function(){parent.fadeOut(500);});	
 				});
 			}
 		});
@@ -231,7 +231,7 @@ var Usermanager = {
 			var id = parent.find('.identifier a span').attr('title');
 			if (confirm('Are you sure you want to delete this account? everything that this user owns will be deleted from the root directory.')) {
 				Nimbus.Connect.post(SERVER_URL + '?app=usermanager&action=deleteAccount', {id: id}, function(result){
-					Nimbus.msgbox2({id:'closedialog-' + Usermanager_window.id,title:'Deleted Account',content: result.message}, function(){if(result.result == true){parent.fadeOut(500);}});	
+					Nimbus.msgbox2({id:'closedialog-' + Usermanager_window.id,title:'Deleted Account',content: result.message}, function(){parent.fadeOut(500);});	
 				});
 			}
 		});
@@ -241,7 +241,7 @@ var Usermanager = {
 			var accessor = parent.find('span[name=accessor_id]').html();
 			if (confirm('Are you sure you want to delete this permission? you may not access some applications after this.')) {
 				Nimbus.Connect.post(SERVER_URL + '?app=usermanager&action=deletePermission', {resource_handle:object,accessor_id:accessor}, function(result){
-					Nimbus.msgbox2({id:'closedialog-' + Usermanager_window.id,title:'Deleted Permission',content: result.message}, function(){if(result.result == true){parent.fadeOut(500);}});	
+					Nimbus.msgbox2({id:'closedialog-' + Usermanager_window.id,title:'Deleted Permission',content: result.message}, function(){parent.fadeOut(500);});	
 				});
 			}
 		});
