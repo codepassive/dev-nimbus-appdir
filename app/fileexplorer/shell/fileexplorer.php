@@ -11,11 +11,11 @@
 		<table cellspacing="0" cellpadding="0" border="0" style="margin:0 8px;">
 			<tr>
 				<td valign="top">Path&nbsp;</td>
-				<td style="padding:4px 0;"><input type="text" name="path" class="newfile_fields text" style="width:180px;" value="root/Documents/Documents" /></td>
+				<td style="padding:4px 0;"><input type="text" name="path" id="path" class="newfile_fields text" style="width:180px;" value="root/Documents/Documents" /></td>
 			</tr>
 			<tr>
 				<td valign="top">Filename&nbsp;</td>
-				<td style="padding:4px 0;"><input type="text" name="filename" class="newfile_fields text" style="width:180px;" value="newFile.txt" /></td>
+				<td style="padding:4px 0;"><input type="text" name="filename" id="filename" class="newfile_fields text" style="width:180px;" value="newFile.txt" /></td>
 			</tr>
 		</table>
 	</div>	
@@ -26,11 +26,11 @@
 		<table cellspacing="0" cellpadding="0" border="0" style="margin:0 8px;">
 			<tr>
 				<td valign="top">Path&nbsp;</td>
-				<td style="padding:4px 0;"><input type="text" name="path" class="newdirectory_fields text" style="width:180px;" value="root" /></td>
+				<td style="padding:4px 0;"><input type="text" name="path" id="path" class="newdirectory_fields text" style="width:180px;" value="root" /></td>
 			</tr>
 			<tr>
 				<td valign="top">Directory Name&nbsp;</td>
-				<td style="padding:4px 0;"><input type="text" name="directory_name" class="newdirectory_fields text" style="width:180px;" value="newDirectory" /></td>
+				<td style="padding:4px 0;"><input type="text" name="directory_name" id="directory_name" class="newdirectory_fields text" style="width:180px;" value="newDirectory" /></td>
 			</tr>
 		</table>
 	</div>	
@@ -41,7 +41,7 @@
 		<table cellspacing="0" cellpadding="0" border="0" style="margin:0 8px;">
 			<tr>
 				<td valign="top">Path&nbsp;</td>
-				<td style="padding:4px 0;"><input type="text" name="path" class="move_fields text" style="width:180px;" value="root" /></td>
+				<td style="padding:4px 0;"><input type="text" name="path" id="move_field" class="move_fields text" style="width:180px;" value="root" /></td>
 			</tr>
 		</table>
 	</div>	
@@ -52,7 +52,7 @@
 		<table cellspacing="0" cellpadding="0" border="0" style="margin:0 8px;">
 			<tr>
 				<td valign="top">Path&nbsp;</td>
-				<td style="padding:4px 0;"><input type="text" name="path" class="copy_fields text" style="width:180px;" value="root" /></td>
+				<td style="padding:4px 0;"><input type="text" name="path" id="copy_field" class="copy_fields text" style="width:180px;" value="root" /></td>
 			</tr>
 		</table>
 	</div>	

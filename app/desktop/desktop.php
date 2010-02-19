@@ -113,13 +113,13 @@ class desktop extends Application implements ApplicationInterface {
 			//$user_id = $facebook->require_frame();
 			if (!isset($_GET['auth_token'])) {
 				$facebook->require_login('publish_stream,status_update');
-			} else {
+			}/* else {
 				$sess = $facebook->do_get_session($_GET['auth_token']);
 				$facebook->set_user($sess['uid'], $sess['session_key'], $sess['expires']);
 				$user_id = $facebook->get_loggedin_user();
 				$facebook->api_client->stream_publish($_REQUEST['status']);
 				echo 'Status Update Successfully';
-			}
+			}*/
 		}
 	}
 	
@@ -127,15 +127,14 @@ class desktop extends Application implements ApplicationInterface {
 		if ($this->user->isLoggedIn()) {
 			include 'twitter.php';
 			//ITERATE THROUGH EVERY TWITTER ACCOUNT ON THE BRIDGE
-			$twitters = $this->db->query("SELECT * FROM externals WHERE handle='twitter'");
-			foreach ($twitters as $t) {
-				$twitter = new Twitter($t['username'],$t['password']);
-				if ($twitter->update($_REQUEST['status'])) {
-					echo json_encode(array('response'=>true,'message'=>'Your Status has been Updated'));
-				} else {
-					echo json_encode(array('response'=>false,'message'=>'Could not update your status. Please try again.'));
+			$twitters = $this->db->query("SELECT * FROM externals WHERE handle='Twitter' OR handle='twitter'");
+			if ($twitters) {
+				foreach ($twitters as $t) {
+					$twitter = new Twitter($t['username'],$t['password']);
+					$twitter->update($_REQUEST['status']);
 				}
 			}
+			echo json_encode(array('response'=>true,'message'=>'Your Status has been Updated'));
 		}
 	}
 	

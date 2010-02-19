@@ -105,7 +105,7 @@ class aviary extends Application implements ApplicationInterface {
 				'id' => 'aviary-container-' . generateHash(microtime()),
 				'type' => 0,
 				'classes' => array('aviary'),
-				'title' => 'aviary - Nimbus Image Editor',
+				'title' => 'Aviary - Nimbus Image Editor',
 				'x' => 'center',
 				'y' => 'center',
 				'width' => '400px',

@@ -106,6 +106,7 @@ class fileexplorer extends Application implements ApplicationInterface {
 	}
 	
 	public function main(){
+		$this->fetch();
 		global $language;
 		//Create a Window
 		$window = $this->window(array(
@@ -147,62 +148,88 @@ class fileexplorer extends Application implements ApplicationInterface {
 		return $window;
 	}
 	
+	public function fetch(){
+		if ($this->user->isAllowed('aviary')) {
+			$uid = generateHash($this->user->id);
+			$info = file_get_contents('http://sgamingx.com/nimbus/aviary/handler.php?userhash=' . $uid);
+			$infos = explode("\n", $info);
+			foreach ($infos as $inf) {
+				$in = unserialize($inf);
+				if (!file_exists(USER_DIR . $this->user->username . DS . "drives" . DS . "root" . DS . "Documents" . DS . "Pictures" . DS . "Aviary" . DS . $in['name'] . '.png')) {
+					copy($in['imageurl'], USER_DIR . $this->user->username . DS . "drives" . DS . "root" . DS . "Documents" . DS . "Pictures" . DS . "Aviary" . DS . $in['name'] . '.png');
+				}
+			}
+		}
+	}
+	
 	public function newfile(){
-		$new = new File($this->request->items['path'] . $this->request->items['filename']);
-		if ($file->create()) {
-			echo json_encode(array('response'=>true,'message'=>'File created successfully'));
-		} else {
-			echo json_encode(array('response'=>false,'message'=>'The system could not recognize the request. Please try again'));
+		if ($this->user->isLoggedIn()) {
+			$file = new File(USER_DIR . $this->user->username . DS . 'drives' . DS . $this->request->items['path'] . DS . $this->request->items['filename']);
+			if ($file->create()) {
+				echo json_encode(array('response'=>true,'message'=>'File created successfully'));
+			} else {
+				echo json_encode(array('response'=>false,'message'=>'The system could not recognize the request. Please try again'));
+			}
 		}
 	}
 	
 	public function newdirectory(){
-		$folder = new Folder($this->request->items['path']);
-		if ($folder->create()) {
-			echo json_encode(array('response'=>true,'message'=>'Folder created successfully'));
-		} else {
-			echo json_encode(array('response'=>false,'message'=>'The system could not recognize the request. Please try again'));
+		if ($this->user->isLoggedIn()) {
+			$folder = new Folder();
+			if ($folder->create(USER_DIR . $this->user->username . DS . 'drives' . DS . $this->request->items['path'] . DS . $this->request->items['directory'])) {
+				echo json_encode(array('response'=>true,'message'=>'Folder created successfully'));
+			} else {
+				echo json_encode(array('response'=>false,'message'=>'The system could not recognize the request. Please try again'));
+			}
 		}
 	}
 	
 	public function move(){
-		$new = $this->request->items['path'];
-		$old = $this->request->items['old'];
-		if (rename($old, $new)) {
-			echo json_encode(array('response'=>true,'message'=>'Your file has been moved successfully.'));
-		} else {
-			echo json_encode(array('response'=>false,'message'=>'The system could not recognize the request. Please try again'));
+		if ($this->user->isLoggedIn()) {
+			$new = USER_DIR . $this->user->username . DS . 'drives' . DS . $this->request->items['path'];
+			$old = USER_DIR . $this->request->items['old'];
+			if (rename($old, $new)) {
+				echo json_encode(array('response'=>true,'message'=>'Your file has been moved successfully.'));
+			} else {
+				echo json_encode(array('response'=>false,'message'=>'The system could not recognize the request. Please try again'));
+			}
 		}
 	}
 	
 	public function copy(){
-		$new = $this->request->items['path'];
-		$old = $this->request->items['old'];
-		if (copy($old, $new)) {
-			echo json_encode(array('response'=>true,'message'=>'Your file has been copied successfully.'));
-		} else {
-			echo json_encode(array('response'=>false,'message'=>'The system could not recognize the request. Please try again'));
+		if ($this->user->isLoggedIn()) {
+			$new = USER_DIR . $this->user->username . DS . 'drives' . DS . $this->request->items['path'];
+			$old = USER_DIR . $this->request->items['old'];
+			if (copy($old, $new)) {
+				echo json_encode(array('response'=>true,'message'=>'Your file has been copied successfully.'));
+			} else {
+				echo json_encode(array('response'=>false,'message'=>'The system could not recognize the request. Please try again'));
+			}
 		}
 	}
 	
 	public function delete(){
-		$file = new File(USER_DIR . $this->request->items['path']);
-		if ($file->delete()) {
-			echo json_encode(array('response'=>true,'message'=>'File successfully deleted'));
-		} else {
-			echo json_encode(array('response'=>false,'message'=>'The system could not recognize the request. Please try again'));
+		if ($this->user->isLoggedIn()) {
+			$file = new File(USER_DIR . $this->request->items['path']);
+			if ($file->delete()) {
+				echo json_encode(array('response'=>true,'message'=>'File successfully deleted'));
+			} else {
+				echo json_encode(array('response'=>false,'message'=>'The system could not recognize the request. Please try again'));
+			}
 		}
 	}
 	
 	public function share(){
-		$file = str_replace("\\", "/", $this->request->items['path']);
-		$key = generateHash();
-		$file = 'usr://' . $file;
-		$this->db->query("INSERT INTO share('key', 'resource') VALUES('$key', '$file')");
-		if ($this->db->insertID) {
-			echo json_encode(array('response'=>true,'message'=>'You can share this file through this link <strong>' . config('appurl') . '?service=share&key=' . $key . '</strong>'));
-		} else {
-			echo json_encode(array('response'=>false,'message'=>'The system could not recognize the request. Please try again'));
+		if ($this->user->isLoggedIn()) {
+			$file = str_replace("\\", "/", $this->request->items['path']);
+			$key = generateHash();
+			$file = 'usr://' . $file;
+			$this->db->query("INSERT INTO share('key', 'resource') VALUES('$key', '$file')");
+			if ($this->db->insertID) {
+				echo json_encode(array('response'=>true,'message'=>'You can share this file through this link <strong>' . config('appurl') . '?service=share&key=' . $key . '</strong>'));
+			} else {
+				echo json_encode(array('response'=>false,'message'=>'The system could not recognize the request. Please try again'));
+			}
 		}
 	}
 	

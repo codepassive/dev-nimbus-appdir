@@ -27,13 +27,25 @@ Fileexplorer[Fileexplorer_instance] = {
 	//Launch: function(){},
 	NewFile: function(){
 		Nimbus.Dialog.custom({width:'270px',height:'160px',title:'Create a New Blank File',content_id:'newfile_dialog_content',id:'dialog_' + Fileexplorer_window.id,parent: Fileexplorer_window.id,
-			save: function(){},
+			save: function(){
+				var path = $('#dialog_' + Fileexplorer_window.id + ' #path').val();
+				var filename = $('#dialog_' + Fileexplorer_window.id + ' #filename').val();
+				Nimbus.Connect.post(SERVER_URL + '?app=fileexplorer&action=newfile', {path:path,filename:filename}, function(result){
+					Nimbus.msgbox2({id:'closedialog-sharefile_dialog_content',title:'New File', content: result.message});	
+				});
+			},
 			cancel: function(){}
 		})
 	},
 	NewDirectory: function(){
 		Nimbus.Dialog.custom({width:'270px',height:'160px',title:'Create a New Blank File',content_id:'newdirectory_dialog_content',id:'dialog_' + Fileexplorer_window.id,parent: Fileexplorer_window.id,
-			save: function(){},
+			save: function(){
+				var path = $('#dialog_' + Fileexplorer_window.id + ' #path').val();
+				var dir = $('#dialog_' + Fileexplorer_window.id + ' #directory_name').val();
+				Nimbus.Connect.post(SERVER_URL + '?app=fileexplorer&action=newdirectory', {path:path,directory:dir}, function(result){
+					Nimbus.msgbox2({id:'closedialog-sharefile_dialog_content',title:'New Directory', content: result.message});	
+				});
+			},
 			cancel: function(){}
 		})
 	},
@@ -42,13 +54,29 @@ Fileexplorer[Fileexplorer_instance] = {
 	},
 	Move: function(){
 		Nimbus.Dialog.custom({width:'270px',height:'120px',title:'Create a New Blank File',content_id:'move_dialog_content',id:'dialog_' + Fileexplorer_window.id,parent: Fileexplorer_window.id,
-			save: function(){},
+			save: function(){
+				ref = $.tree.reference('.fileexplorer .tree').selected;
+				var node = ref;
+				var title =  $.tree.reference('.fileexplorer .tree').get_node(node).find('a').attr("title");
+				var newitem = $('#dialog_' + Fileexplorer_window.id + ' #move_field').val();
+				Nimbus.Connect.post(SERVER_URL + '?app=fileexplorer&action=move', {path:newitem,old:title}, function(result){
+					Nimbus.msgbox2({id:'closedialog-sharefile_dialog_content',title:'File Moved', content: result.message});	
+				});
+			},
 			cancel: function(){}
 		})
 	},
 	Copy: function(){
 		Nimbus.Dialog.custom({width:'270px',height:'120px',title:'Create a New Blank File',content_id:'copy_dialog_content',id:'dialog_' + Fileexplorer_window.id,parent: Fileexplorer_window.id,
-			save: function(){},
+			save: function(){
+				ref = $.tree.reference('.fileexplorer .tree').selected;
+				var node = ref;
+				var title =  $.tree.reference('.fileexplorer .tree').get_node(node).find('a').attr("title");
+				var newitem = $('#dialog_' + Fileexplorer_window.id + ' #copy_field').val();
+				Nimbus.Connect.post(SERVER_URL + '?app=fileexplorer&action=copy', {path:newitem,old:title}, function(result){
+					Nimbus.msgbox2({id:'closedialog-sharefile_dialog_content',title:'File Copied', content: result.message});	
+				});
+			},
 			cancel: function(){}
 		})
 	},
@@ -70,7 +98,7 @@ Fileexplorer[Fileexplorer_instance] = {
 				ref = $.tree.reference('.fileexplorer .tree').selected;
 				var node = ref;
 				var title =  $.tree.reference('.fileexplorer .tree').get_node(node).find('a').attr("title");
-				Nimbus.Connect.post(SERVER_URL + '?app=fileexplorer&action=delete', {path:title}, function(result){
+				$.post(SERVER_URL + '?app=fileexplorer&action=delete', {path:title}, function(result){
 					Nimbus.msgbox2({id:'closedialog-delete_dialog_content',title:'Delete File', content: result.message});	
 				});
 			}
